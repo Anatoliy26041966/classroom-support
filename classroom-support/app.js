@@ -1,169 +1,147 @@
-const courseGrid = document.getElementById('courseGrid');
-const searchInput = document.getElementById('searchInput');
-const classFilters = document.getElementById('classFilters');
+document.addEventListener('DOMContentLoaded', () => {
+  const searchInput = document.getElementById('searchInput');
+  const classFilters = document.getElementById('classFilters');
+  const courseGrid = document.getElementById('courseGrid');
 
-let activeFilter = 'all';
-
-// Сортування назв класів для кнопок (1-А..11-Г, потім 1 Екстернат..11 Екстернат)
-function sortClassNames(classes) {
-  return classes.sort((a, b) => {
-    const isExtA = a.includes('Екстернат');
-    const isExtB = b.includes('Екстернат');
-
-    if (isExtA !== isExtB) {
-      return isExtA ? 1 : -1;
+  if (typeof coursesData === 'undefined' || !Array.isArray(coursesData)) {
+    if (courseGrid) {
+      courseGrid.innerHTML = '<p class="text-red-500 text-center col-span-full py-8">Помилка: data.js не завантажено або дані пошкоджені.</p>';
     }
-
-    const numA = parseInt(a) || 99;
-    const numB = parseInt(b) || 99;
-
-    if (numA !== numB) {
-      return numA - numB;
-    }
-    return a.localeCompare(b, 'uk');
-  });
-}
-
-// Генерація кнопок фільтрів
-function renderFilterButtons() {
-  if (!classFilters || typeof coursesData === 'undefined') return;
-
-  const rawClasses = Array.from(new Set(coursesData.map(c => c.class)));
-  const classes = sortClassNames(rawClasses);
-
-  let buttonsHTML = `
-    <button onclick="setFilter('all')" class="filter-btn ${activeFilter === 'all' ? 'bg-indigo-600 text-white' : 'bg-white text-slate-700 hover:bg-slate-100 border border-slate-200'} px-3.5 py-1.5 rounded-lg text-xs font-bold transition">
-      Усі предмети
-    </button>
-    <button onclick="setFilter('ALL_EKSTERNAT')" class="filter-btn ${activeFilter === 'ALL_EKSTERNAT' ? 'bg-amber-600 text-white' : 'bg-amber-50 text-amber-800 border border-amber-200 hover:bg-amber-100'} px-3.5 py-1.5 rounded-lg text-xs font-bold transition">
-      🎓 Усі Екстернати
-    </button>
-  `;
-
-  classes.forEach(cls => {
-    const isActive = activeFilter === cls;
-    const isEkst = cls.includes('Екстернат');
-    
-    let btnStyle = isActive ? 'bg-indigo-600 text-white' : 'bg-white text-slate-700 hover:bg-slate-100 border border-slate-200';
-    if (isEkst && !isActive) {
-      btnStyle = 'bg-amber-50/60 text-amber-900 border border-amber-200/80 hover:bg-amber-100';
-    }
-
-    buttonsHTML += `
-      <button onclick="setFilter('${cls}')" class="filter-btn ${btnStyle} px-3.5 py-1.5 rounded-lg text-xs font-bold transition">
-        ${cls}
-      </button>
-    `;
-  });
-
-  classFilters.innerHTML = buttonsHTML;
-}
-
-function setFilter(cls) {
-  activeFilter = cls;
-  renderFilterButtons();
-  filterAndRender();
-}
-
-function filterAndRender() {
-  if (typeof coursesData === 'undefined') return;
-
-  const query = searchInput ? searchInput.value.toLowerCase().trim() : '';
-
-  let filtered = coursesData.filter(c => {
-    const matchesSearch = c.subject.toLowerCase().includes(query) || 
-                          c.class.toLowerCase().includes(query) ||
-                          c.code.toLowerCase().includes(query);
-                          
-    let matchesClass = false;
-    if (activeFilter === 'all') {
-      matchesClass = true;
-    } else if (activeFilter === 'ALL_EKSTERNAT') {
-      matchesClass = c.class.includes('Екстернат');
-    } else {
-      matchesClass = c.class === activeFilter;
-    }
-    
-    return matchesSearch && matchesClass;
-  });
-
-  // Строге сортування карток за зростанням номеру класу (1 -> 11)
-  filtered.sort((a, b) => {
-    const numA = parseInt(a.class) || 0;
-    const numB = parseInt(b.class) || 0;
-    
-    if (numA !== numB) {
-      return numA - numB;
-    }
-    return a.subject.localeCompare(b.subject, 'uk');
-  });
-
-  renderCourses(filtered);
-}
-
-function renderCourses(courses) {
-  if (!courseGrid) return;
-  courseGrid.innerHTML = '';
-  
-  if (courses.length === 0) {
-    courseGrid.innerHTML = `
-      <div class="col-span-full text-center py-12">
-        <p class="text-slate-400 text-lg">Нічого не знайдено 🔍</p>
-        <p class="text-slate-500 text-sm mt-1">Спробуйте змінити пошуковий запит або обрати інший клас</p>
-      </div>`;
     return;
   }
 
-  courses.forEach(c => {
-    const isEkst = c.class.includes('Екстернат');
-    const badgeColor = isEkst ? 'bg-amber-100 text-amber-900 border border-amber-200' : 'bg-indigo-100 text-indigo-800';
+  let activeFilter = 'all';
 
-    const card = document.createElement('div');
-    card.className = "bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between";
-    card.innerHTML = `
-      <div>
-        <div class="flex justify-between items-start mb-2">
-          <span class="inline-block ${badgeColor} text-xs font-bold px-2.5 py-1 rounded-md">${c.class}</span>
+  function renderFilterButtons() {
+    if (!classFilters) return;
+
+    const rawGrades = coursesData
+      .map(c => c.grade || c.class)
+      .filter(grade => typeof grade === 'string' && grade.trim() !== '');
+
+    const uniqueGrades = [...new Set(rawGrades)];
+
+    uniqueGrades.sort((a, b) => {
+      const numA = parseInt(a) || 0;
+      const numB = parseInt(b) || 0;
+      return numA - numB;
+    });
+
+    const allFilters = ['Усі предмети', ...uniqueGrades];
+
+    classFilters.innerHTML = allFilters.map(grade => {
+      const isActive = (grade === 'Усі предмети' && activeFilter === 'all') || activeFilter === grade;
+      const btnStyles = isActive 
+        ? 'bg-indigo-600 text-white font-bold shadow-sm' 
+        : 'bg-white text-slate-700 hover:bg-slate-100 border border-slate-200';
+
+      return `<button onclick="setFilter('${grade}')" class="px-3 py-1.5 rounded-lg text-xs transition ${btnStyles}">${grade}</button>`;
+    }).join('');
+  }
+
+  window.renderCourses = function() {
+    if (!courseGrid) return;
+    const query = searchInput ? searchInput.value.toLowerCase().trim() : '';
+
+    const filtered = coursesData.filter(course => {
+      const grade = String(course.grade || course.class || '');
+      const title = String(course.title || course.subject || '');
+      const code = String(course.code || '');
+
+      const matchesFilter = activeFilter === 'all' || activeFilter === 'Усі предмети' || grade === activeFilter;
+      const matchesQuery = !query || 
+        title.toLowerCase().includes(query) || 
+        grade.toLowerCase().includes(query) || 
+        code.toLowerCase().includes(query);
+
+      return matchesFilter && matchesQuery;
+    });
+
+    if (filtered.length === 0) {
+      courseGrid.innerHTML = `
+        <div class="col-span-full text-center py-12 text-slate-500 bg-white rounded-2xl border border-dashed border-slate-300">
+          Нічого не знайдено ${query ? `за запитом "<b>${query}</b>"` : ''}
+        </div>`;
+      return;
+    }
+
+    courseGrid.innerHTML = filtered.map(course => {
+      const grade = course.grade || course.class || 'Курс';
+      const title = course.title || course.subject || 'Без назви';
+      const code = course.code || 'Не вказано';
+
+      return `
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+          <div>
+            <span class="inline-block bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded-full mb-3">
+              ${grade}
+            </span>
+            <h4 class="font-bold text-slate-900 text-base mb-2 leading-snug">
+              ${title}
+            </h4>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between gap-2">
+            <div>
+              <span class="text-[10px] uppercase tracking-wider text-slate-400 block font-semibold">Код приєднання:</span>
+              <span class="font-mono font-bold text-slate-800 text-sm">${code}</span>
+            </div>
+            <button onclick="copyCode('${code}', this)" class="bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold px-3 py-2 rounded-lg transition active:scale-95 shrink-0">
+              Скопіювати
+            </button>
+          </div>
         </div>
-        <h4 class="font-bold text-slate-800 text-lg mb-3 leading-snug">${c.subject}</h4>
-      </div>
-      <div>
-        <p class="text-xs text-slate-500 mb-1 font-medium">Код приєднання:</p>
-        <div class="flex items-center justify-between bg-slate-50 p-2 rounded-lg border border-slate-200">
-          <code class="font-mono text-indigo-600 font-bold text-base px-1">${c.code}</code>
-          <button onclick="copyCode('${c.code}')" class="text-xs bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-3 py-1.5 rounded-md transition active:scale-95">
-            Скопіювати
-          </button>
-        </div>
-      </div>
-    `;
-    courseGrid.appendChild(card);
-  });
-}
+      `;
+    }).join('');
+  };
 
-function copyCode(code) {
-  navigator.clipboard.writeText(code);
-  showToast(`Код ${code} скопійовано!`);
-}
+  window.setFilter = function(grade) {
+    activeFilter = (grade === 'Усі предмети') ? 'all' : grade;
+    renderFilterButtons();
+    window.renderCourses();
+  };
 
-function showToast(message) {
-  const toast = document.createElement('div');
-  toast.className = "fixed bottom-5 right-5 bg-slate-900 text-white text-sm px-4 py-3 rounded-xl shadow-xl z-50 transition-opacity";
-  toast.textContent = message;
-  document.body.appendChild(toast);
-  
-  setTimeout(() => {
-    toast.remove();
-  }, 3000);
-}
+  window.copyCode = function(code, btn) {
+    if (!navigator.clipboard) return;
+    navigator.clipboard.writeText(code).then(() => {
+      const originalText = btn.innerText;
+      btn.innerText = 'Скопійовано!';
+      btn.classList.replace('bg-indigo-600', 'bg-emerald-600');
+      setTimeout(() => {
+        btn.innerText = originalText;
+        btn.classList.replace('bg-emerald-600', 'bg-indigo-600');
+      }, 2000);
+    });
+  };
 
-if (searchInput) {
-  searchInput.addEventListener('input', () => {
-    filterAndRender();
-  });
-}
+  if (searchInput) {
+    searchInput.addEventListener('input', window.renderCourses);
+  }
 
-if (typeof coursesData !== 'undefined') {
   renderFilterButtons();
-  filterAndRender();
-}
+  window.renderCourses();
+});
+
+window.openSupportForm = function(topic) {
+  const container = document.getElementById('supportFormContainer');
+  const topicInput = document.getElementById('ticketTopic');
+  const title = document.getElementById('supportFormTitle');
+
+  if (container) {
+    container.classList.remove('hidden');
+    if (topicInput) topicInput.value = topic;
+    if (title) title.innerText = `Запит: ${topic}`;
+    container.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+};
+
+window.closeSupportForm = function() {
+  const container = document.getElementById('supportFormContainer');
+  if (container) container.classList.add('hidden');
+};
+
+window.handleSupportSubmit = function(e) {
+  e.preventDefault();
+  alert('Дякуємо! Ваше звернення успішно прийнято в обробку.');
+  window.closeSupportForm();
+  e.target.reset();
+};
