@@ -1,0 +1,68 @@
+=========================================================
+      ШПАРГАЛКА GAM: АВТОМАТИЗАЦІЯ GOOGLE CLASSROOM
+=========================================================
+
+1. ПОШУК ТА ПЕРЕГЛЯД КУРСІВ
+---------------------------------------------------------
+# Вивантажити всі активні курси у файл:
+gam print courses state ACTIVE fields id,name,creationTime > all_courses.csv
+
+# Подивитися всі Екстернати та відсортувати їх по порядку:
+gam print courses state ACTIVE fields id,name | grep -i "екстернат" | sort -t, -k2,2
+
+# Знайти конкретний клас (наприклад, 7-А) у збереженому файлі:
+grep "7-А" all_courses.csv
+
+
+2. СТВОРЕННЯ КУРСІВ
+---------------------------------------------------------
+# Створити ОДИН курс (наприклад, для Екстернату):
+gam create course alias "07_7_Eksternat_2026" name "07. 7 клас. Екстернат" owner "email@школа.укр" status ACTIVE
+
+# МАСОВЕ створення курсів з файлу CSV (поля: alias, name, owner):
+gam csv create_7th_courses.csv gam create course alias "~alias" name "~name" owner "~owner" status ACTIVE
+
+
+3. НАПОВНЕННЯ КУРСІВ (Вчителі та Предмети)
+---------------------------------------------------------
+# Додати адміністратора/вчителя до ОДНОГО курсу (за ID або аліасом):
+gam course "ID_або_ALIAS_курсу" add teacher teacher@schoolgus.ukr.education
+
+# МАСОВО додати вчителя до всіх курсів зі списку CSV:
+gam csv create_7th_courses.csv gam course "~alias" add teacher teacher@schoolgus.ukr.education
+
+# Створити ТЕМУ (предмет) в курсі (ідеально для Екстернату):
+gam course "ID_курсу" create topic "01. Українська мова"
+
+
+4. РЕДАГУВАННЯ ТА ВИДАЛЕННЯ
+---------------------------------------------------------
+# Змінити назву курсу (якщо закралася помилка):
+gam update course ID_курсу name "Нова правильна назва"
+
+# Видалити ОДИН курс (наприклад, дублікат):
+gam delete course ID_курсу
+
+# Видалити кілька курсів за списком з файлу:
+gam csv delete_list.csv gam delete course "~id"
+
+
+=========================================================
+ПРИМІТКА: Якщо термінал видає "gam: command not found", 
+вказуйте повний шлях до програми:
+/Users/anatoliy/bin/gam7/gam
+=========================================================
+
+=== РОБОТА ЗІ СПІЛЬНИМИ ДИСКАМИ ТА ПАПКАМИ (GAM 7) ===
+
+# 1. СТВОРЕННЯ ПАПКИ НА ДИСКУ
+# ВАЖЛИВО: Використовувати mimetype gfolder (НЕ gsuitefolder!) 
+gam user <user_email> create drivefile drivefilename "<Назва_Папки>" mimetype gfolder parentid "<ID_Батьківської_Папки_або_Диска>"
+
+# 2. ЗАВАНТАЖЕННЯ ЛОКАЛЬНОГО ФАЙЛУ ТА КОНВЕРТАЦІЯ В GOOGLE DOCS
+gam user <user_email> add drivefile localfile "<Назва_Файлу_На_ПК.html>" mimetype gdoc parentid "<ID_Батьківської_Папки_або_Диска>"
+
+# 3. НАДАННЯ ПРАВ ДОСТУПУ (ACL)
+# ВАЖЛИВО: Правильний порядок аргументів: id -> user -> role
+# Ролі: organizer, fileOrganizer, writer, commenter, reader
+gam user <user_email> add drivefileacl id "<ID_Диска>" user <target_user_email> role <роль>

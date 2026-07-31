@@ -1,0 +1,68 @@
+python3 -c "
+import csv, re, sys
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+COURSES_FILE = '/Users/anatoliy/MyProject/School_Automation/courses_template.csv'
+TEACHERS_FILE = '/Users/anatoliy/MyProject/School_Automation/teachers_list.csv'
+OUTPUT_FILE = '/Users/anatoliy/MyProject/School_Automation/courses_with_teachers.csv'
+
+teachers_db = {}
+ukr_to_lat = {
+    'а':'a', 'б':'b', 'в':'v', 'г':'h', 'ґ':'g', 'д':'d', 'е':'e', 'є':'ye', 'ж':'zh', 'з':'z',
+    'и':'y', 'і':'i', 'ї':'yi', 'й':'i', 'к':'k', 'л':'l', 'м':'m', 'н':'n', 'о':'o', 'п':'p',
+    'р':'r', 'с':'s', 'т':'t', 'у':'u', 'ф':'f', 'х':'kh', 'ц':'ts', 'ч':'ch', 'ш':'sh', 'щ':'shch',
+    'ь':'', 'ю':'iu', 'я':'ia', "'":'', '’':''
+}
+
+with open(TEACHERS_FILE, mode='r', encoding='utf-8') as f:
+    for row in csv.DictReader(f):
+        email = (row.get('email') or row.get('User') or row.get('Email Address [Required]', '')).strip()
+        if email:
+            username = email.split('@')[0].lower()
+            lastname_part = username.split('_')[0].split('-')[0]
+            if lastname_part:
+                teachers_db[lastname_part] = email
+
+updated_rows = []
+matched_count = 0
+
+with open(COURSES_FILE, mode='r', encoding='utf-8') as f:
+    reader = csv.reader(f)
+    headers = next(reader)
+    name_idx = headers.index('Teacher_Name')
+    email_idx = headers.index('Teacher_Email')
+    
+    for row in reader:
+        teacher_name_raw = row[name_idx].strip()
+        if teacher_name_raw:
+            clean_lastname = re.findall(r'[А-ЯІЇЄҐа-яіїєґ]+', teacher_name_raw)
+            if clean_lastname:
+                lastname_ukr = clean_lastname[0].lower()
+                lastname_lat = ''.join(ukr_to_lat.get(c, c) for c in lastname_ukr)
+                
+                if lastname_ukr.startswith('є'): lastname_lat = 'e' + lastname_lat[2:]
+                if lastname_ukr.startswith('ю'): lastname_lat = 'u' + lastname_lat[2:]
+                if lastname_ukr.startswith('я'): lastname_lat = 'a' + lastname_lat[2:]
+                
+                found_email = None
+                for k, e in teachers_db.items():
+                    if k in lastname_lat or lastname_lat in k:
+                        found_email = e
+                        break
+                        
+                if found_email:
+                    row[email_idx] = found_email
+                    matched_count += 1
+                    
+        updated_rows.append(row)
+
+with open(OUTPUT_FILE, mode='w', encoding='utf-8', newline='') as f:
+    writer = csv.writer(f)
+    writer.writerow(headers)
+    writer.writerows(updated_rows)
+
+print('\n🎉 Обробка завершена успішно!')
+print(f'📊 Завантажено вчителів із бази: {len(teachers_db)}')
+print(f'📋 Автоматично підтягнуто email-ів до курсів: {matched_count}')
+"

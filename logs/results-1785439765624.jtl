@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="262" it="0" lt="257" ct="222" ts="1785439766791" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1515" sby="138" ng="2" na="2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:29:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25310
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=3,cfOrigin;dur=0
+CF-RAY: a236c5b04bb2de10-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="116" it="0" lt="111" ct="76" ts="1785439766937" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="1515" sby="138" ng="2" na="2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:29:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25310
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=4,cfOrigin;dur=0
+CF-RAY: a236c5b04ce9bfb4-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="18" ct="0" ts="1785439767059" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1515" sby="138" ng="2" na="2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:29:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25310
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=3,cfOrigin;dur=0
+CF-RAY: a236c5b09c71de10-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="20" ct="0" ts="1785439767059" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="1515" sby="138" ng="2" na="2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:29:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25310
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=4,cfOrigin;dur=0
+CF-RAY: a236c5b09d16bfb4-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="0" ts="1785439767079" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1515" sby="138" ng="2" na="2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:29:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25310
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=3,cfOrigin;dur=0
+CF-RAY: a236c5b0bcb7de10-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="0" ts="1785439767080" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="1515" sby="138" ng="2" na="2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:29:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25310
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=4,cfOrigin;dur=0
+CF-RAY: a236c5b0bd28bfb4-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="70" it="0" lt="70" ct="39" ts="1785439767135" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="1515" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:29:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25310
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=3,cfOrigin;dur=0
+CF-RAY: a236c5b15d9ef499-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="18" ct="0" ts="1785439767207" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="1515" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:29:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25310
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=2,cfOrigin;dur=0
+CF-RAY: a236c5b17ddcf499-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="0" ts="1785439767226" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="1515" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:29:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25310
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=3,cfOrigin;dur=0
+CF-RAY: a236c5b19e25f499-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="90" it="0" lt="90" ct="57" ts="1785439767336" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="1511" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:29:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785185138&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785185138&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785185183
+Age: 24225
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=5,cfOrigin;dur=0
+CF-RAY: a236c5b2bc7dc28e-VIE
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="31" ct="0" ts="1785439767427" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="1511" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:29:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785185138&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785185138&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785185183
+Age: 24225
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=5,cfOrigin;dur=0
+CF-RAY: a236c5b2ecb9c28e-VIE
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="33" it="0" lt="33" ct="0" ts="1785439767459" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="1511" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:29:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785185138&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785185138&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785185183
+Age: 24225
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=5,cfOrigin;dur=0
+CF-RAY: a236c5b32ceac28e-VIE
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="88" it="0" lt="88" ct="56" ts="1785439767532" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="1511" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:29:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785185138&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785185138&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785185183
+Age: 24225
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=5,cfOrigin;dur=0
+CF-RAY: a236c5b3e9adc2c3-VIE
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="32" ct="0" ts="1785439767620" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="1511" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:29:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785185138&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785185138&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785185183
+Age: 24225
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=5,cfOrigin;dur=0
+CF-RAY: a236c5b429d9c2c3-VIE
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="31" it="0" lt="31" ct="0" ts="1785439767653" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="1511" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:29:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785185138&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785185138&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785185183
+Age: 24225
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=5,cfOrigin;dur=0
+CF-RAY: a236c5b459f4c2c3-VIE
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+
+<httpSample t="271" it="0" lt="268" ct="239" ts="1785440012634" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1515" sby="138" ng="2" na="2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:33:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25556
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=3,cfOrigin;dur=0
+CF-RAY: a236cbb0ea9d465d-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="127" it="0" lt="124" ct="95" ts="1785440012778" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="1515" sby="138" ng="2" na="2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:33:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25556
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=3,cfOrigin;dur=0
+CF-RAY: a236cbb0eb59270b-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="16" ct="0" ts="1785440012910" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1515" sby="138" ng="2" na="2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:33:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25556
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=3,cfOrigin;dur=0
+CF-RAY: a236cbb12b49465d-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="18" it="0" lt="18" ct="0" ts="1785440012909" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="1515" sby="138" ng="2" na="2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:33:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25556
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=3,cfOrigin;dur=0
+CF-RAY: a236cbb12bcf270b-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="17" ct="0" ts="1785440012927" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1515" sby="138" ng="2" na="2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:33:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25556
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=2,cfOrigin;dur=0
+CF-RAY: a236cbb14b7f465d-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="17" ct="0" ts="1785440012928" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="1515" sby="138" ng="2" na="2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:33:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25556
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=3,cfOrigin;dur=0
+CF-RAY: a236cbb14c1f270b-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="113" it="0" lt="112" ct="56" ts="1785440012978" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="1511" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:33:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785185138&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785185138&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785185183
+Age: 24471
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=6,cfOrigin;dur=0
+CF-RAY: a236cbb219aac2a7-VIE
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="33" it="0" lt="33" ct="0" ts="1785440013091" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="1511" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:33:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785185138&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785185138&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785185183
+Age: 24471
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=5,cfOrigin;dur=0
+CF-RAY: a236cbb259f3c2a7-VIE
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="32" ct="0" ts="1785440013125" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="1511" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:33:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785185138&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785185138&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785185183
+Age: 24471
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=5,cfOrigin;dur=0
+CF-RAY: a236cbb28a19c2a7-VIE
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="104" it="0" lt="104" ct="59" ts="1785440013178" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="1512" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:33:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785185138&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785185138&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785185183
+Age: 24471
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=13,cfOrigin;dur=0
+CF-RAY: a236cbb338755b2d-VIE
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="0" ts="1785440013282" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="1512" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:33:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785185138&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785185138&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785185183
+Age: 24471
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=10,cfOrigin;dur=0
+CF-RAY: a236cbb389045b2d-VIE
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="0" ts="1785440013321" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="1511" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:33:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785185138&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=M7FSfvpt3nuddD729odUN3bjVLhmuM5GpAZ9F9Yyne8%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785185138&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785185183
+Age: 24471
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=8,cfOrigin;dur=0
+CF-RAY: a236cbb3c9565b2d-VIE
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="64" it="0" lt="64" ct="34" ts="1785440013378" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="1515" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:33:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25556
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=3,cfOrigin;dur=0
+CF-RAY: a236cbb45874e658-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="17" ct="0" ts="1785440013443" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="1515" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:33:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25556
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=3,cfOrigin;dur=0
+CF-RAY: a236cbb47917e658-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="17" ct="0" ts="1785440013461" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="1515" sby="138" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 30 Jul 2026 19:33:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/&quot;124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU&quot;
+expires: -1
+nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+pragma: no-cache
+report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1785270454&quot;}],&quot;max_age&quot;:3600}
+reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=yhLdwusbEzmyU9f9tuUsRjNZ%2B2ZgzCc8u8oxKSrjxwc%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1785270454&quot;
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1785270503
+Age: 25556
+Accept-Ranges: bytes
+cf-cache-status: HIT
+Server-Timing: cfCacheStatus;desc=&quot;HIT&quot;
+Server-Timing: cfEdge;dur=2,cfOrigin;dur=0
+CF-RAY: a236cbb4997ae658-WAW
+alt-svc: h3=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.12)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,
+  &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;
+}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/1</java.net.URL>
+</httpSample>
+
+</testResults>

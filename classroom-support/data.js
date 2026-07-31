@@ -1,0 +1,1 @@
+/Users/anatoliy/MyProject/data.js

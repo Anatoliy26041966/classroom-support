@@ -1,0 +1,7 @@
+Platform: Windows, macOS, iOS, Android
+Browser: Chrome, Safari, Firefox, Edge
+UserType: Guest, Registered, Premium
+Payment: Card, PayPal, ApplePay, Cash
+Delivery: Standard, Courier, Locker, Pickup
+Language: UA, EN, PL
+Connection: Wi-Fi, 4G, 5G
