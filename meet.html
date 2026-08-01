@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Онлайн-уроки та Meet | Підтримка Google Classroom</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col">
+
+  <!-- Шапка сайту -->
+  <header class="bg-indigo-600 text-white shadow-md sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+      <h1 class="text-xl font-bold flex items-center gap-2">
+        <a href="index.html" class="hover:opacity-90 transition">📚 Портал підтримки</a>
+        <span class="text-xs font-normal bg-indigo-500 px-2 py-0.5 rounded-full">Google Meet</span>
+      </h1>
+      <nav class="flex items-center gap-3 text-xs font-semibold">
+        <a href="index.html" class="hover:bg-indigo-700 px-3 py-2 rounded-lg transition">Головна</a>
+        <a href="parents.html" class="hover:bg-indigo-700 px-3 py-2 rounded-lg transition">Батькам</a>
+        <a href="teachers.html" class="hover:bg-indigo-700 px-3 py-2 rounded-lg transition">Вчителям</a>
+        <a href="meet.html" class="bg-indigo-700 px-3 py-2 rounded-lg transition">Google Meet</a>
+        <a href="index.html#support" class="bg-amber-500 hover:bg-amber-400 text-slate-900 px-3 py-2 rounded-lg transition">Техпідтримка</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Заголовок сторінки -->
+  <section class="bg-white border-b border-slate-200 py-8 px-4 text-center">
+    <div class="max-w-3xl mx-auto">
+      <span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Дистанційні уроки</span>
+      <h2 class="text-3xl font-extrabold text-slate-900 mt-3 mb-2">Все про роботи з Google Meet</h2>
+      <p class="text-slate-600 text-sm">Правила поведінки на відеоуроках та вирішення технічних проблем із камерою і мікрофоном.</p>
+    </div>
+  </section>
+
+  <!-- Контент інструкцій -->
+  <main class="max-w-4xl mx-auto px-4 py-8 space-y-6 flex-grow w-full">
+    
+    <!-- Картка 1: Етикет онлайн-уроку -->
+    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+      <div class="flex items-start gap-4">
+        <div class="text-3xl bg-indigo-50 p-3 rounded-xl shrink-0">🎓</div>
+        <div class="w-full">
+          <h3 class="text-lg font-bold text-slate-900 mb-2">1. Правила етикету на онлайн-уроці (Netiquette)</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs text-slate-600 mt-3">
+            <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
+              <b class="text-indigo-600 block mb-1">🎤 Мікрофон:</b>
+              Входьте на урок із вимкненим мікрофоном. Вмикайте його лише тоді, коли вчитель звертається до вас.
+            </div>
+            <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
+              <b class="text-indigo-600 block mb-1">📷 Камера:</b>
+              Вмикайте камеру на початку уроку для привітання та під час відповідей (за можливості).
+            </div>
+            <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
+              <b class="text-indigo-600 block mb-1">✋ Піднята рука:</b>
+              Використовуйте кнопку «Підняти руку» в Meet, якщо маєте запитання, щоб не перебивати вчителя.
+            </div>
+            <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
+              <b class="text-indigo-600 block mb-1">💬 Чат уроку:</b>
+              Чат призначений виключно для навчальних питань і відповідей на прохання вчителя.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Картка 2: Усунення несправностей -->
+    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+      <div class="flex items-start gap-4">
+        <div class="text-3xl bg-amber-50 p-3 rounded-xl shrink-0">🛠️</div>
+        <div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">2. Не працює мікрофон або камера?</h3>
+          <ol class="list-decimal list-inside text-sm text-slate-600 space-y-2">
+            <li><b>Перевірте дозволи браузера:</b> Біля адреси сайту (іконка замочка 🔒) переконайтеся, що надано дозвіл на використання Камери та Мікрофона.</li>
+            <li><b>Перевірте інші додатки:</b> Переконайтеся, що Zoom, Viber або Telegram не згорнуті та не використовують камеру в цей момент.</li>
+            <li><b>Перезавантажте сторінку:</b> Натисніть <b>F5</b> або <b>Cmd + R</b> і спробуйте увійти знову.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Підвал -->
+  <footer class="bg-slate-800 text-slate-400 text-center py-6 mt-auto">
+    <p class="text-sm">Служба IT-підтримки Google Workspace for Education © 2026</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="uk" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Статус сервісів | Підтримка Google Classroom</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col">
+
+  <!-- Шапка сайту -->
+  <header class="bg-indigo-600 text-white shadow-md sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+      <h1 class="text-xl font-bold flex items-center gap-2">
+        <a href="index.html" class="hover:opacity-90 transition">📚 Портал підтримки</a>
+        <span class="text-xs font-normal bg-indigo-500 px-2 py-0.5 rounded-full">Моніторинг</span>
+      </h1>
+      <nav class="flex items-center gap-3 text-xs font-semibold">
+        <a href="index.html" class="hover:bg-indigo-700 px-3 py-2 rounded-lg transition">Головна</a>
+        <a href="parents.html" class="hover:bg-indigo-700 px-3 py-2 rounded-lg transition">Батькам</a>
+        <a href="teachers.html" class="hover:bg-indigo-700 px-3 py-2 rounded-lg transition">Вчителям</a>
+        <a href="meet.html" class="hover:bg-indigo-700 px-3 py-2 rounded-lg transition">Meet</a>
+        <a href="tools.html" class="hover:bg-indigo-700 px-3 py-2 rounded-lg transition">Інструменти</a>
+        <a href="status.html" class="bg-indigo-700 px-3 py-2 rounded-lg transition">Статус</a>
+        <a href="index.html#support" class="bg-amber-500 hover:bg-amber-400 text-slate-900 px-3 py-2 rounded-lg transition">Техпідтримка</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Заголовок сторінки -->
+  <section class="bg-white border-b border-slate-200 py-8 px-4 text-center">
+    <div class="max-w-3xl mx-auto">
+      <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Live Моніторинг</span>
+      <h2 class="text-3xl font-extrabold text-slate-900 mt-3 mb-2">Статус системи та сервісів</h2>
+      <p class="text-slate-600 text-sm">Актуальний стан роботи основних освітніх платформ та шкільної IT-інфраструктури.</p>
+    </div>
+  </section>
+
+  <!-- Контент статусу -->
+  <main class="max-w-4xl mx-auto px-4 py-8 space-y-6 flex-grow w-full">
+    
+    <!-- Загальний статус -->
+    <div class="bg-emerald-50 border border-emerald-200 p-4 rounded-2xl flex items-center gap-4">
+      <div class="w-4 h-4 bg-emerald-500 rounded-full animate-ping shrink-0 ml-2"></div>
+      <div>
+        <h3 class="font-bold text-emerald-900 text-base">Усі класи та сервіси працюють у штатному режимі</h3>
+        <p class="text-xs text-emerald-700 mt-0.5">Служба підтримки не зафіксувала збоїв за останні 24 години.</p>
+      </div>
+    </div>
+
+    <!-- Списочна таблиця сервісів -->
+    <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+      <div class="p-4 border-b border-slate-100 bg-slate-50 font-bold text-slate-700 text-sm">
+        Освітні платформи
+      </div>
+      <div class="divide-y divide-slate-100">
+        
+        <!-- Google Classroom -->
+        <div class="p-4 flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <span class="text-xl">🏫</span>
+            <span class="font-semibold text-slate-800 text-sm">Google Classroom</span>
+          </div>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-700">
+            <span class="w-2 h-2 bg-emerald-500 rounded-full"></span> Працює
+          </span>
+        </div>
+
+        <!-- Google Meet -->
+        <div class="p-4 flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <span class="text-xl">📹</span>
+            <span class="font-semibold text-slate-800 text-sm">Google Meet (Відеоуроки)</span>
+          </div>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-700">
+            <span class="w-2 h-2 bg-emerald-500 rounded-full"></span> Працює
+          </span>
+        </div>
+
+        <!-- Google Drive & Docs -->
+        <div class="p-4 flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <span class="text-xl">📁</span>
+            <span class="font-semibold text-slate-800 text-sm">Google Диск та Документи</span>
+          </div>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-700">
+            <span class="w-2 h-2 bg-emerald-500 rounded-full"></span> Працює
+          </span>
+        </div>
+
+        <!-- Шкільна пошта @school.edu -->
+        <div class="p-4 flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <span class="text-xl">✉️</span>
+            <span class="font-semibold text-slate-800 text-sm">Авторизація та пошта (Gmail)</span>
+          </div>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-700">
+            <span class="w-2 h-2 bg-emerald-500 rounded-full"></span> Працює
+          </span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Зовнішнє посилання -->
+    <div class="p-4 bg-slate-100 rounded-xl border border-slate-200 text-center text-xs text-slate-600">
+      Офіційну глобальну інформацію про стан серверів Google можна переглянути на 
+      <a href="https://www.google.com/appsstatus/dashboard/" target="_blank" class="text-indigo-600 font-bold hover:underline">
+        Google Workspace Status Dashboard &rarr;
+      </a>
+    </div>
+
+  </main>
+
+  <!-- Підвал -->
+  <footer class="bg-slate-800 text-slate-400 text-center py-6 mt-auto">
+    <p class="text-sm">Служба IT-підтримки Google Workspace for Education © 2026</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Куточок вчителя | Підтримка Google Classroom</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col">
+
+  <!-- Шапка сайту -->
+  <header class="bg-indigo-600 text-white shadow-md sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+      <h1 class="text-xl font-bold flex items-center gap-2">
+        <a href="index.html" class="hover:opacity-90 transition">📚 Портал підтримки</a>
+        <span class="text-xs font-normal bg-indigo-500 px-2 py-0.5 rounded-full">Вчителям</span>
+      </h1>
+      <nav class="flex items-center gap-3 text-xs font-semibold">
+        <a href="index.html" class="hover:bg-indigo-700 px-3 py-2 rounded-lg transition">Головна</a>
+        <a href="parents.html" class="hover:bg-indigo-700 px-3 py-2 rounded-lg transition">Батькам</a>
+        <a href="teachers.html" class="bg-indigo-700 px-3 py-2 rounded-lg transition">Вчителям</a>
+        <a href="index.html#support" class="bg-amber-500 hover:bg-amber-400 text-slate-900 px-3 py-2 rounded-lg transition">Техпідтримка</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Заголовок сторінки -->
+  <section class="bg-white border-b border-slate-200 py-8 px-4 text-center">
+    <div class="max-w-3xl mx-auto">
+      <span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Методичний центр</span>
+      <h2 class="text-3xl font-extrabold text-slate-900 mt-3 mb-2">Стандарти та підказки для педагогів</h2>
+      <p class="text-slate-600 text-sm">Рекомендації щодо ведення навчальних курсів, організації завдань та онлайн-оцінювання.</p>
+    </div>
+  </section>
+
+  <!-- Контент інструкцій -->
+  <main class="max-w-4xl mx-auto px-4 py-8 space-y-6 flex-grow w-full">
+    
+    <!-- Картка 1: Стандарти найменування -->
+    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+      <div class="flex items-start gap-4">
+        <div class="text-3xl bg-indigo-50 p-3 rounded-xl shrink-0">🏷️</div>
+        <div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">1. Шкільний стандарт назв курсів</h3>
+          <p class="text-slate-600 text-sm leading-relaxed mb-3">
+            Щоб учні та батьки не плуталися в списку курсів, використовуйте єдиний формат найменування при створенні нового класу:
+          </p>
+          <div class="p-4 bg-slate-100 rounded-xl font-mono text-xs text-slate-800 border border-slate-200 mb-3">
+            [Клас] | [Назва предмета] | [Прізвище вчителя]<br>
+            <span class="text-indigo-600 font-bold">Приклад: 7-А | Алгебра | Коваленко О.В.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Картка 2: Оцінювання та завдання -->
+    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+      <div class="flex items-start gap-4">
+        <div class="text-3xl bg-emerald-50 p-3 rounded-xl shrink-0">📝</div>
+        <div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">2. Базовий чек-лист публікації завдання</h3>
+          <ul class="list-disc list-inside text-sm text-slate-600 space-y-2">
+            <li><b>Завжди вказуйте Термін виконання (Due Date):</b> Це автоматично додає завдання в Google Календар учнів.</li>
+            <li><b>Групуйте за Темами (Topics):</b> Створюйте теми по розділах програми (наприклад: *«Тема 1. Вступ»*, *«Контрольні роботи»*).</li>
+            <li><b>Критерії оцінювання (Rubrics):</b> Використовуйте вбудовані рубрики для прозорості оцінювання робіт.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Картка 3: Підтримка -->
+    <div class="bg-indigo-50 p-6 rounded-2xl border border-indigo-100 flex justify-between items-center gap-4">
+      <div>
+        <h4 class="font-bold text-slate-900 text-base">Потрібен новий курс або допомога з налаштуванням?</h4>
+        <p class="text-xs text-slate-600 mt-1">Зверніться до IT-адміністратора школи для масового імпорту учнів.</p>
+      </div>
+      <a href="index.html#support" class="bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold px-4 py-2.5 rounded-lg transition shrink-0">
+        Запит адміністратору
+      </a>
+    </div>
+
+  </main>
+
+  <!-- Підвал -->
+  <footer class="bg-slate-800 text-slate-400 text-center py-6 mt-auto">
+    <p class="text-sm">Служба IT-підтримки Google Workspace for Education © 2026</p>
+  </footer>
+
+</body>
+</html>
