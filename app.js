@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 window.openSupportForm = function(topic) {
   const container = document.getElementById('supportFormContainer');
-  const topicInput = document.getElementById('ticketTopic') || document.getElementById('topic');
+  const topicInput = document.getElementById('ticketTopic');
   const title = document.getElementById('supportFormTitle');
 
   if (container) {
@@ -152,7 +152,7 @@ window.handleSupportSubmit = function(e) {
   
   const form = e.target;
   const submitBtn = form.querySelector('button[type="submit"]');
-  const originalBtnText = submitBtn ? submitBtn.innerText : 'Надіслати';
+  const originalBtnText = submitBtn ? submitBtn.innerText : 'Оформити звернення';
 
   if (submitBtn) {
     submitBtn.disabled = true;
@@ -160,12 +160,12 @@ window.handleSupportSubmit = function(e) {
   }
 
   const formData = {
-    studentName: (document.getElementById('studentName') || document.getElementById('ticketStudentName') || {}).value || '',
-    className: (document.getElementById('className') || document.getElementById('ticketClass') || {}).value || '',
-    parentContact: (document.getElementById('parentContact') || document.getElementById('ticketContact') || {}).value || '',
-    schoolEmail: (document.getElementById('schoolEmail') || document.getElementById('ticketEmail') || {}).value || '',
-    topic: (document.getElementById('topic') || document.getElementById('ticketTopic') || {}).value || '',
-    description: (document.getElementById('description') || document.getElementById('ticketDescription') || {}).value || ''
+    studentName: document.getElementById('studentName')?.value || '',
+    className: document.getElementById('studentClass')?.value || '',
+    parentContact: document.getElementById('contactInfo')?.value || '',
+    schoolEmail: document.getElementById('schoolEmail')?.value || '',
+    topic: document.getElementById('ticketTopic')?.value || '',
+    description: document.getElementById('issueDescription')?.value || ''
   };
 
   fetch(GOOGLE_SCRIPT_URL, {
