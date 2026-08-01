@@ -1,3 +1,5 @@
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyKNdmTtKuk0gkMuwiKDzUByPVS6qfmndE90-Uut2Fd-9vXdWVFx80uXxbXmuzx2uDH/exec';
+
 document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.getElementById('searchInput');
   const classFilters = document.getElementById('classFilters');
@@ -129,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 window.openSupportForm = function(topic) {
   const container = document.getElementById('supportFormContainer');
-  const topicInput = document.getElementById('ticketTopic');
+  const topicInput = document.getElementById('ticketTopic') || document.getElementById('topic');
   const title = document.getElementById('supportFormTitle');
 
   if (container) {
@@ -147,7 +149,46 @@ window.closeSupportForm = function() {
 
 window.handleSupportSubmit = function(e) {
   e.preventDefault();
-  alert('Дякуємо! Ваше звернення успішно прийнято в обробку.');
-  window.closeSupportForm();
-  e.target.reset();
+  
+  const form = e.target;
+  const submitBtn = form.querySelector('button[type="submit"]');
+  const originalBtnText = submitBtn ? submitBtn.innerText : 'Надіслати';
+
+  if (submitBtn) {
+    submitBtn.disabled = true;
+    submitBtn.innerText = 'Надсилання...';
+  }
+
+  const formData = {
+    studentName: (document.getElementById('studentName') || document.getElementById('ticketStudentName') || {}).value || '',
+    className: (document.getElementById('className') || document.getElementById('ticketClass') || {}).value || '',
+    parentContact: (document.getElementById('parentContact') || document.getElementById('ticketContact') || {}).value || '',
+    schoolEmail: (document.getElementById('schoolEmail') || document.getElementById('ticketEmail') || {}).value || '',
+    topic: (document.getElementById('topic') || document.getElementById('ticketTopic') || {}).value || '',
+    description: (document.getElementById('description') || document.getElementById('ticketDescription') || {}).value || ''
+  };
+
+  fetch(GOOGLE_SCRIPT_URL, {
+    method: 'POST',
+    mode: 'no-cors',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(formData)
+  })
+  .then(() => {
+    alert('Дякуємо! Ваше звернення успішно прийнято в обробку.');
+    window.closeSupportForm();
+    form.reset();
+  })
+  .catch(error => {
+    console.error('Помилка надсилання:', error);
+    alert('Сталася помилка під час надсилання. Спробуйте ще раз.');
+  })
+  .finally(() => {
+    if (submitBtn) {
+      submitBtn.disabled = false;
+      submitBtn.innerText = originalBtnText;
+    }
+  });
 };
