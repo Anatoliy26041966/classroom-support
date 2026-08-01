@@ -5,8 +5,11 @@ function renderHeader() {
   const header = document.querySelector('header');
   if (!header) return;
 
-  // Отримуємо назву поточного HTML-файлу для підсвічування активного пункту
-  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+  // Витягуємо назву сторінки, коректно обробляючи корінь GitHub Pages (когда path закінчується на "/")
+  let currentPath = window.location.pathname.split('/').pop();
+  if (!currentPath || currentPath === '') {
+    currentPath = 'index.html';
+  }
 
   const navItems = [
     { name: 'Головна', href: 'index.html' },
@@ -17,7 +20,8 @@ function renderHeader() {
   ];
 
   const navLinksHtml = navItems.map(item => {
-    const isActive = currentPath === item.href;
+    // Порівнюємо поточний файл із посиланням
+    const isActive = currentPath === item.href || (currentPath === '' && item.href === 'index.html');
     const styles = isActive 
       ? 'bg-indigo-700 font-bold' 
       : 'hover:bg-indigo-700 transition';
@@ -39,20 +43,19 @@ function renderHeader() {
   `;
 }
 
-// --- Основна логіка після завантаження сторінки ---
+// --- Основна логіка після завантаження DOM ---
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. Рендеримо шапку на сторінці
+  // 1. Завжди рендеримо шапку першою справою
   renderHeader();
 
-  // 2. Логіка пошуку курсів (якщо на сторінці є необхідні елементи)
+  // 2. Логіка пошуку та фільтрації курсів (лише якщо є блок grid)
   const searchInput = document.getElementById('searchInput');
   const classFilters = document.getElementById('classFilters');
   const courseGrid = document.getElementById('courseGrid');
 
-  // Перевірка наявності даних курсів (актуально для index.html)
   if (courseGrid) {
     if (typeof coursesData === 'undefined' || !Array.isArray(coursesData)) {
-      courseGrid.innerHTML = '<p class="text-red-500 text-center col-span-full py-8">Помилка: data.js не завантажено або дані пошкоджені.</p>';
+      courseGrid.innerHTML = '<p class="text-red-500 text-center col-span-full py-8">Помилка: дані курсів (data.js) не завантажено.</p>';
       return;
     }
 
