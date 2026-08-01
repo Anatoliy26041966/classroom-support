@@ -1,5 +1,6 @@
 const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyKNdmTtKuk0gkMuwiKDzUByPVS6qfmndE90-Uut2Fd-9vXdWVFx80uXxbXmuzx2uDH/exec';
 
+
 document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.getElementById('searchInput');
   const classFilters = document.getElementById('classFilters');
