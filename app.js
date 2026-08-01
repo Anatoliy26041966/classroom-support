@@ -22,9 +22,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const uniqueGrades = [...new Set(rawGrades)];
 
     uniqueGrades.sort((a, b) => {
-      const numA = parseInt(a) || 0;
-      const numB = parseInt(b) || 0;
-      return numA - numB;
+      const numA = parseInt(a) || 999;
+      const numB = parseInt(b) || 999;
+      if (numA !== numB) return numA - numB;
+      
+      const isExtA = a.toLowerCase().includes('екстернат');
+      const isExtB = b.toLowerCase().includes('екстернат');
+      if (isExtA !== isExtB) return isExtA ? 1 : -1;
+      
+      return a.localeCompare(b, 'uk');
     });
 
     const allFilters = ['Усі предмети', ...uniqueGrades];
