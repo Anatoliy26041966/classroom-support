@@ -1,12 +1,79 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // 1. Автоматична генерація уніфікованої шапки для всіх сторінок
+  initHeader();
+
+  // 2. Ініціалізація системи пошуку та фільтрації курсів
+  initCourseSystem();
+});
+
+// --- АВТОМАТИЧНА ШАПКА ТА НАВІГАЦІЯ ---
+function initHeader() {
+  const header = document.querySelector('header');
+  if (!header) return;
+
+  // Визначаємо поточний файл
+  let currentPath = window.location.pathname.split('/').pop();
+  if (!currentPath || currentPath === '') currentPath = 'index.html';
+
+  // Бейджі для вторинних сторінок
+  const pageBadges = {
+    'parents.html': 'Для батьків',
+    'teachers.html': 'Вчителям',
+    'meet.html': 'Google Meet',
+    'tools.html': 'Інструменти',
+    'status.html': 'Моніторинг'
+  };
+
+  // Пункти головного меню
+  const menuItems = [
+    { name: 'Головна', url: 'index.html' },
+    { name: 'Батькам', url: 'parents.html' },
+    { name: 'Вчителям', url: 'teachers.html' },
+    { name: 'Meet', url: 'meet.html' },
+    { name: 'Інструменти', url: 'tools.html' },
+    { name: 'Статус', url: 'status.html' }
+  ];
+
+  const navLinksHTML = menuItems.map(item => {
+    const isActive = currentPath === item.url;
+    const activeClass = isActive 
+      ? 'bg-indigo-700 text-white shadow-sm' 
+      : 'hover:bg-indigo-700 text-white transition';
+    return `<a href="${item.url}" class="${activeClass} px-3 py-2 rounded-lg transition">${item.name}</a>`;
+  }).join('');
+
+  const badgeHTML = pageBadges[currentPath] 
+    ? `<span class="bg-indigo-700 text-indigo-100 text-xs font-normal px-2.5 py-1 rounded-full">${pageBadges[currentPath]}</span>`
+    : '';
+
+  const supportLink = currentPath === 'index.html' ? '#support' : 'index.html#support';
+
+  header.className = "bg-indigo-600 text-white shadow-md sticky top-0 z-40";
+  header.innerHTML = `
+    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+      <h1 class="text-xl font-bold flex items-center gap-2">
+        <a href="index.html" class="hover:opacity-90 transition">📚 Портал підтримки</a>
+        ${badgeHTML}
+      </h1>
+      <nav class="flex flex-wrap items-center gap-2 text-xs font-semibold">
+        ${navLinksHTML}
+        <a href="${supportLink}" class="bg-amber-500 hover:bg-amber-400 text-slate-900 px-3 py-2 rounded-lg transition">Техпідтримка</a>
+      </nav>
+    </div>
+  `;
+}
+
+// --- СИСТЕМА ФІЛЬТРАЦІЇ ТА ПОШУКУ КУРСІВ (ГОЛОВНА СТОРІНКА) ---
+function initCourseSystem() {
   const searchInput = document.getElementById('searchInput');
   const classFilters = document.getElementById('classFilters');
   const courseGrid = document.getElementById('courseGrid');
 
+  // Якщо на сторінці немає сітки курсів (наприклад, це parents.html) — тихо виходимо
+  if (!courseGrid) return;
+
   if (typeof coursesData === 'undefined' || !Array.isArray(coursesData)) {
-    if (courseGrid) {
-      courseGrid.innerHTML = '<p class="text-red-500 text-center col-span-full py-8">Помилка: data.js не завантажено або дані пошкоджені.</p>';
-    }
+    courseGrid.innerHTML = '<p class="text-red-500 text-center col-span-full py-8">Помилка: data.js не завантажено або дані пошкоджені.</p>';
     return;
   }
 
@@ -25,11 +92,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const numA = parseInt(a) || 999;
       const numB = parseInt(b) || 999;
       if (numA !== numB) return numA - numB;
-      
+
       const isExtA = a.toLowerCase().includes('екстернат');
       const isExtB = b.toLowerCase().includes('екстернат');
       if (isExtA !== isExtB) return isExtA ? 1 : -1;
-      
+
       return a.localeCompare(b, 'uk');
     });
 
@@ -106,26 +173,27 @@ document.addEventListener('DOMContentLoaded', () => {
     window.renderCourses();
   };
 
-  window.copyCode = function(code, btn) {
-    if (!navigator.clipboard) return;
-    navigator.clipboard.writeText(code).then(() => {
-      const originalText = btn.innerText;
-      btn.innerText = 'Скопійовано!';
-      btn.classList.replace('bg-indigo-600', 'bg-emerald-600');
-      setTimeout(() => {
-        btn.innerText = originalText;
-        btn.classList.replace('bg-emerald-600', 'bg-indigo-600');
-      }, 2000);
-    });
-  };
-
   if (searchInput) {
     searchInput.addEventListener('input', window.renderCourses);
   }
 
   renderFilterButtons();
   window.renderCourses();
-});
+}
+
+// --- ГЛОБАЛЬНІ ФУНКЦІЇ ДЛЯ КОПІЮВАННЯ ТА ФОРМИ ПІДТРИМКИ ---
+window.copyCode = function(code, btn) {
+  if (!navigator.clipboard) return;
+  navigator.clipboard.writeText(code).then(() => {
+    const originalText = btn.innerText;
+    btn.innerText = 'Скопійовано!';
+    btn.classList.replace('bg-indigo-600', 'bg-emerald-600');
+    setTimeout(() => {
+      btn.innerText = originalText;
+      btn.classList.replace('bg-emerald-600', 'bg-indigo-600');
+    }, 2000);
+  });
+};
 
 window.openSupportForm = function(topic) {
   const container = document.getElementById('supportFormContainer');
