@@ -196,8 +196,27 @@
   </section>
 
   <!-- Підвал -->
-  <footer class="bg-slate-800 text-slate-400 text-center py-6 mt-auto">
-    <p class="text-sm">Служба IT-підтримки Google Workspace for Education © 2026</p>
+ <!-- Оновлений підвал сайту (футер) -->
+  <footer class="bg-slate-900 text-slate-400 text-sm py-6 mt-auto border-t border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+      
+      <!-- Індикатор статусу -->
+      <a href="status.html" class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-800 hover:bg-slate-700 border border-slate-700/60 transition group">
+        <span class="relative flex h-2.5 w-2.5">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+        </span>
+        <span class="text-xs text-slate-300 group-hover:text-white font-medium">
+          Статус систем: <span class="text-emerald-400">Працюють штатно</span>
+        </span>
+      </a>
+
+      <!-- Копірайт -->
+      <p class="text-xs text-slate-500 text-center sm:text-right">
+        © Портал підтримки Google Classroom
+      </p>
+
+    </div>
   </footer>
 
   <script src="data.js"></script>
