@@ -1,0 +1,243 @@
+{
+  "id": "a1b2c3d4-e5f6-7890-abcd-1234567890ab",
+  "version": "2.0",
+  "name": "BeetSprout_Project",
+  "url": "https://wikipedia.org",
+  "tests": [
+    {
+      "id": "test-case-1",
+      "name": "TC1_Wikipedia_Search_Verification",
+      "commands": [
+        {
+          "id": "c1-1",
+          "command": "open",
+          "target": "/wiki/Main_Page",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c1-2",
+          "command": "setWindowSize",
+          "target": "1280x800",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c1-3",
+          "command": "store",
+          "target": "Selenium (software)",
+          "value": "searchQuery"
+        },
+        {
+          "id": "c1-4",
+          "command": "verifyElementPresent",
+          "target": "css=#searchInput",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c1-5",
+          "command": "click",
+          "target": "css=#searchInput",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c1-6",
+          "command": "type",
+          "target": "css=#searchInput",
+          "targets": [],
+          "value": "${searchQuery}"
+        },
+        {
+          "id": "c1-7",
+          "command": "verifyElementPresent",
+          "target": "xpath=//button[@type='submit']",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c1-8",
+          "command": "click",
+          "target": "xpath=//button[@type='submit']",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c1-9",
+          "command": "verifyElementPresent",
+          "target": "xpath=//h1[@id='firstHeading']",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c1-10",
+          "command": "verifyText",
+          "target": "xpath=//h1[@id='firstHeading']/span",
+          "targets": [],
+          "value": "Selenium (software)"
+        }
+      ]
+    },
+    {
+      "id": "test-case-2",
+      "name": "TC2_Wikipedia_Navigation_Check",
+      "commands": [
+        {
+          "id": "c2-1",
+          "command": "open",
+          "target": "/wiki/Main_Page",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c2-2",
+          "command": "store",
+          "target": "Main page",
+          "value": "expectedTitle"
+        },
+        {
+          "id": "c2-3",
+          "command": "verifyElementPresent",
+          "target": "css=.mw-wiki-logo",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c2-4",
+          "command": "verifyElementPresent",
+          "target": "xpath=//li[@id='n-contents']/a",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c2-5",
+          "command": "click",
+          "target": "xpath=//li[@id='n-contents']/a",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c2-6",
+          "command": "verifyElementPresent",
+          "target": "css=#firstHeading",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c2-7",
+          "command": "verifyText",
+          "target": "css=#firstHeading",
+          "targets": [],
+          "value": "Wikipedia:Contents"
+        },
+        {
+          "id": "c2-8",
+          "command": "store",
+          "target": "Wikipedia:Contents",
+          "value": "currentPage"
+        },
+        {
+          "id": "c2-9",
+          "command": "verifyElementPresent",
+          "target": "xpath=//a[@title='Wikipedia:Current events']",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c2-10",
+          "command": "click",
+          "target": "xpath=//a[@title='Wikipedia:Current events']",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "test-case-3",
+      "name": "TC3_Wikipedia_Language_And_Footer_Check",
+      "commands": [
+        {
+          "id": "c3-1",
+          "command": "open",
+          "target": "/wiki/Main_Page",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c3-2",
+          "command": "store",
+          "target": "Donate",
+          "value": "donateLabel"
+        },
+        {
+          "id": "c3-3",
+          "command": "verifyElementPresent",
+          "target": "css=#p-lang-btn",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c3-4",
+          "command": "verifyElementPresent",
+          "target": "xpath=//li[@id='n-sitesupport']/a",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c3-5",
+          "command": "verifyText",
+          "target": "xpath=//li[@id='n-sitesupport']/a/span",
+          "targets": [],
+          "value": "${donateLabel}"
+        },
+        {
+          "id": "c3-6",
+          "command": "click",
+          "target": "xpath=//li[@id='n-sitesupport']/a",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c3-7",
+          "command": "verifyElementPresent",
+          "target": "css=#firstHeading",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c3-8",
+          "command": "store",
+          "target": "Make a submission or contribution",
+          "value": "footerText"
+        },
+        {
+          "id": "c3-9",
+          "command": "verifyElementPresent",
+          "target": "xpath=//footer[@id='footer']",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c3-10",
+          "command": "verifyElementPresent",
+          "target": "css=.mw-footer-container",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "suite-1",
+      "name": "Default Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": ["test-case-1", "test-case-2", "test-case-3"]
+    }
+  ],
+  "urls": ["https://wikipedia.org"],
+  "plugins": []
+}
