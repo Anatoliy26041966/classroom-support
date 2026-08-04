@@ -5,7 +5,7 @@ function renderHeader() {
   const header = document.querySelector('header');
   if (!header) return;
 
-  // Витягуємо назву сторінки, коректно обробляючи корінь GitHub Pages (когда path закінчується на "/")
+  // Витягуємо назву сторінки, коректно обробляючи корінь GitHub Pages (коли path закінчується на "/")
   let currentPath = window.location.pathname.split('/').pop();
   if (!currentPath || currentPath === '') {
     currentPath = 'index.html';
@@ -110,6 +110,27 @@ document.addEventListener('DOMContentLoaded', () => {
           code.toLowerCase().includes(query);
 
         return matchesFilter && matchesQuery;
+      });
+
+      // Сортування великих карток за номером класу, літерою та назвою предмета
+      filtered.sort((a, b) => {
+        const gradeA = String(a.grade || a.class || '');
+        const gradeB = String(b.grade || b.class || '');
+
+        const numA = parseInt(gradeA) || 999;
+        const numB = parseInt(gradeB) || 999;
+        if (numA !== numB) return numA - numB;
+
+        const isExtA = gradeA.toLowerCase().includes('екстернат');
+        const isExtB = gradeB.toLowerCase().includes('екстернат');
+        if (isExtA !== isExtB) return isExtA ? 1 : -1;
+
+        const gradeComp = gradeA.localeCompare(gradeB, 'uk', { numeric: true });
+        if (gradeComp !== 0) return gradeComp;
+
+        const titleA = String(a.title || a.subject || '');
+        const titleB = String(b.title || b.subject || '');
+        return titleA.localeCompare(titleB, 'uk');
       });
 
       if (filtered.length === 0) {
