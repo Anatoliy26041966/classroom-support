@@ -1,0 +1,10 @@
+.DS_Store
+logs/
+*.jtl
+HTML_Report/
+*.db
+School_Automation/
+code/
+.github/
+.vscode/
+temp/
