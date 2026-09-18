@@ -218,8 +218,8 @@
           <div
             class="bg-blue-50 border border-blue-200 rounded-xl p-3 text-xs text-blue-900"
           >
-            💡 **Увага:** Вказуйте тільки вашу офіційну шкільну пошту
-            (наприклад, <em>pib@schoolgus.ukr.education</em>).
+            💡 **Увага:** Вкажіть ваші діючі контактні дані та реальну
+            електронну пошту для отримання відповіді.
           </div>
 
           <!-- Форма звернення -->
@@ -228,9 +228,18 @@
             onsubmit="sendSupportTicket(event)"
             class="space-y-3"
           >
+            <!-- Захисне приховане поле від спам-ботів (Honeypot) -->
+            <input
+              type="text"
+              id="suppWebsite"
+              class="hidden"
+              autocomplete="off"
+              tabindex="-1"
+            />
+
             <div>
               <label class="block text-xs font-semibold text-slate-700 mb-1"
-                >Ваше ПІБ</label
+                >Ваше ПІБ <span class="text-red-500">*</span></label
               >
               <input
                 type="text"
@@ -243,13 +252,16 @@
 
             <div>
               <label class="block text-xs font-semibold text-slate-700 mb-1"
-                >Ваша шкільна пошта (@schoolgus.ukr.education)</label
+                >Електронна пошта
+                <span class="text-red-500 font-normal"
+                  >(обовʼязково для заповнення)</span
+                ></label
               >
               <input
                 type="email"
                 id="suppEmail"
                 required
-                placeholder="pib@schoolgus.ukr.education"
+                placeholder="name@example.com"
                 class="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none"
               />
             </div>
@@ -286,7 +298,7 @@
 
             <div>
               <label class="block text-xs font-semibold text-slate-700 mb-1"
-                >Опис проблеми</label
+                >Опис проблеми <span class="text-red-500">*</span></label
               >
               <textarea
                 id="suppDetails"
@@ -463,6 +475,14 @@
 
       function sendSupportTicket(e) {
         e.preventDefault();
+
+        // Захист від спам-ботів (Honeypot)
+        const honeypot = document.getElementById("suppWebsite").value;
+        if (honeypot) {
+          // Якщо приховане поле заповнене ботом - ігноруємо
+          return;
+        }
+
         const name = document.getElementById("suppName").value.trim();
         const email = document
           .getElementById("suppEmail")
@@ -472,10 +492,19 @@
         const cat = document.getElementById("suppCategory").value;
         const details = document.getElementById("suppDetails").value.trim();
 
-        // Перевірка належності до шкільного домену
-        if (!email.endsWith("@schoolgus.ukr.education")) {
+        // Перевірка формату електронної пошти
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
           alert(
-            "Помилка! Вкажіть діючу шкільну пошту, що закінчується на @schoolgus.ukr.education",
+            "Помилка! Вкажіть коректну адресу електронної пошти (наприклад: name@gmail.com або pib@schoolgus.ukr.education)",
+          );
+          return;
+        }
+
+        // Перевірка мінімальної довжини опису проблеми (захист від спаму)
+        if (details.length < 10) {
+          alert(
+            "Будь ласка, вкажіть детальніший опис проблеми (мінімум 10 символів).",
           );
           return;
         }
@@ -484,7 +513,7 @@
           `Звернення у підтримку Workspace: ${cat} (${role})`,
         );
         const body = encodeURIComponent(
-          `Заявник: ${name}\nШкільна пошта: ${email}\nРоль: ${role}\nКатегорія: ${cat}\n\nОпис проблеми:\n${details}`,
+          `Заявник: ${name}\nЕлектронна пошта: ${email}\nРоль: ${role}\nКатегорія: ${cat}\n\nОпис проблеми:\n${details}`,
         );
 
         // Відправка листа на support@schoolgus.ukr.education
