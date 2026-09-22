@@ -45,7 +45,6 @@
         min-height: 100vh;
         display: flex;
         flex-direction: column;
-        /* Фонове зображення Гусятина з розмиттям та затемненням */
         background-image:
           linear-gradient(rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.88)),
           url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80");
@@ -145,7 +144,6 @@
         margin-right: 6px;
       }
 
-      /* Skeleton Animation */
       .skeleton {
         background: linear-gradient(
           90deg,
@@ -186,7 +184,7 @@
     </style>
   </head>
   <body>
-    <!-- Шапка порталу (з клікабельним логотипом-посиланням на Головну) -->
+    <!-- Шапка порталу -->
     <header class="header-bg">
       <div
         class="container d-flex flex-wrap justify-content-between align-items-center gap-3"
@@ -245,7 +243,6 @@
       <!-- Пошук та фільтри -->
       <div class="search-card p-3 mb-4">
         <div class="row g-3 align-items-center mb-2">
-          <!-- Зменшений та компактний пошуковий рядок -->
           <div class="col-md-7 col-lg-7">
             <div class="input-group">
               <span
@@ -260,7 +257,6 @@
               />
             </div>
           </div>
-          <!-- Чіткий блок статистики без перекриття -->
           <div
             class="col-md-5 col-lg-5 text-md-end d-flex justify-content-md-end align-items-center gap-2 flex-wrap"
           >
@@ -325,9 +321,8 @@
         </div>
       </div>
 
-      <!-- Сітка курсів (та Скелетони під час завантаження) -->
+      <!-- Сітка курсів -->
       <div class="row g-3" id="coursesGrid">
-        <!-- 6 Скелетонів за замовчуванням -->
         <script>
           document.write(
             Array(6)
@@ -352,7 +347,7 @@
         </script>
       </div>
 
-      <!-- Заглушка "Нічого не знайдено" (Empty State) -->
+      <!-- Порожній стан -->
       <div id="emptyState" class="search-card text-center py-5 d-none my-4 p-4">
         <div class="fs-1 text-muted mb-2">🔍</div>
         <h5 class="fw-bold">Курсів не знайдено</h5>
@@ -368,7 +363,7 @@
       </div>
     </main>
 
-    <!-- Підвал сайту (Footer) -->
+    <!-- Підвал сайту -->
     <footer class="py-4">
       <div class="container text-center text-md-start">
         <div class="row g-3 align-items-center">
@@ -409,7 +404,7 @@
       </div>
     </footer>
 
-    <!-- Модальне вікно: Розклад дзвінків -->
+    <!-- Модальні вікна -->
     <div class="modal fade" id="scheduleModal" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -473,7 +468,6 @@
       </div>
     </div>
 
-    <!-- Модальне вікно: Техпідтримка -->
     <div class="modal fade" id="supportModal" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -545,7 +539,7 @@
       </div>
     </div>
 
-    <!-- SVG Логотип Google Classroom -->
+    <!-- SVG Icon -->
     <svg style="display: none">
       <symbol id="icon-classroom" viewBox="0 0 24 24">
         <path
@@ -588,18 +582,29 @@
         classContainer.appendChild(btn);
       }
 
-      // Завантаження даних
+      // Завантаження даних з підвищеною відмовостійкістю
       async function loadData() {
         try {
-          const res = await fetch("courses.json");
+          let res = await fetch("./courses.json");
+          if (!res.ok) {
+            res = await fetch("./classroom_portal_data.json");
+          }
           const data = await res.json();
-          allCourses = data.courses || [];
-          document.getElementById("lastUpdated").textContent =
-            data.last_updated || "сьогодні";
+
+          if (Array.isArray(data)) {
+            allCourses = data;
+            document.getElementById("lastUpdated").textContent = "сьогодні";
+          } else if (data && typeof data === "object") {
+            allCourses = data.courses || data.items || [];
+            document.getElementById("lastUpdated").textContent =
+              data.last_updated || "сьогодні";
+          }
+
           renderCourses();
         } catch (e) {
-          console.error("Помилка завантаження courses.json", e);
+          console.error("Помилка завантаження файлу курсів:", e);
           document.getElementById("lastUpdated").textContent = "помилка";
+          renderCourses();
         }
       }
 
@@ -622,26 +627,34 @@
         const emptyState = document.getElementById("emptyState");
 
         const filtered = allCourses.filter((c) => {
+          if (!c) return false;
+          const courseName = c.name || c.title || "";
+          const teacherName = c.teacher || c.section || "";
+
           const matchSearch =
-            c.name.toLowerCase().includes(search) ||
-            (c.teacher && c.teacher.toLowerCase().includes(search));
+            courseName.toLowerCase().includes(search) ||
+            teacherName.toLowerCase().includes(search);
 
           let matchCat = true;
           if (currentCategory === "fav") matchCat = favorites.includes(c.id);
-          else if (currentCategory === "1-4") matchCat = /^0[1-4]/.test(c.name);
-          else if (currentCategory === "5-9") matchCat = /^0[5-9]/.test(c.name);
+          else if (currentCategory === "1-4")
+            matchCat = /^(0[1-4]|[1-4])/.test(courseName);
+          else if (currentCategory === "5-9")
+            matchCat = /^(0[5-9]|[5-9])/.test(courseName);
           else if (currentCategory === "10-11")
-            matchCat = /^(10|11)/.test(c.name);
+            matchCat = /^(10|11)/.test(courseName);
           else if (currentCategory === "fn")
-            matchCat = c.name.includes("Індивідуальна ФН");
+            matchCat = courseName.includes("Індивідуальна ФН");
 
           let matchNum = true;
           if (currentClassNum !== null) {
-            const prefix =
+            const prefix1 =
               currentClassNum < 10
                 ? `0${currentClassNum}`
                 : `${currentClassNum}`;
-            matchNum = c.name.startsWith(prefix);
+            const prefix2 = `${currentClassNum}`;
+            matchNum =
+              courseName.startsWith(prefix1) || courseName.startsWith(prefix2);
           }
 
           return matchSearch && matchCat && matchNum;
@@ -668,12 +681,11 @@
                                 <i class="bi ${favorites.includes(c.id) ? "bi-star-fill active" : "bi-star"} btn-star" 
                                    onclick="toggleFav('${c.id}')" title="Обране"></i>
                             </div>
-                            <h6 class="fw-bold mb-2 text-main">${c.name}</h6>
-                            <!-- Поле вчителя відображається ТІЛЬКИ якщо воно заповнене -->
+                            <h6 class="fw-bold mb-2 text-main">${c.name || c.title || "Без назви"}</h6>
                             ${c.teacher && c.teacher.trim() !== "" ? `<p class="text-muted small mb-0"><i class="bi bi-person"></i> ${c.teacher}</p>` : ""}
                         </div>
                         <div class="mt-3">
-                            <a href="${safeDecodeUrl(c.link)}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm w-100 fw-medium">
+                            <a href="${safeDecodeUrl(c.link || c.alternateLink)}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm w-100 fw-medium">
                                 <svg class="classroom-icon"><use href="#icon-classroom"/></svg>
                                 Перейти до курсу ↗
                             </a>
