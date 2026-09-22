@@ -1,0 +1,86 @@
+name: Auto Update Courses via GAM
+
+on:
+  schedule:
+    # Запуск каждый день в 08:00 по киевскому времени (05:00 UTC)
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-courses:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Restore GAM Credentials
+        run: |
+          mkdir -p ~/.gam
+          echo "${{ secrets.GAM_SERVICE_ACCOUNT }}" | base64 -d > ~/.gam/oauth2service.json
+          echo "client_id = ''" > ~/.gam/gam.cfg
+
+      - name: Install GAM
+        run: |
+          bash <(curl -sB https://raw.githubusercontent.com/taers232c/GAMADV-XTD3/master/src/gam-install.sh) -n -d ~/.gam
+
+      - name: Fetch Courses from Google Workspace via GAM
+        run: |
+          ~/.gam/gam print courses state ACTIVE fields id,name,ownerId > courses_gam.csv
+
+      - name: Convert GAM CSV to courses.json
+        run: |
+          python - << 'EOF'
+          import csv, json, base64
+          from datetime import datetime
+
+          courses = []
+          try:
+              with open('courses_gam.csv', mode='r', encoding='utf-8') as f:
+                  reader = csv.DictReader(f)
+                  for row in reader:
+                      course_id = row.get('id', '').strip()
+                      name = row.get('name', '').strip()
+                      owner = row.get('ownerId', '').strip()
+                      
+                      if course_id and name:
+                          b64_id = base64.b64encode(course_id.encode('utf-8')).decode('utf-8') if course_id.isdigit() else course_id
+                          link = f"https://classroom.google.com/c/{b64_id}"
+                          
+                          courses.append({
+                              "id": course_id,
+                              "name": name,
+                              "teacher": owner,
+                              "link": link
+                          })
+          except Exception as e:
+              print(f"Error reading CSV: {e}")
+
+          data = {
+              "last_updated": datetime.now().strftime("%d.%m.%Y %H:%M"),
+              "courses": courses
+          }
+
+          with open('courses.json', 'w', encoding='utf-8') as f:
+              json.dump(data, f, ensure_ascii=False, indent=2)
+
+          print(f"Processed {len(courses)} courses.")
+          EOF
+
+      - name: Commit and Push changes to GitHub Pages
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add courses.json
+
+          if git diff --staged --quiet; then
+            echo "No changes in courses."
+          else
+            git commit -m "auto: daily update courses.json via GAM [skip ci]"
+            git push origin main
+          fi
