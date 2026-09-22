@@ -1,637 +1,752 @@
 <!doctype html>
-<html lang="uk" class="h-full bg-slate-50">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Google Workspace Portal — schoolgus.ukr.education</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>SchoolGus Workspace — Навчальний портал</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
     <style>
+      :root {
+        --bg-body: #f8fafc;
+        --bg-card: #ffffff;
+        --text-main: #0f172a;
+        --text-muted: #64748b;
+        --border-color: #e2e8f0;
+        --header-bg: linear-gradient(135deg, #1e40af, #2563eb);
+        --footer-bg: #0f172a;
+      }
+
+      [data-theme="dark"] {
+        --bg-body: #090d16;
+        --bg-card: #1e293b;
+        --text-main: #f8fafc;
+        --text-muted: #94a3b8;
+        --border-color: #334155;
+        --header-bg: linear-gradient(135deg, #0f172a, #1e1b4b);
+        --footer-bg: #020617;
+      }
+
       body {
-        font-family: "Inter", sans-serif;
+        background-color: var(--bg-body);
+        color: var(--text-main);
+        font-family:
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* Фонове зображення Гусятина з розмиттям та затемненням */
+        background-image:
+          linear-gradient(rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.88)),
+          url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
       }
-      .custom-scrollbar::-webkit-scrollbar {
-        width: 6px;
+
+      .header-bg {
+        background: var(--header-bg);
+        color: white;
+        padding: 1rem 0;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
       }
-      .custom-scrollbar::-webkit-scrollbar-thumb {
-        background: #cbd5e1;
-        border-radius: 4px;
+
+      .brand-link {
+        text-decoration: none;
+        color: white;
+        transition: opacity 0.2s;
+      }
+      .brand-link:hover {
+        color: #e2e8f0;
+        opacity: 0.9;
+      }
+
+      .notice-banner {
+        background: rgba(37, 99, 235, 0.15);
+        border: 1px solid rgba(59, 130, 246, 0.3);
+        backdrop-filter: blur(8px);
+        color: #38bdf8;
+        border-radius: 0.75rem;
+      }
+
+      .search-card {
+        background: rgba(255, 255, 255, 0.95);
+        border: 1px solid var(--border-color);
+        border-radius: 1rem;
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(12px);
+      }
+
+      [data-theme="dark"] .search-card {
+        background: rgba(30, 41, 59, 0.95);
+      }
+
+      .course-card {
+        background: var(--bg-card);
+        border: 1px solid var(--border-color);
+        border-radius: 0.85rem;
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .course-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.15);
+      }
+
+      .badge-class {
+        background-color: #f1f5f9;
+        color: #475569;
+        font-size: 0.75rem;
+        font-weight: 600;
+      }
+
+      [data-theme="dark"] .badge-class {
+        background-color: #334155;
+        color: #cbd5e1;
+      }
+
+      .btn-star {
+        color: #cbd5e1;
+        cursor: pointer;
+        font-size: 1.1rem;
+        transition: color 0.2s;
+      }
+      .btn-star.active,
+      .btn-star:hover {
+        color: #f59e0b;
+      }
+
+      .class-btn {
+        min-width: 32px;
+        padding: 2px 8px;
+        font-size: 0.825rem;
+      }
+
+      .classroom-icon {
+        width: 18px;
+        height: 18px;
+        vertical-align: middle;
+        margin-right: 6px;
+      }
+
+      /* Skeleton Animation */
+      .skeleton {
+        background: linear-gradient(
+          90deg,
+          #e2e8f0 25%,
+          #f1f5f9 50%,
+          #e2e8f0 75%
+        );
+        background-size: 200% 100%;
+        animation: loading 1.5s infinite;
+        border-radius: 0.5rem;
+      }
+
+      [data-theme="dark"] .skeleton {
+        background: linear-gradient(
+          90deg,
+          #1e293b 25%,
+          #334155 50%,
+          #1e293b 75%
+        );
+        background-size: 200% 100%;
+      }
+
+      @keyframes loading {
+        0% {
+          background-position: 200% 0;
+        }
+        100% {
+          background-position: -200% 0;
+        }
+      }
+
+      footer {
+        background-color: var(--footer-bg);
+        color: #94a3b8;
+        margin-top: auto;
+        border-top: 1px solid var(--border-color);
       }
     </style>
   </head>
-  <body class="min-h-screen flex flex-col text-slate-800 antialiased">
-    <!-- Верхня навігаційна панель -->
-    <header
-      class="bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-700 text-white shadow-lg sticky top-0 z-30"
-    >
+  <body>
+    <!-- Шапка порталу (з клікабельним логотипом-посиланням на Головну) -->
+    <header class="header-bg">
       <div
-        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4"
+        class="container d-flex flex-wrap justify-content-between align-items-center gap-3"
       >
-        <div class="flex items-center gap-3">
-          <div
-            class="w-10 h-10 rounded-xl bg-white/10 backdrop-blur flex items-center justify-center text-2xl shadow-inner border border-white/20"
-          >
-            🏫
-          </div>
+        <a
+          href="index.html"
+          class="brand-link d-flex align-items-center gap-3"
+          title="На головну сторінку"
+        >
+          <div class="fs-2">🏫</div>
           <div>
-            <h1 class="text-xl font-bold tracking-tight leading-tight">
-              SchoolGus Workspace
-            </h1>
-            <p class="text-xs text-blue-100/80">
-              Офіційний навчальний портал домену
-              <span class="font-semibold text-white"
-                >@schoolgus.ukr.education</span
-              >
-            </p>
+            <h1 class="h4 mb-0 fw-bold">SchoolGus Workspace</h1>
+            <small class="opacity-75"
+              >Офіційний навчальний портал домену
+              <strong>@schoolgus.ukr.education</strong></small
+            >
           </div>
-        </div>
-
-        <div class="flex items-center gap-2 self-start md:self-auto">
+        </a>
+        <div class="d-flex gap-2 align-items-center">
           <button
-            onclick="toggleModal('scheduleModal')"
-            class="px-3 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 backdrop-blur text-xs font-medium transition flex items-center gap-1.5 border border-white/15"
+            class="btn btn-outline-light btn-sm"
+            id="themeToggle"
+            title="Змінити тему"
+          >
+            <i class="bi bi-moon-stars"></i>
+          </button>
+          <button
+            class="btn btn-light btn-sm fw-medium px-3"
+            data-bs-toggle="modal"
+            data-bs-target="#scheduleModal"
           >
             ⏰ Розклад дзвінків
           </button>
           <button
-            onclick="toggleModal('supportModal')"
-            class="px-3 py-1.5 rounded-lg bg-amber-400 hover:bg-amber-300 text-slate-900 text-xs font-semibold shadow-md transition flex items-center gap-1.5"
+            class="btn btn-warning btn-sm fw-medium px-3"
+            data-bs-toggle="modal"
+            data-bs-target="#supportModal"
           >
-            🛠️ Техпідтримка
+            🛠 Техпідтримка
           </button>
         </div>
       </div>
     </header>
 
-    <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      <div
-        class="bg-white rounded-2xl shadow-sm border border-slate-200/80 p-4 mb-6 space-y-4"
-      >
-        <div
-          class="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center justify-between"
-        >
-          <div class="relative flex-grow">
-            <span
-              class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400 text-sm"
-            >
-              🔍
-            </span>
-            <input
-              type="text"
-              id="searchInput"
-              placeholder="Пошук предмета, класу або вчителя..."
-              class="w-full pl-10 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition"
-            />
-          </div>
-          <div
-            class="text-xs text-slate-500 flex items-center justify-between sm:justify-end gap-3 px-1"
-          >
-            <span
-              >Курсів:
-              <strong id="totalCount" class="text-slate-800">...</strong></span
-            >
-            <span class="text-slate-300">|</span>
-            <span id="lastUpdatedText">Оновлено: ...</span>
-          </div>
-        </div>
-
-        <div class="space-y-2">
-          <div class="flex flex-wrap gap-1.5" id="categoryButtons">
-            <button
-              data-filter="all"
-              class="filter-btn px-3 py-1 rounded-lg text-xs font-medium bg-blue-600 text-white shadow-sm transition"
-            >
-              Усі
-            </button>
-            <button
-              data-filter="fav"
-              class="filter-btn px-3 py-1 rounded-lg text-xs font-medium bg-amber-100 text-amber-900 border border-amber-200 hover:bg-amber-200 transition flex items-center gap-1"
-            >
-              ⭐ Мої курси
-              <span
-                id="favBadge"
-                class="bg-amber-500 text-white text-[10px] px-1.5 py-0.2 rounded-full font-bold ml-0.5"
-                >0</span
-              >
-            </button>
-            <button
-              data-filter="group-1-4"
-              class="filter-btn px-3 py-1 rounded-lg text-xs font-medium bg-slate-100 text-slate-700 hover:bg-slate-200 transition"
-            >
-              1-4 класи
-            </button>
-            <button
-              data-filter="group-5-9"
-              class="filter-btn px-3 py-1 rounded-lg text-xs font-medium bg-slate-100 text-slate-700 hover:bg-slate-200 transition"
-            >
-              5-9 класи
-            </button>
-            <button
-              data-filter="group-10-11"
-              class="filter-btn px-3 py-1 rounded-lg text-xs font-medium bg-slate-100 text-slate-700 hover:bg-slate-200 transition"
-            >
-              10-11 класи
-            </button>
-            <button
-              data-filter="fn"
-              class="filter-btn px-3 py-1 rounded-lg text-xs font-medium bg-purple-100 text-purple-800 hover:bg-purple-200 transition"
-            >
-              Індивідуальна ФН
-            </button>
-          </div>
-
-          <div
-            class="flex flex-wrap gap-1 pt-1 border-t border-slate-100"
-            id="exactGradeButtons"
-          >
-            <span
-              class="text-[11px] font-medium text-slate-400 self-center mr-1"
-              >Клас:</span
-            >
-            <script>
-              for (let i = 1; i <= 11; i++) {
-                document.write(
-                  `<button data-filter="${i}" class="filter-btn px-2 py-0.5 rounded text-[11px] font-medium bg-slate-100 text-slate-600 hover:bg-slate-200 transition">${i}</button>`,
-                );
-              }
-            </script>
-          </div>
+    <main class="container my-4">
+      <!-- Інформаційна пам'ятка -->
+      <div class="notice-banner p-3 mb-3 d-flex align-items-center gap-2 small">
+        <i class="bi bi-info-circle-fill fs-5"></i>
+        <div>
+          <strong>Пам'ятка учня та вчителя:</strong> Для доступу до всіх
+          навчальних курсів використовуйте ваш офіційний корпоративний акаунт
+          <strong>@schoolgus.ukr.education</strong>.
         </div>
       </div>
 
-      <div
-        id="coursesGrid"
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
-      ></div>
+      <!-- Пошук та фільтри -->
+      <div class="search-card p-3 mb-4">
+        <div class="row g-3 align-items-center mb-2">
+          <!-- Зменшений та компактний пошуковий рядок -->
+          <div class="col-md-7 col-lg-7">
+            <div class="input-group">
+              <span
+                class="input-group-text bg-transparent border-end-0 text-muted"
+                ><i class="bi bi-search"></i
+              ></span>
+              <input
+                type="text"
+                id="searchInput"
+                class="form-control border-start-0 shadow-none"
+                placeholder="Пошук предмета або класу..."
+              />
+            </div>
+          </div>
+          <!-- Чіткий блок статистики без перекриття -->
+          <div
+            class="col-md-5 col-lg-5 text-md-end d-flex justify-content-md-end align-items-center gap-2 flex-wrap"
+          >
+            <span
+              class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-2"
+            >
+              Курсів: <strong id="courseCount">...</strong>
+            </span>
+            <span
+              class="badge bg-secondary-subtle text-secondary border border-secondary-subtle px-2 py-2"
+            >
+              GAM: <strong id="lastUpdated">завантаження...</strong>
+            </span>
+          </div>
+        </div>
 
-      <div
-        id="noResults"
-        class="hidden text-center py-16 bg-white rounded-2xl border border-slate-200 shadow-sm my-4"
-      >
-        <div class="text-4xl mb-2">🔎</div>
-        <h3 class="text-base font-semibold text-slate-800">
-          Курсів не знайдено
-        </h3>
-        <p class="text-xs text-slate-500 mt-1">
-          Спробуйте змінити фільтр або пошуковий запит.
+        <!-- Категорії -->
+        <div class="d-flex flex-wrap gap-2 mt-3" id="categoryFilters">
+          <button
+            class="btn btn-primary btn-sm filter-btn active"
+            data-filter="all"
+          >
+            Усі
+          </button>
+          <button
+            class="btn btn-outline-secondary btn-sm filter-btn"
+            data-filter="fav"
+          >
+            ⭐ Мої курси
+            <span id="favCount" class="badge bg-warning text-dark ms-1">0</span>
+          </button>
+          <button
+            class="btn btn-outline-secondary btn-sm filter-btn"
+            data-filter="1-4"
+          >
+            1-4 класи
+          </button>
+          <button
+            class="btn btn-outline-secondary btn-sm filter-btn"
+            data-filter="5-9"
+          >
+            5-9 класи
+          </button>
+          <button
+            class="btn btn-outline-secondary btn-sm filter-btn"
+            data-filter="10-11"
+          >
+            10-11 класи
+          </button>
+          <button
+            class="btn btn-outline-secondary btn-sm filter-btn"
+            data-filter="fn"
+          >
+            Індивідуальна ФН
+          </button>
+        </div>
+
+        <!-- Номери класів (1-11) -->
+        <div class="d-flex align-items-center gap-1 mt-3 pt-2 border-top">
+          <span class="small text-muted me-2">Клас:</span>
+          <div class="d-flex flex-wrap gap-1" id="classNumberFilters"></div>
+        </div>
+      </div>
+
+      <!-- Сітка курсів (та Скелетони під час завантаження) -->
+      <div class="row g-3" id="coursesGrid">
+        <!-- 6 Скелетонів за замовчуванням -->
+        <script>
+          document.write(
+            Array(6)
+              .fill(
+                `
+                    <div class="col-md-6 col-lg-4 skeleton-card">
+                        <div class="course-card p-3">
+                            <div>
+                                <div class="d-flex justify-content-between mb-2">
+                                    <div class="skeleton" style="width: 60px; height: 20px;"></div>
+                                    <div class="skeleton" style="width: 20px; height: 20px;"></div>
+                                </div>
+                                <div class="skeleton mb-2" style="width: 80%; height: 24px;"></div>
+                            </div>
+                            <div class="skeleton mt-3" style="width: 100%; height: 36px;"></div>
+                        </div>
+                    </div>
+                `,
+              )
+              .join(""),
+          );
+        </script>
+      </div>
+
+      <!-- Заглушка "Нічого не знайдено" (Empty State) -->
+      <div id="emptyState" class="search-card text-center py-5 d-none my-4 p-4">
+        <div class="fs-1 text-muted mb-2">🔍</div>
+        <h5 class="fw-bold">Курсів не знайдено</h5>
+        <p class="text-muted small mb-3">
+          За вашим запитом або обраними фільтрами жодного предмета не виявлено.
         </p>
+        <button
+          class="btn btn-outline-primary btn-sm px-4"
+          id="resetFiltersBtn"
+        >
+          Скинути всі фільтри
+        </button>
       </div>
     </main>
 
-    <!-- Модальне вікно підтримки -->
-    <div
-      id="supportModal"
-      class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4"
-    >
-      <div
-        class="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl border border-slate-100 max-h-[90vh] overflow-y-auto custom-scrollbar"
-      >
-        <div
-          class="flex justify-between items-center mb-4 pb-3 border-b border-slate-100"
-        >
-          <h3 class="text-lg font-bold text-slate-900 flex items-center gap-2">
-            🛠️ Служба підтримки Workspace
-          </h3>
-          <button
-            onclick="toggleModal('supportModal')"
-            class="text-slate-400 hover:text-slate-600 text-xl font-bold"
-          >
-            &times;
-          </button>
-        </div>
-
-        <div class="space-y-4">
-          <div
-            class="bg-blue-50 border border-blue-200 rounded-xl p-3 text-xs text-blue-900"
-          >
-            💡 **Увага:** Вкажіть ваші діючі контактні дані та реальну
-            електронну пошту для отримання відповіді.
+    <!-- Підвал сайту (Footer) -->
+    <footer class="py-4">
+      <div class="container text-center text-md-start">
+        <div class="row g-3 align-items-center">
+          <div class="col-md-6">
+            <h6 class="text-white mb-1 fw-bold">SchoolGus Workspace</h6>
+            <p class="small mb-0">
+              Єдиний навчальний простір Гусятинської ЗОШ I-III ступенів
+            </p>
           </div>
-
-          <form
-            id="supportForm"
-            onsubmit="sendSupportTicket(event)"
-            class="space-y-3"
-          >
-            <input
-              type="text"
-              id="suppWebsite"
-              class="hidden"
-              autocomplete="off"
-              tabindex="-1"
-            />
-
-            <div>
-              <label class="block text-xs font-semibold text-slate-700 mb-1"
-                >Ваше ПІБ <span class="text-red-500">*</span></label
-              >
-              <input
-                type="text"
-                id="suppName"
-                required
-                placeholder="Шевченко Тарас"
-                class="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none"
-              />
-            </div>
-
-            <div>
-              <label class="block text-xs font-semibold text-slate-700 mb-1"
-                >Електронна пошта
-                <span class="text-red-500 font-normal"
-                  >(обовʼязково для заповнення)</span
-                ></label
-              >
-              <input
-                type="email"
-                id="suppEmail"
-                required
-                placeholder="name@example.com"
-                class="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none"
-              />
-            </div>
-
-            <div class="grid grid-cols-2 gap-2">
-              <div>
-                <label class="block text-xs font-semibold text-slate-700 mb-1"
-                  >Ваша роль</label
-                >
-                <select
-                  id="suppRole"
-                  class="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                >
-                  <option>Учень</option>
-                  <option>Батьки</option>
-                  <option>Вчитель</option>
-                </select>
-              </div>
-              <div>
-                <label class="block text-xs font-semibold text-slate-700 mb-1"
-                  >Тип проблеми</label
-                >
-                <select
-                  id="suppCategory"
-                  class="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                >
-                  <option>Забув пароль</option>
-                  <option>Немає потрібного курсу</option>
-                  <option>Помилка входу в акаунт</option>
-                  <option>Інше питання</option>
-                </select>
-              </div>
-            </div>
-
-            <div>
-              <label class="block text-xs font-semibold text-slate-700 mb-1"
-                >Опис проблеми <span class="text-red-500">*</span></label
-              >
-              <textarea
-                id="suppDetails"
-                rows="3"
-                required
-                placeholder="Вкажіть клас та деталі проблеми..."
-                class="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none"
-              ></textarea>
-            </div>
-
-            <button
-              type="submit"
-              class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2.5 rounded-xl text-xs shadow-md transition"
+          <div class="col-md-6 text-md-end small">
+            <a
+              href="#"
+              class="text-decoration-none text-muted me-3"
+              data-bs-toggle="modal"
+              data-bs-target="#scheduleModal"
+              >Розклад</a
             >
-              Надіслати звернення адміністратору 📩
-            </button>
-          </form>
-
-          <div
-            class="pt-3 border-t border-slate-100 text-xs text-slate-600 space-y-1.5"
-          >
-            <p class="font-semibold text-slate-800">
-              Прямі контакти адміністратора:
-            </p>
-            <p>
-              📧 Email:
-              <a
-                href="mailto:support@schoolgus.ukr.education"
-                class="text-blue-600 underline"
-                >support@schoolgus.ukr.education</a
-              >
-            </p>
+            <a
+              href="#"
+              class="text-decoration-none text-muted me-3"
+              data-bs-toggle="modal"
+              data-bs-target="#supportModal"
+              >Техпідтримка</a
+            >
+            <a
+              href="https://classroom.google.com"
+              target="_blank"
+              class="text-decoration-none text-primary"
+              >Google Classroom ↗</a
+            >
           </div>
+        </div>
+        <hr class="my-3 border-secondary" />
+        <div class="text-center small opacity-75">
+          © 2026 SchoolGus Workspace. Всі права захищено. Автоматизовано за
+          допомогою GAM.
         </div>
       </div>
-    </div>
-
-    <!-- Модальне вікно розкладу -->
-    <div
-      id="scheduleModal"
-      class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4"
-    >
-      <div
-        class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl border border-slate-100"
-      >
-        <div
-          class="flex justify-between items-center mb-4 pb-2 border-b border-slate-100"
-        >
-          <h3
-            class="text-base font-bold text-slate-900 flex items-center gap-2"
-          >
-            ⏰ Розклад дзвінків уроків
-          </h3>
-          <button
-            onclick="toggleModal('scheduleModal')"
-            class="text-slate-400 hover:text-slate-600 text-xl font-bold"
-          >
-            &times;
-          </button>
-        </div>
-
-        <div class="space-y-2 text-xs">
-          <div
-            class="grid grid-cols-3 font-semibold text-slate-500 pb-1 border-b"
-          >
-            <span>Урок</span>
-            <span>Час</span>
-            <span>Перерва</span>
-          </div>
-          <div
-            class="grid grid-cols-3 text-slate-800 py-1 border-b border-slate-50"
-          >
-            <span>1 урок</span><span class="font-medium">08:30 - 09:15</span
-            ><span class="text-slate-400">10 хв</span>
-          </div>
-          <div
-            class="grid grid-cols-3 text-slate-800 py-1 border-b border-slate-50"
-          >
-            <span>2 урок</span><span class="font-medium">09:25 - 10:10</span
-            ><span class="text-slate-400">15 хв</span>
-          </div>
-          <div
-            class="grid grid-cols-3 text-slate-800 py-1 border-b border-slate-50"
-          >
-            <span>3 урок</span><span class="font-medium">10:25 - 11:10</span
-            ><span class="text-slate-400">20 хв</span>
-          </div>
-          <div
-            class="grid grid-cols-3 text-slate-800 py-1 border-b border-slate-50"
-          >
-            <span>4 урок</span><span class="font-medium">11:30 - 12:15</span
-            ><span class="text-slate-400">15 хв</span>
-          </div>
-          <div
-            class="grid grid-cols-3 text-slate-800 py-1 border-b border-slate-50"
-          >
-            <span>5 урок</span><span class="font-medium">12:30 - 13:15</span
-            ><span class="text-slate-400">10 хв</span>
-          </div>
-          <div
-            class="grid grid-cols-3 text-slate-800 py-1 border-b border-slate-50"
-          >
-            <span>6 урок</span><span class="font-medium">13:25 - 14:10</span
-            ><span class="text-slate-400">10 хв</span>
-          </div>
-          <div class="grid grid-cols-3 text-slate-800 py-1">
-            <span>7 урок</span><span class="font-medium">14:20 - 15:05</span
-            ><span class="text-slate-400">-</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <footer
-      class="bg-white border-t border-slate-200 mt-auto py-4 text-center text-xs text-slate-500"
-    >
-      <p>
-        © SchoolGus Workspace | Автоматична маршрутизація домену
-        @schoolgus.ukr.education
-      </p>
     </footer>
 
+    <!-- Модальне вікно: Розклад дзвінків -->
+    <div class="modal fade" id="scheduleModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold">⏰ Розклад дзвінків уроків</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body p-0">
+            <table class="table table-striped mb-0 text-center">
+              <thead>
+                <tr>
+                  <th>Урок</th>
+                  <th>Час</th>
+                  <th>Перерва</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1 урок</td>
+                  <td>08:30 - 09:15</td>
+                  <td>10 хв</td>
+                </tr>
+                <tr>
+                  <td>2 урок</td>
+                  <td>09:25 - 10:10</td>
+                  <td>15 хв</td>
+                </tr>
+                <tr>
+                  <td>3 урок</td>
+                  <td>10:25 - 11:10</td>
+                  <td>20 хв</td>
+                </tr>
+                <tr>
+                  <td>4 урок</td>
+                  <td>11:30 - 12:15</td>
+                  <td>15 хв</td>
+                </tr>
+                <tr>
+                  <td>5 урок</td>
+                  <td>12:30 - 13:15</td>
+                  <td>10 хв</td>
+                </tr>
+                <tr>
+                  <td>6 урок</td>
+                  <td>13:25 - 14:10</td>
+                  <td>10 хв</td>
+                </tr>
+                <tr>
+                  <td>7 урок</td>
+                  <td>14:20 - 15:05</td>
+                  <td>-</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Модальне вікно: Техпідтримка -->
+    <div class="modal fade" id="supportModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold">🛠 Служба підтримки Workspace</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <form id="supportForm">
+            <div class="modal-body">
+              <div class="mb-3">
+                <label class="form-label small fw-bold">Ваше ПІБ *</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  required
+                  placeholder="Іванченко Петро"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label small fw-bold"
+                  >Електронна пошта *</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  required
+                  placeholder="user@schoolgus.ukr.education"
+                />
+              </div>
+              <div class="row mb-3">
+                <div class="col-6">
+                  <label class="form-label small fw-bold">Ваша роль</label>
+                  <select class="form-select">
+                    <option selected>Учень</option>
+                    <option>Вчитель</option>
+                    <option>Батьки</option>
+                  </select>
+                </div>
+                <div class="col-6">
+                  <label class="form-label small fw-bold">Тип проблеми</label>
+                  <select class="form-select">
+                    <option selected>Забув пароль</option>
+                    <option>Відсутній курс</option>
+                    <option>Інше питання</option>
+                  </select>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label small fw-bold">Опис проблеми *</label>
+                <textarea
+                  class="form-control"
+                  rows="3"
+                  required
+                  placeholder="Вкажіть клас та деталі..."
+                ></textarea>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-primary w-100">
+                Надіслати звернення 📩
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- SVG Логотип Google Classroom -->
+    <svg style="display: none">
+      <symbol id="icon-classroom" viewBox="0 0 24 24">
+        <path
+          fill="#0F9D58"
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"
+        />
+        <path
+          fill="#FFF"
+          d="M12 6c-1.93 0-3.5 1.57-3.5 3.5S10.07 13 12 13s3.5-1.57 3.5-3.5S13.93 6 12 6zm0 8c-2.8 0-5.6 1.4-5.6 2.8V18h11.2v-1.2c0-1.4-2.8-2.8-5.6-2.8z"
+        />
+      </symbol>
+    </svg>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script>
       let allCourses = [];
       let favorites = JSON.parse(localStorage.getItem("fav_courses") || "[]");
-      let activeFilter = "all";
+      let currentCategory = "all";
+      let currentClassNum = null;
 
-      function buildDomainCourseLink(rawLink, courseId) {
-        let id = courseId;
-        if (!id && rawLink && rawLink.includes("/c/")) {
-          const parts = rawLink.split("/c/");
-          if (parts[1]) {
-            id = parts[1].split("?")[0].split("/")[0];
-          }
-        }
+      // Перемикач темної теми
+      const themeToggle = document.getElementById("themeToggle");
+      themeToggle.addEventListener("click", () => {
+        const current = document.body.getAttribute("data-theme");
+        const target = current === "dark" ? "light" : "dark";
+        document.body.setAttribute("data-theme", target);
+        themeToggle.innerHTML =
+          target === "dark"
+            ? '<i class="bi bi-sun"></i>'
+            : '<i class="bi bi-moon-stars"></i>';
+      });
 
-        if (id) {
-          // Google Classroom веб-версія вимагає Base64 ID замість числового ID
-          if (/^\d+$/.test(id)) {
-            id = btoa(id);
-          }
-          return `https://classroom.google.com/c/${id}`;
-        }
-
-        return rawLink || "https://classroom.google.com";
+      // Генерація кнопок класів 1-11
+      const classContainer = document.getElementById("classNumberFilters");
+      for (let i = 1; i <= 11; i++) {
+        const btn = document.createElement("button");
+        btn.className = "btn btn-outline-secondary btn-sm class-btn";
+        btn.textContent = i;
+        btn.addEventListener("click", () => filterBySpecificClass(i, btn));
+        classContainer.appendChild(btn);
       }
 
-      function extractGrade(name) {
-        const match = name.match(
-          /(?:^|\s|\b)(\d{1,2})\s*[-–]?\s*[А-Яа-яA-Za-z]?\s*клас/i,
-        );
-        if (match) return parseInt(match[1], 10);
-
-        const prefixMatch = name.match(/^\d{2}\.\s*(\d{1,2})/);
-        if (prefixMatch) return parseInt(prefixMatch[1], 10);
-
-        const standaloneMatch = name.match(/\b(\d{1,2})\b/);
-        if (standaloneMatch) {
-          const val = parseInt(standaloneMatch[1], 10);
-          if (val >= 1 && val <= 11) return val;
+      // Завантаження даних
+      async function loadData() {
+        try {
+          const res = await fetch("courses.json");
+          const data = await res.json();
+          allCourses = data.courses || [];
+          document.getElementById("lastUpdated").textContent =
+            data.last_updated || "сьогодні";
+          renderCourses();
+        } catch (e) {
+          console.error("Помилка завантаження courses.json", e);
+          document.getElementById("lastUpdated").textContent = "помилка";
         }
-        return null;
       }
 
-      function toggleFavorite(id) {
+      function safeDecodeUrl(url) {
+        if (!url) return "#";
+        try {
+          return decodeURIComponent(url);
+        } catch (e) {
+          return url;
+        }
+      }
+
+      // Рендеринг карток
+      function renderCourses() {
+        const grid = document.getElementById("coursesGrid");
+        const search = document
+          .getElementById("searchInput")
+          .value.toLowerCase()
+          .trim();
+        const emptyState = document.getElementById("emptyState");
+
+        const filtered = allCourses.filter((c) => {
+          const matchSearch =
+            c.name.toLowerCase().includes(search) ||
+            (c.teacher && c.teacher.toLowerCase().includes(search));
+
+          let matchCat = true;
+          if (currentCategory === "fav") matchCat = favorites.includes(c.id);
+          else if (currentCategory === "1-4") matchCat = /^0[1-4]/.test(c.name);
+          else if (currentCategory === "5-9") matchCat = /^0[5-9]/.test(c.name);
+          else if (currentCategory === "10-11")
+            matchCat = /^(10|11)/.test(c.name);
+          else if (currentCategory === "fn")
+            matchCat = c.name.includes("Індивідуальна ФН");
+
+          let matchNum = true;
+          if (currentClassNum !== null) {
+            const prefix =
+              currentClassNum < 10
+                ? `0${currentClassNum}`
+                : `${currentClassNum}`;
+            matchNum = c.name.startsWith(prefix);
+          }
+
+          return matchSearch && matchCat && matchNum;
+        });
+
+        document.getElementById("courseCount").textContent = filtered.length;
+        document.getElementById("favCount").textContent = favorites.length;
+
+        if (filtered.length === 0) {
+          grid.innerHTML = "";
+          emptyState.classList.remove("d-none");
+          return;
+        }
+
+        emptyState.classList.add("d-none");
+        grid.innerHTML = filtered
+          .map(
+            (c) => `
+                <div class="col-md-6 col-lg-4">
+                    <div class="course-card p-3">
+                        <div>
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge badge-class px-2 py-1 rounded">${c.class || "Курс"}</span>
+                                <i class="bi ${favorites.includes(c.id) ? "bi-star-fill active" : "bi-star"} btn-star" 
+                                   onclick="toggleFav('${c.id}')" title="Обране"></i>
+                            </div>
+                            <h6 class="fw-bold mb-2 text-main">${c.name}</h6>
+                            <!-- Поле вчителя відображається ТІЛЬКИ якщо воно заповнене -->
+                            ${c.teacher && c.teacher.trim() !== "" ? `<p class="text-muted small mb-0"><i class="bi bi-person"></i> ${c.teacher}</p>` : ""}
+                        </div>
+                        <div class="mt-3">
+                            <a href="${safeDecodeUrl(c.link)}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm w-100 fw-medium">
+                                <svg class="classroom-icon"><use href="#icon-classroom"/></svg>
+                                Перейти до курсу ↗
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `,
+          )
+          .join("");
+      }
+
+      function filterBySpecificClass(num, btnElement) {
+        document
+          .querySelectorAll(".class-btn")
+          .forEach((b) => b.classList.remove("btn-primary", "text-white"));
+        if (currentClassNum === num) {
+          currentClassNum = null;
+        } else {
+          currentClassNum = num;
+          btnElement.classList.add("btn-primary", "text-white");
+        }
+        renderCourses();
+      }
+
+      function toggleFav(id) {
         if (favorites.includes(id)) {
-          favorites = favorites.filter((fId) => fId !== id);
+          favorites = favorites.filter((f) => f !== id);
         } else {
           favorites.push(id);
         }
         localStorage.setItem("fav_courses", JSON.stringify(favorites));
-        updateFavBadge();
         renderCourses();
       }
 
-      function updateFavBadge() {
-        document.getElementById("favBadge").textContent = favorites.length;
-      }
-
-      function toggleModal(id) {
-        const modal = document.getElementById(id);
-        modal.classList.toggle("hidden");
-      }
-
-      function sendSupportTicket(e) {
-        e.preventDefault();
-
-        const honeypot = document.getElementById("suppWebsite").value;
-        if (honeypot) return;
-
-        const name = document.getElementById("suppName").value.trim();
-        const email = document
-          .getElementById("suppEmail")
-          .value.trim()
-          .toLowerCase();
-        const role = document.getElementById("suppRole").value;
-        const cat = document.getElementById("suppCategory").value;
-        const details = document.getElementById("suppDetails").value.trim();
-
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(email)) {
-          alert(
-            "Помилка! Вкажіть коректну адресу електронної пошти (наприклад: name@gmail.com або pib@schoolgus.ukr.education)",
-          );
-          return;
-        }
-
-        if (details.length < 10) {
-          alert(
-            "Будь ласка, вкажіть детальніший опис проблеми (мінімум 10 символів).",
-          );
-          return;
-        }
-
-        const subject = encodeURIComponent(
-          `Звернення у підтримку Workspace: ${cat} (${role})`,
-        );
-        const body = encodeURIComponent(
-          `Заявник: ${name}\nЕлектронна пошта: ${email}\nРоль: ${role}\nКатегорія: ${cat}\n\nОпис проблеми:\n${details}`,
-        );
-
-        window.location.href = `mailto:support@schoolgus.ukr.education?subject=${subject}&body=${body}`;
-        toggleModal("supportModal");
-      }
-
-      async function loadCourses() {
-        try {
-          const response = await fetch("courses.json");
-          const data = await response.json();
-
-          if (Array.isArray(data)) {
-            allCourses = data;
-          } else {
-            allCourses = data.courses || [];
-            if (data.last_updated) {
-              document.getElementById("lastUpdatedText").textContent =
-                `Оновлено: ${data.last_updated}`;
-            }
-          }
-          document.getElementById("totalCount").textContent = allCourses.length;
-          updateFavBadge();
-          renderCourses();
-        } catch (error) {
-          console.error("Помилка завантаження courses.json:", error);
-          document.getElementById("totalCount").textContent = "0";
-        }
-      }
-
-      function renderCourses() {
-        const grid = document.getElementById("coursesGrid");
-        const noResults = document.getElementById("noResults");
-        const query = document
-          .getElementById("searchInput")
-          .value.toLowerCase()
-          .trim();
-
-        const filtered = allCourses.filter((course) => {
-          const nameLower = course.name.toLowerCase();
-          const teacherLower = (course.teacher || "").toLowerCase();
-          const matchesSearch =
-            !query || nameLower.includes(query) || teacherLower.includes(query);
-
-          if (!matchesSearch) return false;
-
-          const grade = extractGrade(course.name);
-          const isFN =
-            nameLower.includes("індивідуальна фн") ||
-            nameLower.includes("екстернат") ||
-            nameLower.includes("сімейна") ||
-            nameLower.includes("педпатронаж");
-
-          if (activeFilter === "all") return true;
-          if (activeFilter === "fav") return favorites.includes(course.id);
-          if (activeFilter === "fn") return isFN;
-
-          if (activeFilter === "group-1-4") return grade >= 1 && grade <= 4;
-          if (activeFilter === "group-5-9") return grade >= 5 && grade <= 9;
-          if (activeFilter === "group-10-11") return grade >= 10 && grade <= 11;
-
-          const targetGrade = parseInt(activeFilter, 10);
-          if (!isNaN(targetGrade)) return grade === targetGrade;
-
-          return true;
-        });
-
-        grid.innerHTML = "";
-
-        if (filtered.length === 0) {
-          noResults.classList.remove("hidden");
-        } else {
-          noResults.classList.add("hidden");
-          filtered.forEach((course) => {
-            const domainLink = buildDomainCourseLink(course.link, course.id);
-            const isFav = favorites.includes(course.id);
-
-            const card = document.createElement("div");
-            card.className =
-              "bg-white p-4 rounded-xl border border-slate-200/90 shadow-sm flex flex-col justify-between hover:shadow-md transition relative group";
-            card.innerHTML = `
-                        <div>
-                            <div class="flex items-start justify-between gap-2 mb-2">
-                                <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-slate-100 text-slate-700">
-                                    ${extractGrade(course.name) ? extractGrade(course.name) + " клас" : "Загальний"}
-                                </span>
-                                <button onclick="toggleFavorite('${course.id}')" title="Додати в обране" class="text-base transition hover:scale-125">
-                                    ${isFav ? "⭐" : "☆"}
-                                </button>
-                            </div>
-                            <h3 class="text-sm font-bold text-slate-900 mb-1 leading-snug group-hover:text-blue-600 transition">
-                                ${course.name}
-                            </h3>
-                            ${course.teacher ? `<p class="text-[11px] text-slate-500">👨‍🏫 ${course.teacher}</p>` : ""}
-                        </div>
-                        <a href="${domainLink}" target="_blank" rel="noopener noreferrer" 
-                           class="w-full mt-3 bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-3 rounded-lg text-xs text-center flex items-center justify-center gap-1.5 transition">
-                            Перейти до курсу ↗
-                        </a>
-                    `;
-            grid.appendChild(card);
-          });
-        }
-      }
-
+      // Події
       document
         .getElementById("searchInput")
         .addEventListener("input", renderCourses);
 
-      document.querySelectorAll(".filter-btn").forEach((btn) => {
-        btn.addEventListener("click", (e) => {
-          document.querySelectorAll(".filter-btn").forEach((b) => {
-            b.className = b.className.replace(
-              "bg-blue-600 text-white shadow-sm",
-              "bg-slate-100 text-slate-700 hover:bg-slate-200",
-            );
-          });
-          const target = e.currentTarget;
-          target.className = target.className.replace(
-            "bg-slate-100 text-slate-700 hover:bg-slate-200",
-            "bg-blue-600 text-white shadow-sm",
-          );
-          activeFilter = target.dataset.filter;
+      document
+        .getElementById("categoryFilters")
+        .addEventListener("click", (e) => {
+          if (e.target.classList.contains("filter-btn")) {
+            document.querySelectorAll(".filter-btn").forEach((b) => {
+              b.classList.remove("active", "btn-primary");
+              b.classList.add("btn-outline-secondary");
+            });
+            e.target.classList.remove("btn-outline-secondary");
+            e.target.classList.add("active", "btn-primary");
+            currentCategory = e.target.dataset.filter;
+            renderCourses();
+          }
+        });
+
+      document
+        .getElementById("resetFiltersBtn")
+        .addEventListener("click", () => {
+          document.getElementById("searchInput").value = "";
+          currentCategory = "all";
+          currentClassNum = null;
+          document
+            .querySelectorAll(".filter-btn")
+            .forEach((b) => b.classList.remove("active", "btn-primary"));
+          document
+            .querySelector('[data-filter="all"]')
+            .classList.add("active", "btn-primary");
+          document
+            .querySelectorAll(".class-btn")
+            .forEach((b) => b.classList.remove("btn-primary", "text-white"));
           renderCourses();
         });
-      });
 
-      loadCourses();
+      loadData();
     </script>
   </body>
 </html>
