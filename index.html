@@ -446,9 +446,16 @@
           }
         }
 
-        const separator = baseLink.includes("?") ? "&" : "?";
-        const directLink = `${baseLink}${separator}authuser=${DOMAIN}`;
-        return `https://accounts.google.com/AccountChooser?hd=${DOMAIN}&continue=${encodeURIComponent(directLink)}`;
+        // Очищаємо посилання від небажаних параметрів authuser, щоб уникнути зациклення
+        try {
+          const url = new URL(baseLink);
+          url.searchParams.delete("authuser");
+          baseLink = url.toString();
+        } catch (e) {
+          // Якщо некоректний URL — залишаємо як є
+        }
+
+        return `https://accounts.google.com/AccountChooser?hd=${DOMAIN}&continue=${encodeURIComponent(baseLink)}`;
       }
 
       function extractGrade(name) {
