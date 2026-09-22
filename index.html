@@ -429,10 +429,25 @@
       let favorites = JSON.parse(localStorage.getItem("fav_courses") || "[]");
       let activeFilter = "all";
 
-      function buildDomainCourseLink(rawLink) {
-        if (!rawLink) return "#";
-        const separator = rawLink.includes("?") ? "&" : "?";
-        const directLink = `${rawLink}${separator}authuser=${DOMAIN}`;
+      function buildDomainCourseLink(rawLink, courseId) {
+        let baseLink = rawLink;
+
+        // Перевіряємо, чи є в rawLink точна адреса класу (/c/...).
+        // Якщо немає — будуємо її за ID курсу
+        if (
+          !baseLink ||
+          !baseLink.includes("/c/") ||
+          baseLink === "https://classroom.google.com"
+        ) {
+          if (courseId) {
+            baseLink = `https://classroom.google.com/c/${courseId}`;
+          } else {
+            baseLink = "https://classroom.google.com";
+          }
+        }
+
+        const separator = baseLink.includes("?") ? "&" : "?";
+        const directLink = `${baseLink}${separator}authuser=${DOMAIN}`;
         return `https://accounts.google.com/AccountChooser?hd=${DOMAIN}&continue=${encodeURIComponent(directLink)}`;
       }
 
@@ -479,7 +494,6 @@
         // Захист від спам-ботів (Honeypot)
         const honeypot = document.getElementById("suppWebsite").value;
         if (honeypot) {
-          // Якщо приховане поле заповнене ботом - ігноруємо
           return;
         }
 
@@ -501,7 +515,7 @@
           return;
         }
 
-        // Перевірка мінімальної довжини опису проблеми (захист від спаму)
+        // Перевірка мінімальної довжини опису проблеми
         if (details.length < 10) {
           alert(
             "Будь ласка, вкажіть детальніший опис проблеми (мінімум 10 символів).",
@@ -516,7 +530,6 @@
           `Заявник: ${name}\nЕлектронна пошта: ${email}\nРоль: ${role}\nКатегорія: ${cat}\n\nОпис проблеми:\n${details}`,
         );
 
-        // Відправка листа на support@schoolgus.ukr.education
         window.location.href = `mailto:support@schoolgus.ukr.education?subject=${subject}&body=${body}`;
         toggleModal("supportModal");
       }
@@ -540,6 +553,7 @@
           renderCourses();
         } catch (error) {
           console.error("Помилка завантаження courses.json:", error);
+          document.getElementById("totalCount").textContent = "0";
         }
       }
 
@@ -587,7 +601,7 @@
         } else {
           noResults.classList.add("hidden");
           filtered.forEach((course) => {
-            const domainLink = buildDomainCourseLink(course.link);
+            const domainLink = buildDomainCourseLink(course.link, course.id);
             const isFav = favorites.includes(course.id);
 
             const card = document.createElement("div");
