@@ -424,38 +424,18 @@
     </footer>
 
     <script>
-      const DOMAIN = "schoolgus.ukr.education";
       let allCourses = [];
       let favorites = JSON.parse(localStorage.getItem("fav_courses") || "[]");
       let activeFilter = "all";
 
       function buildDomainCourseLink(rawLink, courseId) {
-        let baseLink = rawLink;
-
-        // Перевіряємо, чи є в rawLink точна адреса класу (/c/...).
-        // Якщо немає — будуємо її за ID курсу
-        if (
-          !baseLink ||
-          !baseLink.includes("/c/") ||
-          baseLink === "https://classroom.google.com"
-        ) {
-          if (courseId) {
-            baseLink = `https://classroom.google.com/c/${courseId}`;
-          } else {
-            baseLink = "https://classroom.google.com";
-          }
+        if (courseId) {
+          return `https://classroom.google.com/c/${courseId}`;
         }
-
-        // Очищаємо посилання від небажаних параметрів authuser, щоб уникнути зациклення
-        try {
-          const url = new URL(baseLink);
-          url.searchParams.delete("authuser");
-          baseLink = url.toString();
-        } catch (e) {
-          // Якщо некоректний URL — залишаємо як є
+        if (rawLink && rawLink.includes("/c/")) {
+          return rawLink;
         }
-
-        return `https://accounts.google.com/AccountChooser?hd=${DOMAIN}&continue=${encodeURIComponent(baseLink)}`;
+        return "https://classroom.google.com";
       }
 
       function extractGrade(name) {
