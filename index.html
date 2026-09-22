@@ -638,23 +638,18 @@
           let matchCat = true;
           if (currentCategory === "fav") matchCat = favorites.includes(c.id);
           else if (currentCategory === "1-4")
-            matchCat = /^(0[1-4]|[1-4])/.test(courseName);
+            matchCat = /^(0?[1-4])(?!\d)/.test(courseName);
           else if (currentCategory === "5-9")
-            matchCat = /^(0[5-9]|[5-9])/.test(courseName);
+            matchCat = /^(0?[5-9])(?!\d)/.test(courseName);
           else if (currentCategory === "10-11")
-            matchCat = /^(10|11)/.test(courseName);
+            matchCat = /^(10|11)(?!\d)/.test(courseName);
           else if (currentCategory === "fn")
             matchCat = courseName.includes("Індивідуальна ФН");
 
           let matchNum = true;
           if (currentClassNum !== null) {
-            const prefix1 =
-              currentClassNum < 10
-                ? `0${currentClassNum}`
-                : `${currentClassNum}`;
-            const prefix2 = `${currentClassNum}`;
-            matchNum =
-              courseName.startsWith(prefix1) || courseName.startsWith(prefix2);
+            const classRegex = new RegExp(`^(0?${currentClassNum})(?!\\d)`);
+            matchNum = classRegex.test(courseName);
           }
 
           return matchSearch && matchCat && matchNum;
