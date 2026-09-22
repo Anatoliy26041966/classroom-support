@@ -1,1040 +1,3950 @@
 [
   {
-    "id": "886180043678",
-    "name": "11-Б • Захист України (дівч.)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTgwMDQzNjc4"
-  },
-  {
-    "id": "869729497982",
-    "name": "11-Б • Фізична культура (дівч.)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY5NzI5NDk3OTgy"
-  },
-  {
-    "id": "886178940214",
-    "name": "11-Б • Технології (Гр. 2)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8OTQwMjE0"
-  },
-  {
-    "id": "886178489112",
-    "name": "11-Б • Інформатика (Гр. 2)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8NDg5MTEy"
-  },
-  {
-    "id": "886180021978",
-    "name": "11-Б • Англійська мова (Гр. 2)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTgwMDIxOTc4"
-  },
-  {
-    "id": "886179456178",
-    "name": "11-Б • Українська мова (Гр. 2)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NDU2MTc4"
-  },
-  {
-    "id": "869729641010",
-    "name": "11-А • Захист України (дівч.)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY5NzI5NjQxMDEw"
-  },
-  {
-    "id": "886178991036",
-    "name": "11-А • Фізична культура (дівч.)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8OTkxMDM2"
-  },
-  {
-    "id": "886179288701",
-    "name": "11-А • Технології (Гр. 2)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5Mjg4NzAx"
-  },
-  {
-    "id": "886180165707",
-    "name": "11-А • Інформатика (Гр. 2)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTgwMTY1NzA3"
-  },
-  {
-    "id": "886178711336",
-    "name": "11-А • Англійська мова (Гр. 2)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8NzExMzM2"
-  },
-  {
-    "id": "886179680803",
-    "name": "11-А • Українська мова (Гр. 2)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NjgwODAz"
-  },
-  {
-    "id": "886179791525",
-    "name": "10-Б • Захист України (дівч.)",
-    "section": "🟡 [10 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NzkxNTI1"
-  },
-  {
-    "id": "886179194918",
-    "name": "10-Б • Фізична культура (дівч.)",
-    "section": "🟡 [10 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MTk0OTE4"
-  },
-  {
-    "id": "886179603921",
-    "name": "10-Б • Технології (Гр. 2)",
-    "section": "🟡 [10 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NjAzOTIx"
-  },
-  {
-    "id": "886179073863",
-    "name": "10-Б • Інформатика (Гр. 2)",
-    "section": "🟡 [10 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MDczODYz"
-  },
-  {
-    "id": "886179854310",
-    "name": "10-Б • Англійська мова (Гр. 2)",
-    "section": "🟡 [10 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5ODU0MzEw"
-  },
-  {
-    "id": "886179097543",
-    "name": "10-Б • Українська мова (Гр. 2)",
-    "section": "🟡 [10 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MDk3NTQz"
-  },
-  {
-    "id": "886179723394",
-    "name": "10-А • Захист України (дівч.)",
-    "section": "🟡 [10 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NzIzMzk4"
-  },
-  {
-    "id": "886179095734",
-    "name": "10-А • Фізична культура (дівч.)",
-    "section": "🟡 [10 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MDk1NzM0"
-  },
-  {
-    "id": "886179498267",
-    "name": "10-А • Технології (Гр. 2)",
-    "section": "🟡 [10 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NDk4MjY3"
-  },
-  {
-    "id": "886179608824",
-    "name": "10-А • Інформатика (Гр. 2)",
-    "section": "🟡 [10 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NjA4ODI0"
-  },
-  {
-    "id": "886179820265",
-    "name": "10-А • Англійська мова (Гр. 2)",
-    "section": "🟡 [10 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5ODIwMjY1"
-  },
-  {
-    "id": "886178889021",
-    "name": "10-А • Українська мова (Гр. 2)",
-    "section": "🟡 [10 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4ODg5MDIx"
-  },
-  {
-    "id": "886179892499",
-    "name": "09-Г • Технології (Гр. 2)",
-    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5ODkyNDk5"
-  },
-  {
-    "id": "886178609185",
-    "name": "09-Г • Інформатика (Гр. 2)",
-    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4NjA5MTg1"
-  },
-  {
-    "id": "886178396876",
-    "name": "09-Г • Англійська мова (Гр. 2)",
-    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4Mzk2ODc2"
-  },
-  {
-    "id": "886179149884",
-    "name": "09-Г • Українська мова (Гр. 2)",
-    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MTQ5ODg0"
-  },
-  {
-    "id": "886178310510",
-    "name": "09-В • Технології (Гр. 2)",
-    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8MzEwNTEw"
-  },
-  {
-    "id": "886179250956",
-    "name": "09-В • Інформатика (Гр. 2)",
-    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MjUwOTU2"
-  },
-  {
-    "id": "886179425156",
-    "name": "09-В • Англійська мова (Гр. 2)",
-    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NDI1MTU2"
-  },
-  {
-    "id": "886179845865",
-    "name": "09-В • Українська мова (Гр. 2)",
-    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc9ODQ1ODY1"
-  },
-  {
-    "id": "869729560577",
-    "name": "09-Б • Технології (Гр. 2)",
-    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY5NzI5NTYwNTc3"
-  },
-  {
-    "id": "886179848327",
-    "name": "09-Б • Інформатика (Гр. 2)",
-    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc9ODQ4MzI3"
-  },
-  {
-    "id": "886178318484",
-    "name": "09-Б • Англійська мова (Гр. 2)",
-    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8MzE4NDg0"
-  },
-  {
-    "id": "886179710679",
-    "name": "09-Б • Українська мова (Гр. 2)",
-    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NzEwNjc5"
-  },
-  {
-    "id": "886178621642",
-    "name": "09-А • Технології (Гр. 2)",
-    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8NjIxNjQy"
-  },
-  {
-    "id": "886178292129",
-    "name": "09-А • Інформатика (Гр. 2)",
-    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8MjkyMTI5"
-  },
-  {
-    "id": "886179760520",
-    "name": "09-А • Англійська мова (Гр. 2)",
-    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NzYwNTIw"
-  },
-  {
-    "id": "886179514009",
-    "name": "09-А • Українська мова (Гр. 2)",
-    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NTE0MDA5"
-  },
-  {
-    "id": "886179110162",
-    "name": "08-Г • Технології (Гр. 2)",
-    "section": "🟤 [8 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MTEwMTYy"
-  },
-  {
-    "id": "886179429994",
-    "name": "08-Г • Інформатика (Гр. 2)",
-    "section": "🟤 [8 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NDI5OTk4"
-  },
-  {
-    "id": "886178486571",
-    "name": "08-Г • Англійська мова (Гр. 2)",
-    "section": "🟤 [8 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8NDg2NTcx"
-  },
-  {
-    "id": "886179607287",
-    "name": "08-Г • Українська мова (Гр. 2)",
-    "section": "🟤 [8 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NjA3Mjg3"
-  },
-  {
-    "id": "886179536475",
-    "name": "08-В • Технології (Гр. 2)",
-    "section": "🟤 [8 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NTM2NDc1"
-  },
-  {
-    "id": "886178568639",
-    "name": "08-В • Інформатика (Гр. 2)",
-    "section": "🟤 [8 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8NTY4NjM5"
-  },
-  {
-    "id": "886178310448",
-    "name": "08-В • Англійська мова (Гр. 2)",
-    "section": "🟤 [8 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8MzEwNDQ4"
-  },
-  {
-    "id": "886178094271",
-    "name": "08-В • Українська мова (Гр. 2)",
-    "section": "🟤 [8 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8MDk0Mjcx"
-  },
-  {
-    "id": "886178591714",
-    "name": "08-Б • Технології (Гр. 2)",
-    "section": "🟤 [8 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8NTkxNzE0"
-  },
-  {
-    "id": "886178695507",
-    "name": "08-Б • Інформатика (Гр. 2)",
-    "section": "🟤 [8 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8Njk1NTA3"
-  },
-  {
-    "id": "886179365770",
-    "name": "08-Б • Англійська мова (Гр. 2)",
-    "section": "🟤 [8 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MzY1Nzcw"
-  },
-  {
-    "id": "869729617906",
-    "name": "08-Б • Українська мова (Гр. 2)",
-    "section": "🟤 [8 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY5NzI5NjE3OTA2"
-  },
-  {
-    "id": "869729548548",
-    "name": "08-А • Технології (Гр. 2)",
-    "section": "🟤 [8 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY5NzI5NTQ4NTQ4"
-  },
-  {
-    "id": "886179393443",
-    "name": "08-А • Інформатика (Гр. 2)",
-    "section": "🟤 [8 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MzkzNDQz"
-  },
-  {
-    "id": "869729641223",
-    "name": "08-А • Англійська мова (Гр. 2)",
-    "section": "🟤 [8 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY5NzI5NjQxMjIz"
-  },
-  {
-    "id": "869729533019",
-    "name": "08-А • Українська мова (Гр. 2)",
-    "section": "🟤 [8 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY5NzI5NTMzMDE5"
-  },
-  {
-    "id": "886177988411",
-    "name": "07-Г • Технології (Гр. 2)",
-    "section": "🟣 [7 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc3OTg4NDEx"
-  },
-  {
-    "id": "886178505935",
-    "name": "07-Г • Інформатика (Гр. 2)",
-    "section": "🟣 [7 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8NTA1OTM1"
-  },
-  {
-    "id": "886178358003",
-    "name": "07-Г • Англійська мова (Гр. 2)",
-    "section": "🟣 [7 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8MzU4MDAz"
-  },
-  {
-    "id": "886179414964",
-    "name": "07-Г • Українська мова (Гр. 2)",
-    "section": "🟣 [7 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NDE0OTY0"
-  },
-  {
-    "id": "886178374406",
-    "name": "07-В • Технології (Гр. 2)",
-    "section": "🟣 [7 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8Mzc0NDA2"
-  },
-  {
-    "id": "886178995232",
-    "name": "07-В • Інформатика (Гр. 2)",
-    "section": "🟣 [7 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8OTk1MjMy"
-  },
-  {
-    "id": "886177597506",
-    "name": "07-В • Англійська мова (Гр. 2)",
-    "section": "🟣 [7 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc3NTk3NTA2"
-  },
-  {
-    "id": "886179675314",
-    "name": "07-В • Українська мова (Гр. 2)",
-    "section": "🟣 [7 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5Njc1MzE0"
-  },
-  {
-    "id": "886179582873",
-    "name": "07-Б • Технології (Гр. 2)",
-    "section": "🟣 [7 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NTgyODcz"
-  },
-  {
-    "id": "886178518854",
-    "name": "07-Б • Інформатика (Гр. 2)",
-    "section": "🟣 [7 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8NTE4ODU0"
-  },
-  {
-    "id": "886178902347",
-    "name": "07-Б • Англійська мова (Гр. 2)",
-    "section": "🟣 [7 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8OTAyMzQ3"
-  },
-  {
-    "id": "886179493855",
-    "name": "07-Б • Українська мова (Гр. 2)",
-    "section": "🟣 [7 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NDkzODU1"
-  },
-  {
-    "id": "886178097765",
-    "name": "07-А • Технології (Гр. 2)",
-    "section": "🟣 [7 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8MDk3NzY1"
-  },
-  {
-    "id": "886179543464",
-    "name": "07-А • Інформатика (Гр. 2)",
-    "section": "🟣 [7 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NTQ3NDY0"
-  },
-  {
-    "id": "886178537430",
-    "name": "07-А • Англійська мова (Гр. 2)",
-    "section": "🟣 [7 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8NTM3NDMw"
-  },
-  {
-    "id": "886179738747",
-    "name": "07-А • Українська мова (Гр. 2)",
-    "section": "🟣 [7 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NzM4NzQ3"
-  },
-  {
-    "id": "886177917160",
-    "name": "06-Г • Українська мова (Гр. 2)",
-    "section": "🟦 [6 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc3OTE3MTYw"
-  },
-  {
-    "id": "886176124779",
-    "name": "06-В • Українська мова (Гр. 2)",
-    "section": "🟦 [6 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc2MTI0Nzc5"
-  },
-  {
-    "id": "886178471805",
-    "name": "06-Б • Українська мова (Гр. 2)",
-    "section": "🟦 [6 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4NDcxODA1"
-  },
-  {
-    "id": "886179353677",
-    "name": "06-А • Українська мова (Гр. 2)",
-    "section": "🟦 [6 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MzUzNjc3"
-  },
-  {
-    "id": "886179805801",
-    "name": "05-Г • Українська мова (Гр. 2)",
-    "section": "🔵 [5 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5ODA1ODAx"
-  },
-  {
-    "id": "886178631872",
-    "name": "05-В • Українська мова (Гр. 2)",
-    "section": "🔵 [5 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4NjMxODcy"
-  },
-  {
-    "id": "886179173291",
-    "name": "05-Б • Українська мова (Гр. 2)",
-    "section": "🔵 [5 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MTczMjkx"
-  },
-  {
-    "id": "869729615241",
-    "name": "05-А • Українська мова (Гр. 2)",
-    "section": "🔵 [5 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY5NzI5NjE1MjQx"
-  },
-  {
-    "id": "886179358992",
-    "name": "04-Г • Інформатика (Гр. 2)",
-    "section": "🟢 [4 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MzU4OTky"
-  },
-  {
-    "id": "886179125753",
-    "name": "04-Г • Англійська мова (Гр. 2)",
-    "section": "🟢 [4 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MTI1NzUz"
-  },
-  {
-    "id": "886179567733",
-    "name": "04-Г • Українська мова (Гр. 2)",
-    "section": "🟢 [4 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NTY3NzMz"
-  },
-  {
-    "id": "886179700029",
-    "name": "04-Г • Українська мова (Гр. 1)",
-    "section": "🟢 [4 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NzAwMDI5"
-  },
-  {
-    "id": "886179283042",
-    "name": "04-В • Інформатика (Гр. 2)",
-    "section": "🟢 [4 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MjgzMDQy"
-  },
-  {
-    "id": "886179234560",
-    "name": "04-В • Англійська мова (Гр. 2)",
-    "section": "🟢 [4 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MjM0NTYw"
-  },
-  {
-    "id": "886178885284",
-    "name": "04-В • Українська мова (Гр. 2)",
-    "section": "🟢 [4 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4ODg1Mjg0"
-  },
-  {
-    "id": "886174890318",
-    "name": "04-В • Українська мова (Гр. 1)",
-    "section": "🟢 [4 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc0ODkwMzE4"
-  },
-  {
-    "id": "886178918422",
-    "name": "04-Б • Інформатика (Гр. 2)",
-    "section": "🟢 [4 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4OTE4NDIy"
-  },
-  {
-    "id": "886178331651",
-    "name": "04-Б • Англійська мова (Гр. 2)",
-    "section": "🟢 [4 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4MzMxNjUx"
-  },
-  {
-    "id": "886179065574",
-    "name": "04-Б • Українська мова (Гр. 2)",
-    "section": "🟢 [4 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MDY1NTc0"
-  },
-  {
-    "id": "886178586024",
-    "name": "04-Б • Українська мова (Гр. 1)",
-    "section": "🟢 [4 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4NTg2MDI0"
-  },
-  {
-    "id": "886178795599",
-    "name": "04-А • Інформатика (Гр. 2)",
-    "section": "🟢 [4 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8Nzk1NTk5"
-  },
-  {
-    "id": "886179306219",
-    "name": "04-А • Англійська мова (Гр. 2)",
-    "section": "🟢 [4 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MzA2MjE5"
-  },
-  {
-    "id": "886179221109",
-    "name": "04-А • Українська мова (Гр. 2)",
-    "section": "🟢 [4 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MjIxMTA5"
-  },
-  {
-    "id": "886178964922",
-    "name": "04-А • Українська мова (Гр. 1)",
-    "section": "🟢 [4 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4OTY0OTIy"
-  },
-  {
-    "id": "886178530167",
-    "name": "03-Г • Інформатика (Гр. 2)",
-    "section": "🟡 [3 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8NTMwMTY3"
-  },
-  {
-    "id": "886178909580",
-    "name": "03-Г • Англійська мова (Гр. 2)",
-    "section": "🟡 [3 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4OTA5NTgw"
-  },
-  {
-    "id": "886179239383",
-    "name": "03-Г • Українська мова (Гр. 2)",
-    "section": "🟡 [3 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MjM5Mzgz"
-  },
-  {
-    "id": "886178958473",
-    "name": "03-Г • Українська мова (Гр. 1)",
-    "section": "🟡 [3 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4OTU4NDcz"
-  },
-  {
-    "id": "886176983852",
-    "name": "03-В • Інформатика (Гр. 2)",
-    "section": "🟡 [3 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc2OTgzODUy"
-  },
-  {
-    "id": "886179013504",
-    "name": "03-В • Англійська мова (Гр. 2)",
-    "section": "🟡 [3 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MDEzNTA0"
-  },
-  {
-    "id": "886178297313",
-    "name": "03-В • Українська мова (Гр. 2)",
-    "section": "🟡 [3 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4Mjk3MzEz"
-  },
-  {
-    "id": "886178969356",
-    "name": "03-В • Українська мова (Гр. 1)",
-    "section": "🟡 [3 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4OTY5MzU2"
-  },
-  {
-    "id": "886179548312",
-    "name": "03-Б • Інформатика (Гр. 2)",
-    "section": "🟡 [3 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NTQ4MzEy"
-  },
-  {
-    "id": "886178924078",
-    "name": "03-Б • Англійська мова (Гр. 2)",
-    "section": "🟡 [3 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8OTI0MDc4"
-  },
-  {
-    "id": "886178189607",
-    "name": "03-Б • Українська мова (Гр. 2)",
-    "section": "🟡 [3 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8MTg5NjA3"
-  },
-  {
-    "id": "886178438693",
-    "name": "03-Б • Українська мова (Гр. 1)",
-    "section": "🟡 [3 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4NDM4Njk3"
-  },
-  {
-    "id": "886179263586",
-    "name": "03-А • Інформатика (Гр. 2)",
-    "section": "🟡 [3 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MjYzNTg2"
-  },
-  {
-    "id": "886178631783",
-    "name": "03-А • Англійська мова (Гр. 2)",
-    "section": "🟡 [3 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8NjMxNzgz"
-  },
-  {
-    "id": "886178745278",
-    "name": "03-А • Українська мова (Гр. 2)",
-    "section": "🟡 [3 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4NzQ1Mjc4"
-  },
-  {
-    "id": "886178676238",
-    "name": "03-А • Українська мова (Гр. 1)",
-    "section": "🟡 [3 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8Njc2MjM4"
-  },
-  {
-    "id": "886178886541",
-    "name": "02-Г • Інформатика (Гр. 2)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8ODg2NTQx"
-  },
-  {
-    "id": "886179311669",
-    "name": "02-Г • Інформатика (Гр. 1)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MzExNjY5"
-  },
-  {
-    "id": "886178159583",
-    "name": "02-Г • Англійська мова (Гр. 2)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8MTU5NTgz"
-  },
-  {
-    "id": "869729597611",
-    "name": "02-Г • Українська мова (Гр. 2)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY5NzI5NTk3NjEx"
-  },
-  {
-    "id": "886178052878",
-    "name": "02-Г • Українська мова (Гр. 1)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8MDUyODc4"
-  },
-  {
-    "id": "886176823837",
-    "name": "02-В • Інформатика (Гр. 2)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc6ODIzODM3"
-  },
-  {
-    "id": "886179231773",
-    "name": "02-В • Інформатика (Гр. 1)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MjMxNzcz"
-  },
-  {
-    "id": "886179033032",
-    "name": "02-В • Англійська мова (Гр. 2)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MDMzMDMy"
-  },
-  {
-    "id": "886176538534",
-    "name": "02-В • Українська мова (Гр. 2)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc6NTM4NTM0"
-  },
-  {
-    "id": "886178931835",
-    "name": "02-В • Українська мова (Гр. 1)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4OTMxODM1"
-  },
-  {
-    "id": "886178465670",
-    "name": "02-Б • Інформатика (Гр. 2)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8NDY1Njcw"
-  },
-  {
-    "id": "886179802850",
-    "name": "02-Б • Інформатика (Гр. 1)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5ODAyODUw"
-  },
-  {
-    "id": "886174268971",
-    "name": "02-Б • Англійська мова (Гр. 2)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc0MjY4OTcx"
-  },
-  {
-    "id": "886178949953",
-    "name": "02-Б • Українська мова (Гр. 2)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8OTQ5OTUz"
-  },
-  {
-    "id": "886179311642",
-    "name": "02-Б • Українська мова (Гр. 1)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MzExNjQy"
-  },
-  {
-    "id": "886177641326",
-    "name": "02-А • Інформатика (Гр. 2)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc3NjQxMzI6"
-  },
-  {
-    "id": "886179466886",
-    "name": "02-А • Інформатика (Гр. 1)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NDY2ODg2"
-  },
-  {
-    "id": "886178870485",
-    "name": "02-А • Англійська мова (Гр. 2)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8ODcwNDg1"
-  },
-  {
-    "id": "886179447307",
-    "name": "02-А • Українська мова (Гр. 2)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5NDQ3MzA3"
-  },
-  {
-    "id": "886178836899",
-    "name": "02-А • Українська мова (Гр. 1)",
-    "section": "🟠 [2 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8ODM2ODk5"
-  },
-  {
-    "id": "886179307373",
-    "name": "01-Г • Англійська мова (Гр. 2)",
+    "id": "867270052567",
+    "name": "01 • Індивідуальна ФН (Екстернат, Сімейна, Педпатронаж)",
     "section": "🔴 [1 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MzA3Mzcz"
+    "link": "https://classroom.google.com/c/ODY3MjcwMDUyNTY3"
   },
   {
-    "id": "886179085241",
-    "name": "01-Г • Українська мова (Гр. 2)",
+    "id": "867269419571",
+    "name": "01-А • Англійська мова (Гр. 1)",
     "section": "🔴 [1 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MDg1MjQx"
-  },
-  {
-    "id": "886179141403",
-    "name": "01-Г • Українська мова (Гр. 1)",
-    "section": "🔴 [1 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MTQxNDAz"
-  },
-  {
-    "id": "886179230024",
-    "name": "01-В • Англійська мова (Гр. 2)",
-    "section": "🔴 [1 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc5MjMwMDI4"
-  },
-  {
-    "id": "869729542518",
-    "name": "01-В • Українська мова (Гр. 2)",
-    "section": "🔴 [1 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY5NzI5NTQyNTE4"
-  },
-  {
-    "id": "886176999112",
-    "name": "01-В • Українська мова (Гр. 1)",
-    "section": "🔴 [1 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc6OTk5MTEy"
-  },
-  {
-    "id": "886178970994",
-    "name": "01-Б • Англійська мова (Гр. 2)",
-    "section": "🔴 [1 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4OTcwOTk0"
-  },
-  {
-    "id": "886178784224",
-    "name": "01-Б • Українська мова (Гр. 2)",
-    "section": "🔴 [1 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4Nzg0MjI0"
-  },
-  {
-    "id": "886177787901",
-    "name": "01-Б • Українська мова (Гр. 1)",
-    "section": "🔴 [1 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc3Nzg3OTAx"
+    "link": "https://classroom.google.com/c/ODY3MjY5NDE5NTcx"
   },
   {
     "id": "886178374235",
     "name": "01-А • Англійська мова (Гр. 2)",
     "section": "🔴 [1 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc4Mzc0MjM1"
+    "link": "https://classroom.google.com/c/ODg2MTc4Mzc0MjM1"
   },
   {
-    "id": "886177895474",
-    "name": "01-А • Українська мова (Гр. 2)",
+    "id": "867269348958",
+    "name": "01-А • НУШ",
     "section": "🔴 [1 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc3ODk1NDc0"
+    "link": "https://classroom.google.com/c/ODY3MjY5MzQ4OTU4"
   },
   {
     "id": "886178409977",
     "name": "01-А • Українська мова (Гр. 1)",
     "section": "🔴 [1 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODg2MTc8NDA5OTc3"
+    "link": "https://classroom.google.com/c/ODg2MTc4NDA5OTc3"
+  },
+  {
+    "id": "886177895474",
+    "name": "01-А • Українська мова (Гр. 2)",
+    "section": "🔴 [1 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc3ODk1NDc0"
+  },
+  {
+    "id": "867269734400",
+    "name": "01-Б • Англійська мова (Гр. 1)",
+    "section": "🔴 [1 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MjY5NzM0NDAw"
+  },
+  {
+    "id": "886178970994",
+    "name": "01-Б • Англійська мова (Гр. 2)",
+    "section": "🔴 [1 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4OTcwOTk0"
+  },
+  {
+    "id": "867269784292",
+    "name": "01-Б • НУШ",
+    "section": "🔴 [1 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MjY5Nzg0Mjky"
+  },
+  {
+    "id": "886177787901",
+    "name": "01-Б • Українська мова (Гр. 1)",
+    "section": "🔴 [1 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc3Nzg3OTAx"
+  },
+  {
+    "id": "886178784224",
+    "name": "01-Б • Українська мова (Гр. 2)",
+    "section": "🔴 [1 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4Nzg0MjI0"
   },
   {
     "id": "871402899495",
     "name": "01-В • Англійська мова (Гр. 1)",
     "section": "🔴 [1 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODcxNDAyODk5NDk1"
+    "link": "https://classroom.google.com/c/ODcxNDAyODk5NDk1"
   },
   {
-    "id": "871398631604",
-    "name": "05-Г • Здоров'я, безпека та добробут",
-    "section": "🔵 [5 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODcxMzk4NjMxNjA0"
+    "id": "886179230024",
+    "name": "01-В • Англійська мова (Гр. 2)",
+    "section": "🔴 [1 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MjMwMDI0"
   },
   {
-    "id": "871399331050",
-    "name": "05-В • Здоров'я, безпека та добробут",
+    "id": "867267818221",
+    "name": "01-В • НУШ",
+    "section": "🔴 [1 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MjY3ODE4MjIx"
+  },
+  {
+    "id": "886176999112",
+    "name": "01-В • Українська мова (Гр. 1)",
+    "section": "🔴 [1 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc2OTk5MTEy"
+  },
+  {
+    "id": "869729542518",
+    "name": "01-В • Українська мова (Гр. 2)",
+    "section": "🔴 [1 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY5NzI5NTQyNTE4"
+  },
+  {
+    "id": "867270096376",
+    "name": "01-Г • Англійська мова (Гр. 1)",
+    "section": "🔴 [1 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MjcwMDk2Mzc2"
+  },
+  {
+    "id": "886179307373",
+    "name": "01-Г • Англійська мова (Гр. 2)",
+    "section": "🔴 [1 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MzA3Mzcz"
+  },
+  {
+    "id": "867270049349",
+    "name": "01-Г • НУШ",
+    "section": "🔴 [1 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MjcwMDQ5MzQ5"
+  },
+  {
+    "id": "886179141403",
+    "name": "01-Г • Українська мова (Гр. 1)",
+    "section": "🔴 [1 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MTQxNDAz"
+  },
+  {
+    "id": "886179085241",
+    "name": "01-Г • Українська мова (Гр. 2)",
+    "section": "🔴 [1 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MDg1MjQx"
+  },
+  {
+    "id": "867268618041",
+    "name": "02 • Індивідуальна ФН (Екстернат, Сімейна, Педпатронаж)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MjY4NjE4MDQx"
+  },
+  {
+    "id": "867271596986",
+    "name": "02-А • ",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MjcxNTk2OTg2"
+  },
+  {
+    "id": "886179466886",
+    "name": "02-А • Інформатика (Гр. 1)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NDY2ODg2"
+  },
+  {
+    "id": "886177641326",
+    "name": "02-А • Інформатика (Гр. 2)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc3NjQxMzI2"
+  },
+  {
+    "id": "867271144756",
+    "name": "02-А • Англійська мова (Гр. 1)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MjcxMTQ0NzU2"
+  },
+  {
+    "id": "886178870485",
+    "name": "02-А • Англійська мова (Гр. 2)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4ODcwNDg1"
+  },
+  {
+    "id": "886178836899",
+    "name": "02-А • Українська мова (Гр. 1)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4ODM2ODk5"
+  },
+  {
+    "id": "886179447307",
+    "name": "02-А • Українська мова (Гр. 2)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NDQ3MzA3"
+  },
+  {
+    "id": "867271054907",
+    "name": "02-Б • ",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MjcxMDU0OTA3"
+  },
+  {
+    "id": "886179802850",
+    "name": "02-Б • Інформатика (Гр. 1)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5ODAyODUw"
+  },
+  {
+    "id": "886178465670",
+    "name": "02-Б • Інформатика (Гр. 2)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NDY1Njcw"
+  },
+  {
+    "id": "867271980954",
+    "name": "02-Б • Англійська мова (Гр. 1)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MjcxOTgwOTU0"
+  },
+  {
+    "id": "886174268971",
+    "name": "02-Б • Англійська мова (Гр. 2)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc0MjY4OTcx"
+  },
+  {
+    "id": "886179311642",
+    "name": "02-Б • Українська мова (Гр. 1)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MzExNjQy"
+  },
+  {
+    "id": "886178949953",
+    "name": "02-Б • Українська мова (Гр. 2)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4OTQ5OTUz"
+  },
+  {
+    "id": "867271652276",
+    "name": "02-В • ",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MjcxNjUyMjc2"
+  },
+  {
+    "id": "886179231773",
+    "name": "02-В • Інформатика (Гр. 1)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MjMxNzcz"
+  },
+  {
+    "id": "886176823837",
+    "name": "02-В • Інформатика (Гр. 2)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc2ODIzODM3"
+  },
+  {
+    "id": "867331417458",
+    "name": "02-В • Англійська мова (Гр. 1)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzMxNDE3NDU4"
+  },
+  {
+    "id": "886179033032",
+    "name": "02-В • Англійська мова (Гр. 2)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MDMzMDMy"
+  },
+  {
+    "id": "886178931835",
+    "name": "02-В • Українська мова (Гр. 1)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4OTMxODM1"
+  },
+  {
+    "id": "886176538534",
+    "name": "02-В • Українська мова (Гр. 2)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc2NTM4NTM0"
+  },
+  {
+    "id": "867270615070",
+    "name": "02-Г • ",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MjcwNjE1MDcw"
+  },
+  {
+    "id": "886179311669",
+    "name": "02-Г • Інформатика (Гр. 1)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MzExNjY5"
+  },
+  {
+    "id": "886178886541",
+    "name": "02-Г • Інформатика (Гр. 2)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4ODg2NTQx"
+  },
+  {
+    "id": "867272231020",
+    "name": "02-Г • Англійська мова (Гр. 1)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MjcyMjMxMDIw"
+  },
+  {
+    "id": "886178159583",
+    "name": "02-Г • Англійська мова (Гр. 2)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4MTU5NTgz"
+  },
+  {
+    "id": "886178052878",
+    "name": "02-Г • Українська мова (Гр. 1)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4MDUyODc4"
+  },
+  {
+    "id": "869729597611",
+    "name": "02-Г • Українська мова (Гр. 2)",
+    "section": "🟠 [2 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY5NzI5NTk3NjEx"
+  },
+  {
+    "id": "867324295576",
+    "name": "03 • Індивідуальна ФН (Екстернат, Сімейна, Педпатронаж)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzI0Mjk1NTc2"
+  },
+  {
+    "id": "867323697954",
+    "name": "03-А • ",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzIzNjk3OTU0"
+  },
+  {
+    "id": "867324738824",
+    "name": "03-А • Інформатика (Гр. 1)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzI0NzM4ODI0"
+  },
+  {
+    "id": "886179263586",
+    "name": "03-А • Інформатика (Гр. 2)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MjYzNTg2"
+  },
+  {
+    "id": "867324181198",
+    "name": "03-А • Англійська мова (Гр. 1)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzI0MTgxMTk4"
+  },
+  {
+    "id": "886178631783",
+    "name": "03-А • Англійська мова (Гр. 2)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NjMxNzgz"
+  },
+  {
+    "id": "886178676238",
+    "name": "03-А • Українська мова (Гр. 1)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4Njc2MjM4"
+  },
+  {
+    "id": "886178745278",
+    "name": "03-А • Українська мова (Гр. 2)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NzQ1Mjc4"
+  },
+  {
+    "id": "867323419328",
+    "name": "03-Б • ",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzIzNDE5MzI4"
+  },
+  {
+    "id": "867324393329",
+    "name": "03-Б • Інформатика (Гр. 1)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzI0MzkzMzI5"
+  },
+  {
+    "id": "886179548312",
+    "name": "03-Б • Інформатика (Гр. 2)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NTQ4MzEy"
+  },
+  {
+    "id": "867323305345",
+    "name": "03-Б • Англійська мова (Гр. 1)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzIzMzA1MzQ1"
+  },
+  {
+    "id": "886178924078",
+    "name": "03-Б • Англійська мова (Гр. 2)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4OTI0MDc4"
+  },
+  {
+    "id": "886178438693",
+    "name": "03-Б • Українська мова (Гр. 1)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NDM4Njkz"
+  },
+  {
+    "id": "886178189607",
+    "name": "03-Б • Українська мова (Гр. 2)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4MTg5NjA3"
+  },
+  {
+    "id": "867322809643",
+    "name": "03-В • ",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzIyODA5NjQz"
+  },
+  {
+    "id": "867323263592",
+    "name": "03-В • Інформатика (Гр. 1)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzIzMjYzNTky"
+  },
+  {
+    "id": "886176983852",
+    "name": "03-В • Інформатика (Гр. 2)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc2OTgzODUy"
+  },
+  {
+    "id": "867323939549",
+    "name": "03-В • Англійська мова (Гр. 1)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzIzOTM5NTQ5"
+  },
+  {
+    "id": "886179013504",
+    "name": "03-В • Англійська мова (Гр. 2)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MDEzNTA0"
+  },
+  {
+    "id": "886178969356",
+    "name": "03-В • Українська мова (Гр. 1)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4OTY5MzU2"
+  },
+  {
+    "id": "886178297313",
+    "name": "03-В • Українська мова (Гр. 2)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4Mjk3MzEz"
+  },
+  {
+    "id": "867324504631",
+    "name": "03-Г • ",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzI0NTA0NjMx"
+  },
+  {
+    "id": "867317060340",
+    "name": "03-Г • Інформатика (Гр. 1)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzE3MDYwMzQw"
+  },
+  {
+    "id": "886178530167",
+    "name": "03-Г • Інформатика (Гр. 2)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NTMwMTY3"
+  },
+  {
+    "id": "798124355764",
+    "name": "03-Г • Англійська мова (Гр. 1)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTI0MzU1NzY0"
+  },
+  {
+    "id": "886178909580",
+    "name": "03-Г • Англійська мова (Гр. 2)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4OTA5NTgw"
+  },
+  {
+    "id": "886178958473",
+    "name": "03-Г • Українська мова (Гр. 1)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4OTU4NDcz"
+  },
+  {
+    "id": "886179239383",
+    "name": "03-Г • Українська мова (Гр. 2)",
+    "section": "🟡 [3 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MjM5Mzgz"
+  },
+  {
+    "id": "867312800722",
+    "name": "04 • Індивідуальна ФН (Екстернат, Сімейна, Педпатронаж)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzEyODAwNzIy"
+  },
+  {
+    "id": "867336332385",
+    "name": "04-А • ",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzM2MzMyMzg1"
+  },
+  {
+    "id": "798125542813",
+    "name": "04-А • Інформатика (Гр. 1)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTI1NTQyODEz"
+  },
+  {
+    "id": "886178795599",
+    "name": "04-А • Інформатика (Гр. 2)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4Nzk1NTk5"
+  },
+  {
+    "id": "867335589149",
+    "name": "04-А • Англійська мова (Гр. 1)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzM1NTg5MTQ5"
+  },
+  {
+    "id": "886179306219",
+    "name": "04-А • Англійська мова (Гр. 2)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MzA2MjE5"
+  },
+  {
+    "id": "886178964922",
+    "name": "04-А • Українська мова (Гр. 1)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4OTY0OTIy"
+  },
+  {
+    "id": "886179221109",
+    "name": "04-А • Українська мова (Гр. 2)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MjIxMTA5"
+  },
+  {
+    "id": "867334808154",
+    "name": "04-Б • ",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzM0ODA4MTU0"
+  },
+  {
+    "id": "867336251785",
+    "name": "04-Б • Інформатика (Гр. 1)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzM2MjUxNzg1"
+  },
+  {
+    "id": "886178918422",
+    "name": "04-Б • Інформатика (Гр. 2)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4OTE4NDIy"
+  },
+  {
+    "id": "867335850617",
+    "name": "04-Б • Англійська мова (Гр. 1)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzM1ODUwNjE3"
+  },
+  {
+    "id": "886178331651",
+    "name": "04-Б • Англійська мова (Гр. 2)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4MzMxNjUx"
+  },
+  {
+    "id": "886178586024",
+    "name": "04-Б • Українська мова (Гр. 1)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NTg2MDI0"
+  },
+  {
+    "id": "886179065574",
+    "name": "04-Б • Українська мова (Гр. 2)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MDY1NTc0"
+  },
+  {
+    "id": "867336386177",
+    "name": "04-В • ",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzM2Mzg2MTc3"
+  },
+  {
+    "id": "867335907947",
+    "name": "04-В • Інформатика (Гр. 1)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzM1OTA3OTQ3"
+  },
+  {
+    "id": "886179283042",
+    "name": "04-В • Інформатика (Гр. 2)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MjgzMDQy"
+  },
+  {
+    "id": "867336436019",
+    "name": "04-В • Англійська мова (Гр. 1)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzM2NDM2MDE5"
+  },
+  {
+    "id": "886179234560",
+    "name": "04-В • Англійська мова (Гр. 2)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MjM0NTYw"
+  },
+  {
+    "id": "886174890318",
+    "name": "04-В • Українська мова (Гр. 1)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc0ODkwMzE4"
+  },
+  {
+    "id": "886178885284",
+    "name": "04-В • Українська мова (Гр. 2)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4ODg1Mjg0"
+  },
+  {
+    "id": "867335109249",
+    "name": "04-Г • ",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzM1MTA5MjQ5"
+  },
+  {
+    "id": "867335860978",
+    "name": "04-Г • Інформатика (Гр. 1)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzM1ODYwOTc4"
+  },
+  {
+    "id": "886179358992",
+    "name": "04-Г • Інформатика (Гр. 2)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MzU4OTky"
+  },
+  {
+    "id": "867335080770",
+    "name": "04-Г • Англійська мова (Гр. 1)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzM1MDgwNzcw"
+  },
+  {
+    "id": "886179125753",
+    "name": "04-Г • Англійська мова (Гр. 2)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MTI1NzUz"
+  },
+  {
+    "id": "886179700029",
+    "name": "04-Г • Українська мова (Гр. 1)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NzAwMDI5"
+  },
+  {
+    "id": "886179567733",
+    "name": "04-Г • Українська мова (Гр. 2)",
+    "section": "🟢 [4 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NTY3NzMz"
+  },
+  {
+    "id": "867376604112",
+    "name": "05 • Індивідуальна ФН (Екстернат, Сімейна, Педпатронаж)",
     "section": "🔵 [5 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODcxMzk5MzMxMDUw"
+    "link": "https://classroom.google.com/c/ODY3Mzc2NjA0MTEy"
+  },
+  {
+    "id": "867374997744",
+    "name": "05-А • Інформатика (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzc0OTk3NzQ0"
+  },
+  {
+    "id": "867376872299",
+    "name": "05-А • Інформатика (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzc2ODcyMjk5"
+  },
+  {
+    "id": "819798717622",
+    "name": "05-А • Англійська мова (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODE5Nzk4NzE3NjIy"
+  },
+  {
+    "id": "867377773157",
+    "name": "05-А • Англійська мова (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzc3NzczMTU3"
+  },
+  {
+    "id": "867377294384",
+    "name": "05-А • Вступ до історії України",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzc3Mjk0Mzg0"
+  },
+  {
+    "id": "867378521134",
+    "name": "05-А • Друга мова (Польська) (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzc4NTIxMTM0"
+  },
+  {
+    "id": "867375751568",
+    "name": "05-А • Друга мова (Польська) (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzc1NzUxNTY4"
+  },
+  {
+    "id": "867377831999",
+    "name": "05-А • Зарубіжна література",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzc3ODMxOTk5"
+  },
+  {
+    "id": "867378084948",
+    "name": "05-А • Здоров’я, безпека та добробут",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzc4MDg0OTQ4"
+  },
+  {
+    "id": "867377234839",
+    "name": "05-А • Логіка",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzc3MjM0ODM5"
+  },
+  {
+    "id": "819798620903",
+    "name": "05-А • Математика",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODE5Nzk4NjIwOTAz"
+  },
+  {
+    "id": "819798674885",
+    "name": "05-А • Мистецтво",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODE5Nzk4Njc0ODg1"
+  },
+  {
+    "id": "819798666398",
+    "name": "05-А • Основи християнської етики",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODE5Nzk4NjY2Mzk4"
+  },
+  {
+    "id": "867376763383",
+    "name": "05-А • Пізнаємо природу",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzc2NzYzMzgz"
+  },
+  {
+    "id": "867378182563",
+    "name": "05-А • Технології (Трудове) (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzc4MTgyNTYz"
+  },
+  {
+    "id": "867377886536",
+    "name": "05-А • Технології (Трудове) (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzc3ODg2NTM2"
+  },
+  {
+    "id": "867377185388",
+    "name": "05-А • Українська література",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzc3MTg1Mzg4"
+  },
+  {
+    "id": "867376323037",
+    "name": "05-А • Українська мова (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzc2MzIzMDM3"
+  },
+  {
+    "id": "869729615241",
+    "name": "05-А • Українська мова (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY5NzI5NjE1MjQx"
+  },
+  {
+    "id": "867377628712",
+    "name": "05-А • Фізична культура",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzc3NjI4NzEy"
+  },
+  {
+    "id": "867400270244",
+    "name": "05-Б • Інформатика (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NDAwMjcwMjQ0"
+  },
+  {
+    "id": "867388482526",
+    "name": "05-Б • Інформатика (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzg4NDgyNTI2"
+  },
+  {
+    "id": "867398475040",
+    "name": "05-Б • Англійська мова (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk4NDc1MDQw"
+  },
+  {
+    "id": "867399230602",
+    "name": "05-Б • Англійська мова (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk5MjMwNjAy"
+  },
+  {
+    "id": "867400128322",
+    "name": "05-Б • Вступ до історії України",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NDAwMTI4MzIy"
+  },
+  {
+    "id": "867398994904",
+    "name": "05-Б • Друга мова (Польська) (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk4OTk0OTA0"
+  },
+  {
+    "id": "867383686133",
+    "name": "05-Б • Друга мова (Польська) (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3MzgzNjg2MTMz"
+  },
+  {
+    "id": "867399197602",
+    "name": "05-Б • Зарубіжна література",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk5MTk3NjAy"
   },
   {
     "id": "871398781345",
     "name": "05-Б • Здоров'я, безпека та добробут",
     "section": "🔵 [5 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODcxMzk4NzgxMzQ1"
+    "link": "https://classroom.google.com/c/ODcxMzk4NzgxMzQ1"
   },
   {
-    "id": "867792325184",
-    "name": "11-Б • Основи християнської етики",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkyMzI1MTg0"
+    "id": "867399627744",
+    "name": "05-Б • Логіка",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk5NjI3NzQ0"
   },
   {
-    "id": "867776443513",
-    "name": "11-Б • Фізична культура (хлоп.)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3Nzc2NDQzNTE3"
+    "id": "867400215541",
+    "name": "05-Б • Математика",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NDAwMjE1NTQx"
   },
   {
-    "id": "867791530436",
-    "name": "11-Б • Технології (Гр. 1)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkxNTMwNDM2"
+    "id": "867400169428",
+    "name": "05-Б • Мистецтво",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NDAwMTY5NDI4"
   },
   {
-    "id": "867792512225",
-    "name": "11-Б • Захист України (юнаки)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkyNTEyMjI1"
+    "id": "867399024932",
+    "name": "05-Б • Основи християнської етики",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk5MDI0OTMy"
   },
   {
-    "id": "867792466333",
-    "name": "11-Б • Мистецтво",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkyNDQ2MzMz"
+    "id": "867399599207",
+    "name": "05-Б • Пізнаємо природу",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk5NTk5MjA3"
   },
   {
-    "id": "867791354337",
-    "name": "11-Б • Хімія",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkxMzU0MzM3"
+    "id": "867400141148",
+    "name": "05-Б • Технології (Трудове) (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NDAwMTQxMTQ4"
   },
   {
-    "id": "867787422615",
-    "name": "11-Б • Інформатика (Гр. 1)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3Nzg3NDIyNjE1"
+    "id": "867379495561",
+    "name": "05-Б • Технології (Трудове) (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzc5NDk1NTYx"
   },
   {
-    "id": "867786158258",
-    "name": "11-Б • Фізика і астрономія",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3Nzg2MTU4MjU4"
+    "id": "867399032607",
+    "name": "05-Б • Українська література",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk5MDMyNjA3"
   },
   {
-    "id": "867792390116",
-    "name": "11-Б • Географія",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkyMzkwMTE2"
+    "id": "867400251453",
+    "name": "05-Б • Українська мова (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NDAwMjUxNDUz"
   },
   {
-    "id": "867789515128",
-    "name": "11-Б • Біологія і екологія",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3Nzg5NTE1MTI4"
+    "id": "886179173291",
+    "name": "05-Б • Українська мова (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MTczMjkx"
   },
   {
-    "id": "867791538027",
-    "name": "11-Б • Геометрія",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkxNTM4MDI3"
+    "id": "867398475024",
+    "name": "05-Б • Фізична культура",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk4NDc1MDI0"
   },
   {
-    "id": "867791303619",
-    "name": "11-Б • Алгебра і початки аналізу",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkxMzAzNjE5"
+    "id": "867761549693",
+    "name": "05-В • Інформатика (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxNTQ5Njkz"
   },
   {
-    "id": "867790497516",
-    "name": "11-Б • Всесвітня історія",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkwNDk3NTE2"
+    "id": "867761707653",
+    "name": "05-В • Інформатика (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxNzA3NjUz"
   },
   {
-    "id": "867792694890",
-    "name": "11-Б • Історія України",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkyNjk0ODkw"
+    "id": "798178745507",
+    "name": "05-В • Англійська мова (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTc4NzQ1NTA3"
   },
   {
-    "id": "867792329764",
-    "name": "11-Б • Друга іноземна мова (Німецька)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkyMzI5NzY0"
+    "id": "867761298427",
+    "name": "05-В • Англійська мова (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxMjk4NDI3"
   },
   {
-    "id": "867792218267",
-    "name": "11-Б • Зарубіжна література",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkyMjE4MjY3"
+    "id": "867761577542",
+    "name": "05-В • Вступ до історії України",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxNTc3NTQy"
   },
   {
-    "id": "867792397764",
-    "name": "11-Б • Англійська мова (Гр. 1)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkyMzk3NzY0"
+    "id": "867759714687",
+    "name": "05-В • Друга мова (Польська) (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzU5NzE0Njg3"
   },
   {
-    "id": "867791909915",
-    "name": "11-Б • Українська література",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkxOTA5OTE1"
+    "id": "867746491896",
+    "name": "05-В • Друга мова (Польська) (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzQ2NDkxODk2"
   },
   {
-    "id": "867792025334",
-    "name": "11-Б • Українська мова (Гр. 1)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkyMDI1MzM0"
+    "id": "867761812408",
+    "name": "05-В • Зарубіжна література",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxODEyNDA4"
   },
   {
-    "id": "867787301544",
-    "name": "11-А • Основи християнської етики",
+    "id": "871399331050",
+    "name": "05-В • Здоров'я, безпека та добробут",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODcxMzk5MzMxMDUw"
+  },
+  {
+    "id": "867760029722",
+    "name": "05-В • Логіка",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYwMDI5NzIy"
+  },
+  {
+    "id": "867760997113",
+    "name": "05-В • Математика",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYwOTk3MTEz"
+  },
+  {
+    "id": "867761865129",
+    "name": "05-В • Мистецтво",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxODY1MTI5"
+  },
+  {
+    "id": "867761800852",
+    "name": "05-В • Основи християнської етики",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxODAwODUy"
+  },
+  {
+    "id": "867762075664",
+    "name": "05-В • Пізнаємо природу",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyMDc1NjY0"
+  },
+  {
+    "id": "867759560500",
+    "name": "05-В • Технології (Трудове) (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzU5NTYwNTAw"
+  },
+  {
+    "id": "867761272864",
+    "name": "05-В • Технології (Трудове) (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxMjcyODY0"
+  },
+  {
+    "id": "867761220080",
+    "name": "05-В • Українська література",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxMjIwMDgw"
+  },
+  {
+    "id": "867761493611",
+    "name": "05-В • Українська мова (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxNDkzNjEx"
+  },
+  {
+    "id": "886178631872",
+    "name": "05-В • Українська мова (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NjMxODcy"
+  },
+  {
+    "id": "867761804871",
+    "name": "05-В • Фізична культура",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxODA0ODcx"
+  },
+  {
+    "id": "867760858967",
+    "name": "05-Г • Інформатика (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYwODU4OTY3"
+  },
+  {
+    "id": "867761798952",
+    "name": "05-Г • Інформатика (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxNzk4OTUy"
+  },
+  {
+    "id": "867761244876",
+    "name": "05-Г • Англійська мова (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxMjQ0ODc2"
+  },
+  {
+    "id": "867759759596",
+    "name": "05-Г • Англійська мова (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzU5NzU5NTk2"
+  },
+  {
+    "id": "867759412747",
+    "name": "05-Г • Вступ до історії України",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzU5NDEyNzQ3"
+  },
+  {
+    "id": "867761841028",
+    "name": "05-Г • Друга мова (Польська) (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxODQxMDI4"
+  },
+  {
+    "id": "867760962116",
+    "name": "05-Г • Друга мова (Польська) (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYwOTYyMTE2"
+  },
+  {
+    "id": "867761545710",
+    "name": "05-Г • Зарубіжна література",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxNTQ1NzEw"
+  },
+  {
+    "id": "871398631604",
+    "name": "05-Г • Здоров'я, безпека та добробут",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODcxMzk4NjMxNjA0"
+  },
+  {
+    "id": "867754884409",
+    "name": "05-Г • Логіка",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzU0ODg0NDA5"
+  },
+  {
+    "id": "867761958547",
+    "name": "05-Г • Математика",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxOTU4NTQ3"
+  },
+  {
+    "id": "867746134712",
+    "name": "05-Г • Мистецтво",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzQ2MTM0NzEy"
+  },
+  {
+    "id": "867762012697",
+    "name": "05-Г • Основи християнської етики",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyMDEyNjk3"
+  },
+  {
+    "id": "867760719468",
+    "name": "05-Г • Пізнаємо природу",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYwNzE5NDY4"
+  },
+  {
+    "id": "867761895101",
+    "name": "05-Г • Технології (Трудове) (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxODk1MTAx"
+  },
+  {
+    "id": "867761437122",
+    "name": "05-Г • Технології (Трудове) (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxNDM3MTIy"
+  },
+  {
+    "id": "798178751900",
+    "name": "05-Г • Українська література",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTc4NzUxOTAw"
+  },
+  {
+    "id": "867760909568",
+    "name": "05-Г • Українська мова (Гр. 1)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYwOTA5NTY4"
+  },
+  {
+    "id": "886179805801",
+    "name": "05-Г • Українська мова (Гр. 2)",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5ODA1ODAx"
+  },
+  {
+    "id": "867760844708",
+    "name": "05-Г • Фізична культура",
+    "section": "🔵 [5 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYwODQ0NzA4"
+  },
+  {
+    "id": "867394748201",
+    "name": "06 • Індивідуальна ФН (Екстернат, Сімейна, Педпатронаж)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk0NzQ4MjAx"
+  },
+  {
+    "id": "867394913143",
+    "name": "06-А • Інформатика (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk0OTEzMTQz"
+  },
+  {
+    "id": "867395307820",
+    "name": "06-А • Інформатика (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk1MzA3ODIw"
+  },
+  {
+    "id": "867395408010",
+    "name": "06-А • Історія України. Всесвітня історія",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk1NDA4MDEw"
+  },
+  {
+    "id": "867395139915",
+    "name": "06-А • Англійська мова (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk1MTM5OTE1"
+  },
+  {
+    "id": "867394252832",
+    "name": "06-А • Англійська мова (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk0MjUyODMy"
+  },
+  {
+    "id": "819800136252",
+    "name": "06-А • Географія",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODE5ODAwMTM2MjUy"
+  },
+  {
+    "id": "867395053468",
+    "name": "06-А • Друга мова (Польська) (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk1MDUzNDY4"
+  },
+  {
+    "id": "867395279463",
+    "name": "06-А • Друга мова (Польська) (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk1Mjc5NDYz"
+  },
+  {
+    "id": "867394773486",
+    "name": "06-А • Зарубіжна література",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk0NzczNDg2"
+  },
+  {
+    "id": "867394993183",
+    "name": "06-А • Логіка",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk0OTkzMTgz"
+  },
+  {
+    "id": "867395327327",
+    "name": "06-А • Математика",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk1MzI3MzI3"
+  },
+  {
+    "id": "819800251319",
+    "name": "06-А • Мистецтво",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODE5ODAwMjUxMzE5"
+  },
+  {
+    "id": "867395165268",
+    "name": "06-А • Основи християнської етики",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk1MTY1MjY4"
+  },
+  {
+    "id": "867395102557",
+    "name": "06-А • Пізнаємо природу",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk1MTAyNTU3"
+  },
+  {
+    "id": "867394089843",
+    "name": "06-А • Технології (Трудове) (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk0MDg5ODQz"
+  },
+  {
+    "id": "867395140414",
+    "name": "06-А • Технології (Трудове) (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk1MTQwNDE0"
+  },
+  {
+    "id": "867395041278",
+    "name": "06-А • Українська література",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk1MDQxMjc4"
+  },
+  {
+    "id": "867386203452",
+    "name": "06-А • Українська мова (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzg2MjAzNDUy"
+  },
+  {
+    "id": "886179353677",
+    "name": "06-А • Українська мова (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MzUzNjc3"
+  },
+  {
+    "id": "867395381673",
+    "name": "06-А • Физична культура",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Mzk1MzgxNjcz"
+  },
+  {
+    "id": "867761765359",
+    "name": "06-Б • Інформатика (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxNzY1MzU5"
+  },
+  {
+    "id": "867761126257",
+    "name": "06-Б • Інформатика (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxMTI2MjU3"
+  },
+  {
+    "id": "867761949865",
+    "name": "06-Б • Історія України. Всесвітня історія",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxOTQ5ODY1"
+  },
+  {
+    "id": "867763811471",
+    "name": "06-Б • Англійська мова (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzODExNDcx"
+  },
+  {
+    "id": "798179126950",
+    "name": "06-Б • Англійська мова (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTc5MTI2OTUw"
+  },
+  {
+    "id": "867763619384",
+    "name": "06-Б • Географія",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzNjE5Mzg0"
+  },
+  {
+    "id": "867763132533",
+    "name": "06-Б • Друга мова (Польська) (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMTMyNTMz"
+  },
+  {
+    "id": "867763322965",
+    "name": "06-Б • Друга мова (Польська) (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMzIyOTY1"
+  },
+  {
+    "id": "867763175510",
+    "name": "06-Б • Зарубіжна література",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMTc1NTEw"
+  },
+  {
+    "id": "867762903270",
+    "name": "06-Б • Логіка",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyOTAzMjcw"
+  },
+  {
+    "id": "867763058851",
+    "name": "06-Б • Математика",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMDU4ODUx"
+  },
+  {
+    "id": "867763542454",
+    "name": "06-Б • Мистецтво",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzNTQyNDU0"
+  },
+  {
+    "id": "867763464421",
+    "name": "06-Б • Основи християнської етики",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzNDY0NDIx"
+  },
+  {
+    "id": "867759717100",
+    "name": "06-Б • Пізнаємо природу",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzU5NzE3MTAw"
+  },
+  {
+    "id": "867762809146",
+    "name": "06-Б • Технології (Трудове) (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyODA5MTQ2"
+  },
+  {
+    "id": "867763149978",
+    "name": "06-Б • Технології (Трудове) (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMTQ5OTc4"
+  },
+  {
+    "id": "867763065545",
+    "name": "06-Б • Українська література",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMDY1NTQ1"
+  },
+  {
+    "id": "867763645074",
+    "name": "06-Б • Українська мова (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzNjQ1MDc0"
+  },
+  {
+    "id": "886178471805",
+    "name": "06-Б • Українська мова (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NDcxODA1"
+  },
+  {
+    "id": "867763327529",
+    "name": "06-Б • Физична культура",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMzI3NTI5"
+  },
+  {
+    "id": "798179101024",
+    "name": "06-В • Інформатика (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTc5MTAxMDI0"
+  },
+  {
+    "id": "798179110978",
+    "name": "06-В • Інформатика (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTc5MTEwOTc4"
+  },
+  {
+    "id": "867763072279",
+    "name": "06-В • Історія України. Всесвітня історія",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMDcyMjc5"
+  },
+  {
+    "id": "867762429077",
+    "name": "06-В • Англійська мова (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyNDI5MDc3"
+  },
+  {
+    "id": "867763730143",
+    "name": "06-В • Англійська мова (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzNzMwMTQz"
+  },
+  {
+    "id": "867762902234",
+    "name": "06-В • Географія",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyOTAyMjM0"
+  },
+  {
+    "id": "867763314845",
+    "name": "06-В • Друга мова (Польська) (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMzE0ODQ1"
+  },
+  {
+    "id": "867763212206",
+    "name": "06-В • Друга мова (Польська) (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMjEyMjA2"
+  },
+  {
+    "id": "867762495288",
+    "name": "06-В • Зарубіжна література",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyNDk1Mjg4"
+  },
+  {
+    "id": "867762614695",
+    "name": "06-В • Логіка",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyNjE0Njk1"
+  },
+  {
+    "id": "798179020268",
+    "name": "06-В • Математика",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTc5MDIwMjY4"
+  },
+  {
+    "id": "867762797851",
+    "name": "06-В • Мистецтво",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyNzk3ODUx"
+  },
+  {
+    "id": "867763549591",
+    "name": "06-В • Основи християнської етики",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzNTQ5NTkx"
+  },
+  {
+    "id": "867763047529",
+    "name": "06-В • Пізнаємо природу",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMDQ3NTI5"
+  },
+  {
+    "id": "867763521859",
+    "name": "06-В • Технології (Трудове) (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzNTIxODU5"
+  },
+  {
+    "id": "867763692659",
+    "name": "06-В • Технології (Трудове) (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzNjkyNjU5"
+  },
+  {
+    "id": "867763038604",
+    "name": "06-В • Українська література",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMDM4NjA0"
+  },
+  {
+    "id": "867760860680",
+    "name": "06-В • Українська мова (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYwODYwNjgw"
+  },
+  {
+    "id": "886176124779",
+    "name": "06-В • Українська мова (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc2MTI0Nzc5"
+  },
+  {
+    "id": "867762898271",
+    "name": "06-В • Физична культура",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyODk4Mjcx"
+  },
+  {
+    "id": "867763725434",
+    "name": "06-Г • Інформатика (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzNzI1NDM0"
+  },
+  {
+    "id": "867763359013",
+    "name": "06-Г • Інформатика (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMzU5MDEz"
+  },
+  {
+    "id": "867762729989",
+    "name": "06-Г • Історія України. Всесвітня історія",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyNzI5OTg5"
+  },
+  {
+    "id": "798178933434",
+    "name": "06-Г • Англійська мова (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTc4OTMzNDM0"
+  },
+  {
+    "id": "867763715491",
+    "name": "06-Г • Англійська мова (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzNzE1NDkx"
+  },
+  {
+    "id": "867762999863",
+    "name": "06-Г • Географія",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyOTk5ODYz"
+  },
+  {
+    "id": "867763748582",
+    "name": "06-Г • Друга мова (Польська) (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzNzQ4NTgy"
+  },
+  {
+    "id": "867762079910",
+    "name": "06-Г • Друга мова (Польська) (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyMDc5OTEw"
+  },
+  {
+    "id": "867763686035",
+    "name": "06-Г • Зарубіжна література",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzNjg2MDM1"
+  },
+  {
+    "id": "867763215828",
+    "name": "06-Г • Логіка",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMjE1ODI4"
+  },
+  {
+    "id": "867762797896",
+    "name": "06-Г • Математика",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyNzk3ODk2"
+  },
+  {
+    "id": "867763357503",
+    "name": "06-Г • Мистецтво",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMzU3NTAz"
+  },
+  {
+    "id": "867762936779",
+    "name": "06-Г • Основи християнської етики",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyOTM2Nzc5"
+  },
+  {
+    "id": "867763210300",
+    "name": "06-Г • Пізнаємо природу",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMjEwMzAw"
+  },
+  {
+    "id": "867762791806",
+    "name": "06-Г • Технології (Трудове) (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyNzkxODA2"
+  },
+  {
+    "id": "867763399459",
+    "name": "06-Г • Технології (Трудове) (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMzk5NDU5"
+  },
+  {
+    "id": "867762116767",
+    "name": "06-Г • Українська література",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyMTE2NzY3"
+  },
+  {
+    "id": "867763366407",
+    "name": "06-Г • Українська мова (Гр. 1)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYzMzY2NDA3"
+  },
+  {
+    "id": "886177917160",
+    "name": "06-Г • Українська мова (Гр. 2)",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc3OTE3MTYw"
+  },
+  {
+    "id": "867741511686",
+    "name": "06-Г • Физична культура",
+    "section": "🟦 [6 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzQxNTExNjg2"
+  },
+  {
+    "id": "867772427865",
+    "name": "07 • Індивідуальна ФН (Екстернат, Сімейна, Педпатронаж)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyNDI3ODY1"
+  },
+  {
+    "id": "867772359839",
+    "name": "07-А • Інформатика (Гр. 1)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMzU5ODM5"
+  },
+  {
+    "id": "886179543464",
+    "name": "07-А • Інформатика (Гр. 2)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NTQzNDY0"
+  },
+  {
+    "id": "867772416483",
+    "name": "07-А • Історія України",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyNDE2NDgz"
+  },
+  {
+    "id": "867772691200",
+    "name": "07-А • Алгебра",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyNjkxMjAw"
+  },
+  {
+    "id": "867772479478",
+    "name": "07-А • Англійська мова (Гр. 1)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyNDc5NDc4"
+  },
+  {
+    "id": "886178537430",
+    "name": "07-А • Англійська мова (Гр. 2)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NTM3NDMw"
+  },
+  {
+    "id": "867771696994",
+    "name": "07-А • Біологія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxNjk2OTk0"
+  },
+  {
+    "id": "867771753776",
+    "name": "07-А • Всесвітня історія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxNzUzNzc2"
+  },
+  {
+    "id": "867771237384",
+    "name": "07-А • Географія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxMjM3Mzg0"
+  },
+  {
+    "id": "867765734795",
+    "name": "07-А • Геометрія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzY1NzM0Nzk1"
+  },
+  {
+    "id": "798180293763",
+    "name": "07-А • Друга іноземна мова (Німецька)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTgwMjkzNzYz"
+  },
+  {
+    "id": "867754393159",
+    "name": "07-А • Зарубіжна література",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzU0MzkzMTU5"
+  },
+  {
+    "id": "867772322007",
+    "name": "07-А • Здоров'я безпека та добробут",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMzIyMDA3"
+  },
+  {
+    "id": "867772250945",
+    "name": "07-А • Мистецтво",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMjUwOTQ1"
+  },
+  {
+    "id": "867772249264",
+    "name": "07-А • Основи християнської етики",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMjQ5MjY0"
+  },
+  {
+    "id": "867772226880",
+    "name": "07-А • Технології (Гр. 1)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMjI2ODgw"
+  },
+  {
+    "id": "886178097765",
+    "name": "07-А • Технології (Гр. 2)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4MDk3NzY1"
+  },
+  {
+    "id": "867772051115",
+    "name": "07-А • Українська література",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMDUxMTE1"
+  },
+  {
+    "id": "867772402658",
+    "name": "07-А • Українська мова (Гр. 1)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyNDAyNjU4"
+  },
+  {
+    "id": "886179738747",
+    "name": "07-А • Українська мова (Гр. 2)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NzM4NzQ3"
+  },
+  {
+    "id": "867771941933",
+    "name": "07-А • Фізика",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxOTQxOTMz"
+  },
+  {
+    "id": "867771845048",
+    "name": "07-А • Фізична культура",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxODQ1MDQ4"
+  },
+  {
+    "id": "867771778996",
+    "name": "07-А • Хімія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxNzc4OTk2"
+  },
+  {
+    "id": "867772317982",
+    "name": "07-Б • Інформатика (Гр. 1)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMzE3OTgy"
+  },
+  {
+    "id": "886178518854",
+    "name": "07-Б • Інформатика (Гр. 2)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NTE4ODU0"
+  },
+  {
+    "id": "867770573684",
+    "name": "07-Б • Історія України",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcwNTczNjg0"
+  },
+  {
+    "id": "867772375837",
+    "name": "07-Б • Алгебра",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMzc1ODM3"
+  },
+  {
+    "id": "867772300908",
+    "name": "07-Б • Англійська мова (Гр. 1)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMzAwOTA4"
+  },
+  {
+    "id": "886178902347",
+    "name": "07-Б • Англійська мова (Гр. 2)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4OTAyMzQ3"
+  },
+  {
+    "id": "867770234674",
+    "name": "07-Б • Біологія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcwMjM0Njc0"
+  },
+  {
+    "id": "867772389535",
+    "name": "07-Б • Всесвітня історія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMzg5NTM1"
+  },
+  {
+    "id": "867771022512",
+    "name": "07-Б • Географія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxMDIyNTEy"
+  },
+  {
+    "id": "867768967194",
+    "name": "07-Б • Геометрія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzY4OTY3MTk0"
+  },
+  {
+    "id": "867770967420",
+    "name": "07-Б • Друга іноземна мова (Німецька)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcwOTY3NDIw"
+  },
+  {
+    "id": "798179972721",
+    "name": "07-Б • Зарубіжна література",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTc5OTcyNzIx"
+  },
+  {
+    "id": "867771470566",
+    "name": "07-Б • Здоров'я безпека та добробут",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxNDcwNTY2"
+  },
+  {
+    "id": "867771078806",
+    "name": "07-Б • Мистецтво",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxMDc4ODA2"
+  },
+  {
+    "id": "867771654436",
+    "name": "07-Б • Основи християнської етики",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxNjU0NDM2"
+  },
+  {
+    "id": "867772180108",
+    "name": "07-Б • Технології (Гр. 1)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMTgwMTA4"
+  },
+  {
+    "id": "886179582873",
+    "name": "07-Б • Технології (Гр. 2)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NTgyODcz"
+  },
+  {
+    "id": "867771996617",
+    "name": "07-Б • Українська література",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxOTk2NjE3"
+  },
+  {
+    "id": "867772395274",
+    "name": "07-Б • Українська мова (Гр. 1)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMzk1Mjc0"
+  },
+  {
+    "id": "886179493855",
+    "name": "07-Б • Українська мова (Гр. 2)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NDkzODU1"
+  },
+  {
+    "id": "867771913607",
+    "name": "07-Б • Фізика",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxOTEzNjA3"
+  },
+  {
+    "id": "867771800839",
+    "name": "07-Б • Фізична культура",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxODAwODM5"
+  },
+  {
+    "id": "867771860554",
+    "name": "07-Б • Хімія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxODYwNTU0"
+  },
+  {
+    "id": "867772520131",
+    "name": "07-В • Інформатика (Гр. 1)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyNTIwMTMx"
+  },
+  {
+    "id": "886178995232",
+    "name": "07-В • Інформатика (Гр. 2)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4OTk1MjMy"
+  },
+  {
+    "id": "867771747125",
+    "name": "07-В • Історія України",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxNzQ3MTI1"
+  },
+  {
+    "id": "867772282498",
+    "name": "07-В • Алгебра",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMjgyNDk4"
+  },
+  {
+    "id": "867772270691",
+    "name": "07-В • Англійська мова (Гр. 1)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMjcwNjkx"
+  },
+  {
+    "id": "886177597506",
+    "name": "07-В • Англійська мова (Гр. 2)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc3NTk3NTA2"
+  },
+  {
+    "id": "867770532281",
+    "name": "07-В • Біологія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcwNTMyMjgx"
+  },
+  {
+    "id": "867772184112",
+    "name": "07-В • Всесвітня історія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMTg0MTEy"
+  },
+  {
+    "id": "867772443970",
+    "name": "07-В • Географія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyNDQzOTcw"
+  },
+  {
+    "id": "867772474258",
+    "name": "07-В • Геометрія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyNDc0MjU4"
+  },
+  {
+    "id": "867771265637",
+    "name": "07-В • Друга іноземна мова (Німецька)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxMjY1NjM3"
+  },
+  {
+    "id": "867772642609",
+    "name": "07-В • Зарубіжна література",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyNjQyNjA5"
+  },
+  {
+    "id": "867772271550",
+    "name": "07-В • Здоров'я безпека та добробут",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMjcxNTUw"
+  },
+  {
+    "id": "867770214307",
+    "name": "07-В • Мистецтво",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcwMjE0MzA3"
+  },
+  {
+    "id": "867772195129",
+    "name": "07-В • Основи християнської етики",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMTk1MTI5"
+  },
+  {
+    "id": "867772249767",
+    "name": "07-В • Технології (Гр. 1)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMjQ5NzY3"
+  },
+  {
+    "id": "886178374406",
+    "name": "07-В • Технології (Гр. 2)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4Mzc0NDA2"
+  },
+  {
+    "id": "867771834445",
+    "name": "07-В • Українська література",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxODM0NDQ1"
+  },
+  {
+    "id": "867769655812",
+    "name": "07-В • Українська мова (Гр. 1)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzY5NjU1ODEy"
+  },
+  {
+    "id": "886179675314",
+    "name": "07-В • Українська мова (Гр. 2)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5Njc1MzE0"
+  },
+  {
+    "id": "867772040803",
+    "name": "07-В • Фізика",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMDQwODAz"
+  },
+  {
+    "id": "867772659527",
+    "name": "07-В • Фізична культура",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyNjU5NTI3"
+  },
+  {
+    "id": "867762293242",
+    "name": "07-В • Хімія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyMjkzMjQy"
+  },
+  {
+    "id": "867772226483",
+    "name": "07-Г • Інформатика (Гр. 1)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMjI2NDgz"
+  },
+  {
+    "id": "886178505935",
+    "name": "07-Г • Інформатика (Гр. 2)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NTA1OTM1"
+  },
+  {
+    "id": "867772282508",
+    "name": "07-Г • Історія України",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMjgyNTA4"
+  },
+  {
+    "id": "867761751478",
+    "name": "07-Г • Алгебра",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYxNzUxNDc4"
+  },
+  {
+    "id": "867770765403",
+    "name": "07-Г • Англійська мова (Гр. 1)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcwNzY1NDAz"
+  },
+  {
+    "id": "886178358003",
+    "name": "07-Г • Англійська мова (Гр. 2)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4MzU4MDAz"
+  },
+  {
+    "id": "867767778417",
+    "name": "07-Г • Біологія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzY3Nzc4NDE3"
+  },
+  {
+    "id": "867772300924",
+    "name": "07-Г • Всесвітня історія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMzAwOTI0"
+  },
+  {
+    "id": "867770643194",
+    "name": "07-Г • Географія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcwNjQzMTk0"
+  },
+  {
+    "id": "867771865038",
+    "name": "07-Г • Геометрія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxODY1MDM4"
+  },
+  {
+    "id": "867772037425",
+    "name": "07-Г • Друга іноземна мова (Німецька)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMDM3NDI1"
+  },
+  {
+    "id": "867771961556",
+    "name": "07-Г • Зарубіжна література",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxOTYxNTU2"
+  },
+  {
+    "id": "867771801761",
+    "name": "07-Г • Здоров'я безпека та добробут",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxODAxNzYx"
+  },
+  {
+    "id": "867772006510",
+    "name": "07-Г • Мистецтво",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMDA2NTEw"
+  },
+  {
+    "id": "867772213059",
+    "name": "07-Г • Основи християнської етики",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMjEzMDU5"
+  },
+  {
+    "id": "867772530601",
+    "name": "07-Г • Технології (Гр. 1)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyNTMwNjAx"
+  },
+  {
+    "id": "886177988411",
+    "name": "07-Г • Технології (Гр. 2)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc3OTg4NDEx"
+  },
+  {
+    "id": "867772335332",
+    "name": "07-Г • Українська література",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMzM1MzMy"
+  },
+  {
+    "id": "867772478043",
+    "name": "07-Г • Українська мова (Гр. 1)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyNDc4MDQz"
+  },
+  {
+    "id": "886179414964",
+    "name": "07-Г • Українська мова (Гр. 2)",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NDE0OTY0"
+  },
+  {
+    "id": "867772032491",
+    "name": "07-Г • Фізика",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMDMyNDkx"
+  },
+  {
+    "id": "867772093943",
+    "name": "07-Г • Фізична культура",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMDkzOTQz"
+  },
+  {
+    "id": "867771932205",
+    "name": "07-Г • Хімія",
+    "section": "🟣 [7 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxOTMyMjA1"
+  },
+  {
+    "id": "867773165375",
+    "name": "08 • Індивідуальна ФН (Екстернат, Сімейна, Педпатронаж)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczMTY1Mzc1"
+  },
+  {
+    "id": "867773937691",
+    "name": "08-А • Інформатика (Гр. 1)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczOTM3Njkx"
+  },
+  {
+    "id": "886179393443",
+    "name": "08-А • Інформатика (Гр. 2)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MzkzNDQz"
+  },
+  {
+    "id": "867773763500",
+    "name": "08-А • Історія України",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczNzYzNTAw"
+  },
+  {
+    "id": "867773833954",
+    "name": "08-А • Алгебра",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczODMzOTU0"
+  },
+  {
+    "id": "867773065393",
+    "name": "08-А • Англійська мова (Гр. 1)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczMDY1Mzkz"
+  },
+  {
+    "id": "869729641223",
+    "name": "08-А • Англійська мова (Гр. 2)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY5NzI5NjQxMjIz"
+  },
+  {
+    "id": "867774191529",
+    "name": "08-А • Біологія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MTkxNTI5"
+  },
+  {
+    "id": "867774045136",
+    "name": "08-А • Всесвітня історія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MDQ1MTM2"
+  },
+  {
+    "id": "867773661733",
+    "name": "08-А • Географія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczNjYxNzMz"
+  },
+  {
+    "id": "867770411183",
+    "name": "08-А • Геометрія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcwNDExMTgz"
+  },
+  {
+    "id": "867773702884",
+    "name": "08-А • Друга іноземна мова (Німецька)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczNzAyODg0"
+  },
+  {
+    "id": "867766353367",
+    "name": "08-А • Зарубіжна література",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzY2MzUzMzY3"
+  },
+  {
+    "id": "867773485997",
+    "name": "08-А • Здоров'я безпека та добробут",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczNDg1OTk3"
+  },
+  {
+    "id": "867773267059",
+    "name": "08-А • Мистецтво",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczMjY3MDU5"
+  },
+  {
+    "id": "867772403705",
+    "name": "08-А • Основи християнської етики",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyNDAzNzA1"
+  },
+  {
+    "id": "867773945053",
+    "name": "08-А • Технології (Гр. 1)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczOTQ1MDUz"
+  },
+  {
+    "id": "869729548548",
+    "name": "08-А • Технології (Гр. 2)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY5NzI5NTQ4NTQ4"
+  },
+  {
+    "id": "867773510080",
+    "name": "08-А • Українська література",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczNTEwMDgw"
+  },
+  {
+    "id": "867772365413",
+    "name": "08-А • Українська мова (Гр. 1)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMzY1NDEz"
+  },
+  {
+    "id": "869729533019",
+    "name": "08-А • Українська мова (Гр. 2)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY5NzI5NTMzMDE5"
+  },
+  {
+    "id": "867773732275",
+    "name": "08-А • Фізика",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczNzMyMjc1"
+  },
+  {
+    "id": "867773696159",
+    "name": "08-А • Фізична культура",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczNjk2MTU5"
+  },
+  {
+    "id": "867774011839",
+    "name": "08-А • Хімія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MDExODM5"
+  },
+  {
+    "id": "867773683352",
+    "name": "08-Б • Інформатика (Гр. 1)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczNjgzMzUy"
+  },
+  {
+    "id": "886178695507",
+    "name": "08-Б • Інформатика (Гр. 2)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4Njk1NTA3"
+  },
+  {
+    "id": "867773366118",
+    "name": "08-Б • Історія України",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczMzY2MTE4"
+  },
+  {
+    "id": "867772282143",
+    "name": "08-Б • Алгебра",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMjgyMTQz"
+  },
+  {
+    "id": "867773742881",
+    "name": "08-Б • Англійська мова (Гр. 1)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczNzQyODgx"
+  },
+  {
+    "id": "886179365770",
+    "name": "08-Б • Англійська мова (Гр. 2)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MzY1Nzcw"
+  },
+  {
+    "id": "867774242927",
+    "name": "08-Б • Біологія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MjQyOTI3"
+  },
+  {
+    "id": "867773315325",
+    "name": "08-Б • Всесвітня історія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczMzE1MzI1"
+  },
+  {
+    "id": "867773751988",
+    "name": "08-Б • Географія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczNzUxOTg4"
+  },
+  {
+    "id": "867764268251",
+    "name": "08-Б • Геометрія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzY0MjY4MjUx"
+  },
+  {
+    "id": "867773261198",
+    "name": "08-Б • Друга іноземна мова (Німецька)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczMjYxMTk4"
+  },
+  {
+    "id": "867773585772",
+    "name": "08-Б • Зарубіжна література",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczNTg1Nzcy"
+  },
+  {
+    "id": "867773988532",
+    "name": "08-Б • Здоров'я безпека та добробут",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczOTg4NTMy"
+  },
+  {
+    "id": "867773948610",
+    "name": "08-Б • Мистецтво",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczOTQ4NjEw"
+  },
+  {
+    "id": "867773278506",
+    "name": "08-Б • Основи християнської етики",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczMjc4NTA2"
+  },
+  {
+    "id": "867774185813",
+    "name": "08-Б • Технології (Гр. 1)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MTg1ODEz"
+  },
+  {
+    "id": "886178591714",
+    "name": "08-Б • Технології (Гр. 2)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NTkxNzE0"
+  },
+  {
+    "id": "867773160529",
+    "name": "08-Б • Українська література",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczMTYwNTI5"
+  },
+  {
+    "id": "867772849093",
+    "name": "08-Б • Українська мова (Гр. 1)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyODQ5MDkz"
+  },
+  {
+    "id": "869729617906",
+    "name": "08-Б • Українська мова (Гр. 2)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY5NzI5NjE3OTA2"
+  },
+  {
+    "id": "867773579251",
+    "name": "08-Б • Фізика",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczNTc5MjUx"
+  },
+  {
+    "id": "867774166476",
+    "name": "08-Б • Фізична культура",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MTY2NDc2"
+  },
+  {
+    "id": "867773980942",
+    "name": "08-Б • Хімія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczOTgwOTQy"
+  },
+  {
+    "id": "867773792680",
+    "name": "08-В • Інформатика (Гр. 1)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczNzkyNjgw"
+  },
+  {
+    "id": "886178568639",
+    "name": "08-В • Інформатика (Гр. 2)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NTY4NjM5"
+  },
+  {
+    "id": "867769660591",
+    "name": "08-В • Історія України",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzY5NjYwNTkx"
+  },
+  {
+    "id": "867774176939",
+    "name": "08-В • Алгебра",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MTc2OTM5"
+  },
+  {
+    "id": "867774280674",
+    "name": "08-В • Англійська мова (Гр. 1)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MjgwNjc0"
+  },
+  {
+    "id": "886178310448",
+    "name": "08-В • Англійська мова (Гр. 2)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4MzEwNDQ4"
+  },
+  {
+    "id": "867762876220",
+    "name": "08-В • Біологія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzYyODc2MjIw"
+  },
+  {
+    "id": "867773979149",
+    "name": "08-В • Всесвітня історія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczOTc5MTQ5"
+  },
+  {
+    "id": "867773901538",
+    "name": "08-В • Географія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczOTAxNTM4"
+  },
+  {
+    "id": "867772725310",
+    "name": "08-В • Геометрія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyNzI1MzEw"
+  },
+  {
+    "id": "867774030578",
+    "name": "08-В • Друга іноземна мова (Німецька)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MDMwNTc4"
+  },
+  {
+    "id": "867772403716",
+    "name": "08-В • Зарубіжна література",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyNDAzNzE2"
+  },
+  {
+    "id": "867774361523",
+    "name": "08-В • Здоров'я безпека та добробут",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MzYxNTIz"
+  },
+  {
+    "id": "867774095517",
+    "name": "08-В • Мистецтво",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MDk1NTE3"
+  },
+  {
+    "id": "867774101037",
+    "name": "08-В • Основи християнської етики",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MTAxMDM3"
+  },
+  {
+    "id": "855102224542",
+    "name": "08-В • Технології (Гр. 1)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODU1MTAyMjI0NTQy"
+  },
+  {
+    "id": "886179536475",
+    "name": "08-В • Технології (Гр. 2)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NTM2NDc1"
+  },
+  {
+    "id": "867774106412",
+    "name": "08-В • Українська література",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MTA2NDEy"
+  },
+  {
+    "id": "867773801949",
+    "name": "08-В • Українська мова (Гр. 1)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczODAxOTQ5"
+  },
+  {
+    "id": "886178094271",
+    "name": "08-В • Українська мова (Гр. 2)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4MDk0Mjcx"
+  },
+  {
+    "id": "867773120448",
+    "name": "08-В • Фізика",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczMTIwNDQ4"
+  },
+  {
+    "id": "867773856296",
+    "name": "08-В • Фізична культура",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczODU2Mjk2"
+  },
+  {
+    "id": "867774137225",
+    "name": "08-В • Хімія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MTM3MjI1"
+  },
+  {
+    "id": "867773924931",
+    "name": "08-Г • Інформатика (Гр. 1)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczOTI0OTMx"
+  },
+  {
+    "id": "886179429994",
+    "name": "08-Г • Інформатика (Гр. 2)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NDI5OTk0"
+  },
+  {
+    "id": "855102447799",
+    "name": "08-Г • Історія України",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODU1MTAyNDQ3Nzk5"
+  },
+  {
+    "id": "867773139942",
+    "name": "08-Г • Алгебра",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczMTM5OTQy"
+  },
+  {
+    "id": "867772127240",
+    "name": "08-Г • Англійська мова (Гр. 1)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMTI3MjQw"
+  },
+  {
+    "id": "886178486571",
+    "name": "08-Г • Англійська мова (Гр. 2)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NDg2NTcx"
+  },
+  {
+    "id": "855102311558",
+    "name": "08-Г • Біологія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODU1MTAyMzExNTU4"
+  },
+  {
+    "id": "867774054220",
+    "name": "08-Г • Всесвітня історія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MDU0MjIw"
+  },
+  {
+    "id": "867774483586",
+    "name": "08-Г • Географія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0NDgzNTg2"
+  },
+  {
+    "id": "867773944734",
+    "name": "08-Г • Геометрія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczOTQ0NzM0"
+  },
+  {
+    "id": "867773065413",
+    "name": "08-Г • Друга іноземна мова (Німецька)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczMDY1NDEz"
+  },
+  {
+    "id": "867773975059",
+    "name": "08-Г • Зарубіжна література",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczOTc1MDU5"
+  },
+  {
+    "id": "867772181521",
+    "name": "08-Г • Здоров'я безпека та добробут",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcyMTgxNTIx"
+  },
+  {
+    "id": "867774122525",
+    "name": "08-Г • Мистецтво",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MTIyNTI1"
+  },
+  {
+    "id": "867774223740",
+    "name": "08-Г • Основи християнської етики",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MjIzNzQw"
+  },
+  {
+    "id": "867774182736",
+    "name": "08-Г • Технології (Гр. 1)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MTgyNzM2"
+  },
+  {
+    "id": "886179110162",
+    "name": "08-Г • Технології (Гр. 2)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MTEwMTYy"
+  },
+  {
+    "id": "867774302044",
+    "name": "08-Г • Українська література",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc0MzAyMDQ0"
+  },
+  {
+    "id": "867773633196",
+    "name": "08-Г • Українська мова (Гр. 1)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczNjMzMTk2"
+  },
+  {
+    "id": "886179607287",
+    "name": "08-Г • Українська мова (Гр. 2)",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NjA3Mjg3"
+  },
+  {
+    "id": "867773940405",
+    "name": "08-Г • Фізика",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczOTQwNDA1"
+  },
+  {
+    "id": "867773305349",
+    "name": "08-Г • Фізична культура",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzczMzA1MzQ5"
+  },
+  {
+    "id": "867771594798",
+    "name": "08-Г • Хімія",
+    "section": "🟤 [8 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzcxNTk0Nzk4"
+  },
+  {
+    "id": "886599308901",
+    "name": "УКРАЇНСЬКА МОВА 8-А клас",
+    "section": "",
+    "link": "https://classroom.google.com/c/ODg2NTk5MzA4OTAx"
+  },
+  {
+    "id": "867785971111",
+    "name": "09 • Індивідуальна ФН (Екстернат, Сімейна, Педпатронаж)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg1OTcxMTEx"
+  },
+  {
+    "id": "867786796019",
+    "name": "09-А • Інформатика (Гр. 1)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2Nzk2MDE5"
+  },
+  {
+    "id": "886178292129",
+    "name": "09-А • Інформатика (Гр. 2)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4MjkyMTI5"
+  },
+  {
+    "id": "867786632646",
+    "name": "09-А • Історія України",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2NjMyNjQ2"
+  },
+  {
+    "id": "867786784658",
+    "name": "09-А • Алгебра",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2Nzg0NjU4"
+  },
+  {
+    "id": "867786127462",
+    "name": "09-А • Англійська мова (Гр. 1)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2MTI3NDYy"
+  },
+  {
+    "id": "886179760520",
+    "name": "09-А • Англійська мова (Гр. 2)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NzYwNTIw"
+  },
+  {
+    "id": "867786686999",
+    "name": "09-А • Біологія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2Njg2OTk5"
+  },
+  {
+    "id": "867786318073",
+    "name": "09-А • Всесвітня історія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2MzE4MDcz"
+  },
+  {
+    "id": "867785549520",
+    "name": "09-А • Географія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg1NTQ5NTIw"
+  },
+  {
+    "id": "867786468876",
+    "name": "09-А • Геометрія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2NDY4ODc2"
+  },
+  {
+    "id": "867787147226",
+    "name": "09-А • Друга іноземна мова (Німецька)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MTQ3MjI2"
+  },
+  {
+    "id": "867786402913",
+    "name": "09-А • Зарубіжна література",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2NDAyOTEz"
+  },
+  {
+    "id": "867785609614",
+    "name": "09-А • Здоров'я безпека та добробут",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg1NjA5NjE0"
+  },
+  {
+    "id": "867786626279",
+    "name": "09-А • Мистецтво",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2NjI2Mjc5"
+  },
+  {
+    "id": "867786492937",
+    "name": "09-А • Основи правознавства",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2NDkyOTM3"
+  },
+  {
+    "id": "867787200754",
+    "name": "09-А • Основи християнської етики",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MjAwNzU0"
+  },
+  {
+    "id": "867783897968",
+    "name": "09-А • Технології (Гр. 1)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzgzODk3OTY4"
+  },
+  {
+    "id": "886178621642",
+    "name": "09-А • Технології (Гр. 2)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NjIxNjQy"
+  },
+  {
+    "id": "867781819138",
+    "name": "09-А • Українська література",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzgxODE5MTM4"
+  },
+  {
+    "id": "798182761202",
+    "name": "09-А • Українська мова (Гр. 1)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTgyNzYxMjAy"
+  },
+  {
+    "id": "886179514009",
+    "name": "09-А • Українська мова (Гр. 2)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NTE0MDA5"
+  },
+  {
+    "id": "867787010260",
+    "name": "09-А • Фізика",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MDEwMjYw"
+  },
+  {
+    "id": "867786003267",
+    "name": "09-А • Фізична культура",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2MDAzMjY3"
+  },
+  {
+    "id": "867786849851",
+    "name": "09-А • Хімія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2ODQ5ODUx"
+  },
+  {
+    "id": "867786773337",
+    "name": "09-Б • Інформатика (Гр. 1)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2NzczMzM3"
+  },
+  {
+    "id": "886179848327",
+    "name": "09-Б • Інформатика (Гр. 2)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5ODQ4MzI3"
+  },
+  {
+    "id": "867786884316",
+    "name": "09-Б • Історія України",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2ODg0MzE2"
+  },
+  {
+    "id": "867787218389",
+    "name": "09-Б • Алгебра",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MjE4Mzg5"
+  },
+  {
+    "id": "867786392178",
+    "name": "09-Б • Англійська мова (Гр. 1)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2MzkyMTc4"
+  },
+  {
+    "id": "886178318484",
+    "name": "09-Б • Англійська мова (Гр. 2)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4MzE4NDg0"
+  },
+  {
+    "id": "867776422164",
+    "name": "09-Б • Біологія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc2NDIyMTY0"
+  },
+  {
+    "id": "867786283682",
+    "name": "09-Б • Всесвітня історія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2MjgzNjgy"
+  },
+  {
+    "id": "798182757897",
+    "name": "09-Б • Географія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTgyNzU3ODk3"
+  },
+  {
+    "id": "867786358395",
+    "name": "09-Б • Геометрія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2MzU4Mzk1"
+  },
+  {
+    "id": "867778951804",
+    "name": "09-Б • Друга іноземна мова (Німецька)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc4OTUxODA0"
+  },
+  {
+    "id": "867787238281",
+    "name": "09-Б • Зарубіжна література",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MjM4Mjgx"
+  },
+  {
+    "id": "867786786402",
+    "name": "09-Б • Здоров'я безпека та добробут",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2Nzg2NDAy"
+  },
+  {
+    "id": "867785486255",
+    "name": "09-Б • Мистецтво",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg1NDg2MjU1"
+  },
+  {
+    "id": "867786418185",
+    "name": "09-Б • Основи правознавства",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2NDE4MTg1"
+  },
+  {
+    "id": "867787178745",
+    "name": "09-Б • Основи християнської етики",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MTc4NzQ1"
+  },
+  {
+    "id": "867786000656",
+    "name": "09-Б • Технології (Гр. 1)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2MDAwNjU2"
+  },
+  {
+    "id": "869729560577",
+    "name": "09-Б • Технології (Гр. 2)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY5NzI5NTYwNTc3"
+  },
+  {
+    "id": "867787078413",
+    "name": "09-Б • Українська література",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MDc4NDEz"
+  },
+  {
+    "id": "867786590511",
+    "name": "09-Б • Українська мова (Гр. 1)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2NTkwNTEx"
+  },
+  {
+    "id": "886179710679",
+    "name": "09-Б • Українська мова (Гр. 2)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NzEwNjc5"
+  },
+  {
+    "id": "867785721891",
+    "name": "09-Б • Фізика",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg1NzIxODkx"
+  },
+  {
+    "id": "867786496575",
+    "name": "09-Б • Фізична культура",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2NDk2NTc1"
+  },
+  {
+    "id": "867787578814",
+    "name": "09-Б • Хімія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3NTc4ODE0"
+  },
+  {
+    "id": "867786788433",
+    "name": "09-В • Інформатика (Гр. 1)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2Nzg4NDMz"
+  },
+  {
+    "id": "886179250956",
+    "name": "09-В • Інформатика (Гр. 2)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MjUwOTU2"
+  },
+  {
+    "id": "867787104336",
+    "name": "09-В • Історія України",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MTA0MzM2"
+  },
+  {
+    "id": "867786289446",
+    "name": "09-В • Алгебра",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2Mjg5NDQ2"
+  },
+  {
+    "id": "867787083726",
+    "name": "09-В • Англійська мова (Гр. 1)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MDgzNzI2"
+  },
+  {
+    "id": "886179425156",
+    "name": "09-В • Англійська мова (Гр. 2)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NDI1MTU2"
+  },
+  {
+    "id": "867784872034",
+    "name": "09-В • Біологія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg0ODcyMDM0"
+  },
+  {
+    "id": "798182730924",
+    "name": "09-В • Всесвітня історія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTgyNzMwOTI0"
+  },
+  {
+    "id": "867786828855",
+    "name": "09-В • Географія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2ODI4ODU1"
+  },
+  {
+    "id": "867786086158",
+    "name": "09-В • Геометрія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2MDg2MTU4"
+  },
+  {
+    "id": "867786244043",
+    "name": "09-В • Друга іноземна мова (Німецька)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2MjQ0MDQz"
+  },
+  {
+    "id": "867783488698",
+    "name": "09-В • Зарубіжна література",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzgzNDg4Njk4"
+  },
+  {
+    "id": "867787509567",
+    "name": "09-В • Здоров'я безпека та добробут",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3NTA5NTY3"
+  },
+  {
+    "id": "867786249893",
+    "name": "09-В • Мистецтво",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2MjQ5ODkz"
+  },
+  {
+    "id": "867787227627",
+    "name": "09-В • Основи правознавства",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MjI3NjI3"
+  },
+  {
+    "id": "867787101828",
+    "name": "09-В • Основи християнської етики",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MTAxODI4"
+  },
+  {
+    "id": "867787323494",
+    "name": "09-В • Технології (Гр. 1)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MzIzNDk0"
+  },
+  {
+    "id": "886178310510",
+    "name": "09-В • Технології (Гр. 2)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4MzEwNTEw"
+  },
+  {
+    "id": "867786895917",
+    "name": "09-В • Українська література",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2ODk1OTE3"
+  },
+  {
+    "id": "867786997803",
+    "name": "09-В • Українська мова (Гр. 1)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2OTk3ODAz"
+  },
+  {
+    "id": "886179845865",
+    "name": "09-В • Українська мова (Гр. 2)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5ODQ1ODY1"
+  },
+  {
+    "id": "867786375734",
+    "name": "09-В • Фізика",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2Mzc1NzM0"
+  },
+  {
+    "id": "867782160083",
+    "name": "09-В • Фізична культура",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzgyMTYwMDgz"
+  },
+  {
+    "id": "867787176480",
+    "name": "09-В • Хімія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MTc2NDgw"
+  },
+  {
+    "id": "867786926822",
+    "name": "09-Г • Інформатика (Гр. 1)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2OTI2ODIy"
+  },
+  {
+    "id": "886178609185",
+    "name": "09-Г • Інформатика (Гр. 2)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NjA5MTg1"
+  },
+  {
+    "id": "867786853992",
+    "name": "09-Г • Історія України",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2ODUzOTky"
+  },
+  {
+    "id": "867786306662",
+    "name": "09-Г • Алгебра",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2MzA2NjYy"
+  },
+  {
+    "id": "867787487737",
+    "name": "09-Г • Англійська мова (Гр. 1)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3NDg3NzM3"
+  },
+  {
+    "id": "886178396876",
+    "name": "09-Г • Англійська мова (Гр. 2)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4Mzk2ODc2"
+  },
+  {
+    "id": "867786993926",
+    "name": "09-Г • Біологія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2OTkzOTI2"
+  },
+  {
+    "id": "867785936205",
+    "name": "09-Г • Всесвітня історія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg1OTM2MjA1"
+  },
+  {
+    "id": "867786213276",
+    "name": "09-Г • Географія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2MjEzMjc2"
+  },
+  {
+    "id": "867785963184",
+    "name": "09-Г • Геометрія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg1OTYzMTg0"
+  },
+  {
+    "id": "867787201201",
+    "name": "09-Г • Друга іноземна мова (Німецька)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MjAxMjAx"
+  },
+  {
+    "id": "867785784611",
+    "name": "09-Г • Зарубіжна література",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg1Nzg0NjEx"
+  },
+  {
+    "id": "867786686257",
+    "name": "09-Г • Здоров'я безпека та добробут",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2Njg2MjU3"
+  },
+  {
+    "id": "867787075409",
+    "name": "09-Г • Мистецтво",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MDc1NDA5"
+  },
+  {
+    "id": "867777141608",
+    "name": "09-Г • Основи правознавства",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc3MTQxNjA4"
+  },
+  {
+    "id": "867785655043",
+    "name": "09-Г • Основи християнської етики",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg1NjU1MDQz"
+  },
+  {
+    "id": "867785809092",
+    "name": "09-Г • Технології (Гр. 1)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg1ODA5MDky"
+  },
+  {
+    "id": "886179892499",
+    "name": "09-Г • Технології (Гр. 2)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5ODkyNDk5"
+  },
+  {
+    "id": "867786374553",
+    "name": "09-Г • Українська література",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2Mzc0NTUz"
+  },
+  {
+    "id": "867786775622",
+    "name": "09-Г • Українська мова (Гр. 1)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2Nzc1NjIy"
+  },
+  {
+    "id": "886179149884",
+    "name": "09-Г • Українська мова (Гр. 2)",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MTQ5ODg0"
+  },
+  {
+    "id": "867786590550",
+    "name": "09-Г • Фізика",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2NTkwNTUw"
+  },
+  {
+    "id": "867782160104",
+    "name": "09-Г • Фізична культура",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzgyMTYwMTA0"
+  },
+  {
+    "id": "867787145512",
+    "name": "09-Г • Хімія",
+    "section": "⚪️ [9 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MTQ1NTEy"
+  },
+  {
+    "id": "867776937557",
+    "name": "10 • Індивідуальна ФН (Екстернат, Сімейна, Педпатронаж)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc2OTM3NTU3"
+  },
+  {
+    "id": "867790621903",
+    "name": "10-А • Інформатика (Гр. 1)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkwNjIxOTAz"
+  },
+  {
+    "id": "886179608824",
+    "name": "10-А • Інформатика (Гр. 2)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NjA4ODI0"
+  },
+  {
+    "id": "855108187955",
+    "name": "10-А • Історія України",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODU1MTA4MTg3OTU1"
+  },
+  {
+    "id": "867790815457",
+    "name": "10-А • Алгебра і початки аналізу",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkwODE1NDU3"
+  },
+  {
+    "id": "798183844970",
+    "name": "10-А • Англійська мова (Гр. 1)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTgzODQ0OTcw"
+  },
+  {
+    "id": "886179820265",
+    "name": "10-А • Англійська мова (Гр. 2)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5ODIwMjY1"
+  },
+  {
+    "id": "798183670601",
+    "name": "10-А • Біологія і екологія",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTgzNjcwNjAx"
+  },
+  {
+    "id": "867788420133",
+    "name": "10-А • Всесвітня історія",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg4NDIwMTMz"
+  },
+  {
+    "id": "867791919424",
+    "name": "10-А • Географія",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxOTE5NDI0"
+  },
+  {
+    "id": "867791691567",
+    "name": "10-А • Геометрія",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxNjkxNTY3"
+  },
+  {
+    "id": "867791766992",
+    "name": "10-А • Громадянська освіта",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxNzY2OTky"
+  },
+  {
+    "id": "867791100584",
+    "name": "10-А • Друга іноземна мова (Німецька)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxMTAwNTg0"
+  },
+  {
+    "id": "867792030673",
+    "name": "10-А • Зарубіжна література",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyMDMwNjcz"
+  },
+  {
+    "id": "886179723394",
+    "name": "10-А • Захист України (дівч.)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NzIzMzk0"
+  },
+  {
+    "id": "867791081197",
+    "name": "10-А • Захист України (юнаки)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxMDgxMTk3"
+  },
+  {
+    "id": "867791089003",
+    "name": "10-А • Мистецтво",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxMDg5MDAz"
+  },
+  {
+    "id": "867791106811",
+    "name": "10-А • Основи християнської етики",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxMTA2ODEx"
+  },
+  {
+    "id": "867791528421",
+    "name": "10-А • Технології (Гр. 1)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxNTI4NDIx"
+  },
+  {
+    "id": "886179498267",
+    "name": "10-А • Технології (Гр. 2)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NDk4MjY3"
+  },
+  {
+    "id": "867791165939",
+    "name": "10-А • Українська література",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxMTY1OTM5"
+  },
+  {
+    "id": "867780430734",
+    "name": "10-А • Українська мова (Гр. 1)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzgwNDMwNzM0"
+  },
+  {
+    "id": "886178889021",
+    "name": "10-А • Українська мова (Гр. 2)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4ODg5MDIx"
+  },
+  {
+    "id": "867791095498",
+    "name": "10-А • Фізика і астрономія",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxMDk1NDk4"
+  },
+  {
+    "id": "886179095734",
+    "name": "10-А • Фізична культура (дівч.)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MDk1NzM0"
+  },
+  {
+    "id": "867791266939",
+    "name": "10-А • Фізична культура (хлоп.)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxMjY2OTM5"
+  },
+  {
+    "id": "867791829313",
+    "name": "10-А • Хімія",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxODI5MzEz"
+  },
+  {
+    "id": "867791878062",
+    "name": "10-Б • Інформатика (Гр. 1)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxODc4MDYy"
+  },
+  {
+    "id": "886179073863",
+    "name": "10-Б • Інформатика (Гр. 2)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MDczODYz"
+  },
+  {
+    "id": "867791639748",
+    "name": "10-Б • Історія України",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxNjM5NzQ4"
+  },
+  {
+    "id": "855107124035",
+    "name": "10-Б • Алгебра і початки аналізу",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODU1MTA3MTI0MDM1"
+  },
+  {
+    "id": "855108478485",
+    "name": "10-Б • Англійська мова (Гр. 1)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODU1MTA4NDc4NDg1"
+  },
+  {
+    "id": "886179854310",
+    "name": "10-Б • Англійська мова (Гр. 2)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5ODU0MzEw"
+  },
+  {
+    "id": "867790932150",
+    "name": "10-Б • Біологія і екологія",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkwOTMyMTUw"
+  },
+  {
+    "id": "867786558104",
+    "name": "10-Б • Всесвітня історія",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2NTU4MTA0"
+  },
+  {
+    "id": "867791238867",
+    "name": "10-Б • Географія",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxMjM4ODY3"
+  },
+  {
+    "id": "867791515699",
+    "name": "10-Б • Геометрія",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxNTE1Njk5"
+  },
+  {
+    "id": "867791699335",
+    "name": "10-Б • Громадянська освіта",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxNjk5MzM1"
+  },
+  {
+    "id": "867791474986",
+    "name": "10-Б • Друга іноземна мова (Німецька)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxNDc0OTg2"
+  },
+  {
+    "id": "855108481032",
+    "name": "10-Б • Зарубіжна література",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODU1MTA4NDgxMDMy"
+  },
+  {
+    "id": "886179791525",
+    "name": "10-Б • Захист України (дівч.)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NzkxNTI1"
+  },
+  {
+    "id": "867791525815",
+    "name": "10-Б • Захист України (юнаки)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxNTI1ODE1"
+  },
+  {
+    "id": "867790940760",
+    "name": "10-Б • Мистецтво",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkwOTQwNzYw"
+  },
+  {
+    "id": "867788491430",
+    "name": "10-Б • Основи християнської етики",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg4NDkxNDMw"
+  },
+  {
+    "id": "798183738162",
+    "name": "10-Б • Технології (Гр. 1)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTgzNzM4MTYy"
+  },
+  {
+    "id": "886179603921",
+    "name": "10-Б • Технології (Гр. 2)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NjAzOTIx"
+  },
+  {
+    "id": "867790687363",
+    "name": "10-Б • Українська література",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkwNjg3MzYz"
+  },
+  {
+    "id": "867790761171",
+    "name": "10-Б • Українська мова (Гр. 1)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkwNzYxMTcx"
+  },
+  {
+    "id": "886179097543",
+    "name": "10-Б • Українська мова (Гр. 2)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MDk3NTQz"
+  },
+  {
+    "id": "867791896554",
+    "name": "10-Б • Фізика і астрономія",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxODk2NTU0"
+  },
+  {
+    "id": "886179194918",
+    "name": "10-Б • Фізична культура (дівч.)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5MTk0OTE4"
+  },
+  {
+    "id": "867787356263",
+    "name": "10-Б • Фізична культура (хлоп.)",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MzU2MjYz"
+  },
+  {
+    "id": "867791868755",
+    "name": "10-Б • Хімія",
+    "section": "🟡 [10 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxODY4NzU1"
+  },
+  {
+    "id": "867789158503",
+    "name": "11 • Індивідуальна ФН (Екстернат, Сімейна, Педпатронаж)",
     "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3Nzg7MzAxNTQ0"
+    "link": "https://classroom.google.com/c/ODY3Nzg5MTU4NTAz"
+  },
+  {
+    "id": "867792280805",
+    "name": "11-А • Інформатика (Гр. 1)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyMjgwODA1"
+  },
+  {
+    "id": "886180165707",
+    "name": "11-А • Інформатика (Гр. 2)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTgwMTY1NzA3"
+  },
+  {
+    "id": "867791719550",
+    "name": "11-А • Історія України",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxNzE5NTUw"
+  },
+  {
+    "id": "867791520651",
+    "name": "11-А • Алгебра і початки аналізу",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxNTIwNjUx"
+  },
+  {
+    "id": "867792694872",
+    "name": "11-А • Англійська мова (Гр. 1)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyNjk0ODcy"
+  },
+  {
+    "id": "886178711336",
+    "name": "11-А • Англійська мова (Гр. 2)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NzExMzM2"
+  },
+  {
+    "id": "867792832358",
+    "name": "11-А • Біологія і екологія",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyODMyMzU4"
+  },
+  {
+    "id": "867792707565",
+    "name": "11-А • Всесвітня історія",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyNzA3NTY1"
+  },
+  {
+    "id": "798183908153",
+    "name": "11-А • Географія",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/Nzk4MTgzOTA4MTUz"
+  },
+  {
+    "id": "867792293789",
+    "name": "11-А • Геометрія",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyMjkzNzg5"
+  },
+  {
+    "id": "867792241222",
+    "name": "11-А • Друга іноземна мова (Німецька)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyMjQxMjIy"
+  },
+  {
+    "id": "867792392529",
+    "name": "11-А • Зарубіжна література",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyMzkyNTI5"
+  },
+  {
+    "id": "869729641010",
+    "name": "11-А • Захист України (дівч.)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY5NzI5NjQxMDEw"
   },
   {
     "id": "867791624784",
     "name": "11-А • Захист України (юнаки)",
     "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkxNjI0Nzg0"
-  },
-  {
-    "id": "867792445913",
-    "name": "11-А • Технології (Гр. 1)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkyNDQ1OTEz"
-  },
-  {
-    "id": "867782037931",
-    "name": "11-А • Фізична культура (хлоп.)",
-    "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzgyMDM3OTMx"
+    "link": "https://classroom.google.com/c/ODY3NzkxNjI0Nzg0"
   },
   {
     "id": "867791302502",
     "name": "11-А • Мистецтво",
     "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkxMzAyNTAy"
+    "link": "https://classroom.google.com/c/ODY3NzkxMzAyNTAy"
+  },
+  {
+    "id": "867787301544",
+    "name": "11-А • Основи християнської етики",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3MzAxNTQ0"
+  },
+  {
+    "id": "867792445913",
+    "name": "11-А • Технології (Гр. 1)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyNDQ1OTEz"
+  },
+  {
+    "id": "886179288701",
+    "name": "11-А • Технології (Гр. 2)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5Mjg4NzAx"
+  },
+  {
+    "id": "867790850960",
+    "name": "11-А • Українська література",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkwODUwOTYw"
+  },
+  {
+    "id": "855108993330",
+    "name": "11-А • Українська мова (Гр. 1)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODU1MTA4OTkzMzMw"
+  },
+  {
+    "id": "886179680803",
+    "name": "11-А • Українська мова (Гр. 2)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NjgwODAz"
+  },
+  {
+    "id": "867792294551",
+    "name": "11-А • Фізика і астрономія",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyMjk0NTUx"
+  },
+  {
+    "id": "886178991036",
+    "name": "11-А • Фізична культура (дівч.)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4OTkxMDM2"
+  },
+  {
+    "id": "867782037931",
+    "name": "11-А • Фізична культура (хлоп.)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzgyMDM3OTMx"
   },
   {
     "id": "867792998373",
     "name": "11-А • Хімія",
     "section": "🟤 [11 ПАРАЛЕЛЬ]",
-    "alternateLink": "https://classroom.google.com/c/ODY3NzkyOTk4Mzcz"
+    "link": "https://classroom.google.com/c/ODY3NzkyOTk4Mzcz"
+  },
+  {
+    "id": "867787422615",
+    "name": "11-Б • Інформатика (Гр. 1)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg3NDIyNjE1"
+  },
+  {
+    "id": "886178489112",
+    "name": "11-Б • Інформатика (Гр. 2)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4NDg5MTEy"
+  },
+  {
+    "id": "867792694890",
+    "name": "11-Б • Історія України",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyNjk0ODkw"
+  },
+  {
+    "id": "867791303619",
+    "name": "11-Б • Алгебра і початки аналізу",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxMzAzNjE5"
+  },
+  {
+    "id": "867792397764",
+    "name": "11-Б • Англійська мова (Гр. 1)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyMzk3NzY0"
+  },
+  {
+    "id": "886180021978",
+    "name": "11-Б • Англійська мова (Гр. 2)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTgwMDIxOTc4"
+  },
+  {
+    "id": "867789515128",
+    "name": "11-Б • Біологія і екологія",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg5NTE1MTI4"
+  },
+  {
+    "id": "867790497516",
+    "name": "11-Б • Всесвітня історія",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkwNDk3NTE2"
+  },
+  {
+    "id": "867792390116",
+    "name": "11-Б • Географія",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyMzkwMTE2"
+  },
+  {
+    "id": "867791538027",
+    "name": "11-Б • Геометрія",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxNTM4MDI3"
+  },
+  {
+    "id": "867792329764",
+    "name": "11-Б • Друга іноземна мова (Німецька)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyMzI5NzY0"
+  },
+  {
+    "id": "867792218267",
+    "name": "11-Б • Зарубіжна література",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyMjE4MjY3"
+  },
+  {
+    "id": "886180043678",
+    "name": "11-Б • Захист України (дівч.)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTgwMDQzNjc4"
+  },
+  {
+    "id": "867792512225",
+    "name": "11-Б • Захист України (юнаки)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyNTEyMjI1"
+  },
+  {
+    "id": "867792466333",
+    "name": "11-Б • Мистецтво",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyNDY2MzMz"
+  },
+  {
+    "id": "867792325184",
+    "name": "11-Б • Основи християнської етики",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyMzI1MTg0"
+  },
+  {
+    "id": "867791530436",
+    "name": "11-Б • Технології (Гр. 1)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxNTMwNDM2"
+  },
+  {
+    "id": "886178940214",
+    "name": "11-Б • Технології (Гр. 2)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc4OTQwMjE0"
+  },
+  {
+    "id": "867791909915",
+    "name": "11-Б • Українська література",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxOTA5OTE1"
+  },
+  {
+    "id": "867792025334",
+    "name": "11-Б • Українська мова (Гр. 1)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkyMDI1MzM0"
+  },
+  {
+    "id": "886179456178",
+    "name": "11-Б • Українська мова (Гр. 2)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODg2MTc5NDU2MTc4"
+  },
+  {
+    "id": "867786158258",
+    "name": "11-Б • Фізика і астрономія",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzg2MTU4MjU4"
+  },
+  {
+    "id": "869729497982",
+    "name": "11-Б • Фізична культура (дівч.)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY5NzI5NDk3OTgy"
+  },
+  {
+    "id": "867776443513",
+    "name": "11-Б • Фізична культура (хлоп.)",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3Nzc2NDQzNTEz"
+  },
+  {
+    "id": "867791354337",
+    "name": "11-Б • Хімія",
+    "section": "🟤 [11 ПАРАЛЕЛЬ]",
+    "link": "https://classroom.google.com/c/ODY3NzkxMzU0MzM3"
   }
 ]
