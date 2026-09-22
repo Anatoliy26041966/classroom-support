@@ -1,0 +1,16 @@
+.DS_Store
+logs/
+*.jtl
+HTML_Report/
+*.db
+School_Automation/
+classroom-support/
+code/
+.nojekyll
+.vscode/
+operational_repo/
+template_repo/
+data/*.csv
+logs/
+local_vault/
+*.csv
