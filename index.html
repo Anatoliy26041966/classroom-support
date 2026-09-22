@@ -49,7 +49,6 @@
           </div>
         </div>
 
-        <!-- Допоміжні кнопки в шапці -->
         <div class="flex items-center gap-2 self-start md:self-auto">
           <button
             onclick="toggleModal('scheduleModal')"
@@ -67,13 +66,10 @@
       </div>
     </header>
 
-    <!-- Основний контент -->
     <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      <!-- Панель інструментів (Пошук + Компактні фільтри) -->
       <div
         class="bg-white rounded-2xl shadow-sm border border-slate-200/80 p-4 mb-6 space-y-4"
       >
-        <!-- Рядок пошуку + Статистика -->
         <div
           class="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center justify-between"
         >
@@ -102,9 +98,7 @@
           </div>
         </div>
 
-        <!-- Компактні кнопки категорій та класів -->
         <div class="space-y-2">
-          <!-- Головні категорії -->
           <div class="flex flex-wrap gap-1.5" id="categoryButtons">
             <button
               data-filter="all"
@@ -149,7 +143,6 @@
             </button>
           </div>
 
-          <!-- Компактні мікро-кнопки точних класів -->
           <div
             class="flex flex-wrap gap-1 pt-1 border-t border-slate-100"
             id="exactGradeButtons"
@@ -169,15 +162,11 @@
         </div>
       </div>
 
-      <!-- Сітка курсів -->
       <div
         id="coursesGrid"
         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
-      >
-        <!-- Картки генеруються скриптом -->
-      </div>
+      ></div>
 
-      <!-- Порожній стан -->
       <div
         id="noResults"
         class="hidden text-center py-16 bg-white rounded-2xl border border-slate-200 shadow-sm my-4"
@@ -192,7 +181,7 @@
       </div>
     </main>
 
-    <!-- Модальне вікно: Технічна підтримка -->
+    <!-- Модальне вікно підтримки -->
     <div
       id="supportModal"
       class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4"
@@ -222,13 +211,11 @@
             електронну пошту для отримання відповіді.
           </div>
 
-          <!-- Форма звернення -->
           <form
             id="supportForm"
             onsubmit="sendSupportTicket(event)"
             class="space-y-3"
           >
-            <!-- Захисне приховане поле від спам-ботів (Honeypot) -->
             <input
               type="text"
               id="suppWebsite"
@@ -317,7 +304,6 @@
             </button>
           </form>
 
-          <!-- Контакти -->
           <div
             class="pt-3 border-t border-slate-100 text-xs text-slate-600 space-y-1.5"
           >
@@ -337,7 +323,7 @@
       </div>
     </div>
 
-    <!-- Модальне вікно: Розклад дзвінків -->
+    <!-- Модальне вікно розкладу -->
     <div
       id="scheduleModal"
       class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4"
@@ -413,7 +399,6 @@
       </div>
     </div>
 
-    <!-- Футер -->
     <footer
       class="bg-white border-t border-slate-200 mt-auto py-4 text-center text-xs text-slate-500"
     >
@@ -429,13 +414,23 @@
       let activeFilter = "all";
 
       function buildDomainCourseLink(rawLink, courseId) {
-        if (courseId) {
-          return `https://classroom.google.com/c/${courseId}`;
+        let id = courseId;
+        if (!id && rawLink && rawLink.includes("/c/")) {
+          const parts = rawLink.split("/c/");
+          if (parts[1]) {
+            id = parts[1].split("?")[0].split("/")[0];
+          }
         }
-        if (rawLink && rawLink.includes("/c/")) {
-          return rawLink;
+
+        if (id) {
+          // Google Classroom веб-версія вимагає Base64 ID замість числового ID
+          if (/^\d+$/.test(id)) {
+            id = btoa(id);
+          }
+          return `https://classroom.google.com/c/${id}`;
         }
-        return "https://classroom.google.com";
+
+        return rawLink || "https://classroom.google.com";
       }
 
       function extractGrade(name) {
@@ -478,11 +473,8 @@
       function sendSupportTicket(e) {
         e.preventDefault();
 
-        // Захист від спам-ботів (Honeypot)
         const honeypot = document.getElementById("suppWebsite").value;
-        if (honeypot) {
-          return;
-        }
+        if (honeypot) return;
 
         const name = document.getElementById("suppName").value.trim();
         const email = document
@@ -493,7 +485,6 @@
         const cat = document.getElementById("suppCategory").value;
         const details = document.getElementById("suppDetails").value.trim();
 
-        // Перевірка формату електронної пошти
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(email)) {
           alert(
@@ -502,7 +493,6 @@
           return;
         }
 
-        // Перевірка мінімальної довжини опису проблеми
         if (details.length < 10) {
           alert(
             "Будь ласка, вкажіть детальніший опис проблеми (мінімум 10 символів).",
@@ -619,7 +609,6 @@
         }
       }
 
-      // Події
       document
         .getElementById("searchInput")
         .addEventListener("input", renderCourses);
