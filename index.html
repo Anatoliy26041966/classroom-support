@@ -53,11 +53,16 @@
         background-position: center;
       }
 
+      /* Закріплена шапка при прокручуванні */
       .header-bg {
         background: var(--header-bg);
         color: white;
-        padding: 1rem 0;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        padding: 0.85rem 0;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+        position: sticky;
+        top: 0;
+        z-index: 1030;
+        backdrop-filter: blur(10px);
       }
 
       .brand-link {
@@ -184,8 +189,8 @@
     </style>
   </head>
   <body>
-    <!-- Шапка порталу -->
-    <header class="header-bg">
+    <!-- Закріплена шапка порталу (Sticky Top) -->
+    <header class="header-bg sticky-top">
       <div
         class="container d-flex flex-wrap justify-content-between align-items-center gap-3"
       >
@@ -232,6 +237,15 @@
           >
             🛠 Техпідтримка
           </button>
+          <a
+            href="https://www.google.com/appsstatus/dashboard/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline-info text-white border-info-subtle btn-sm fw-medium px-3"
+            title="Панель стану сервісів Google Workspace"
+          >
+            🌐 Status Dashboard ↗
+          </a>
         </div>
       </div>
     </header>
@@ -403,6 +417,13 @@
               >Техпідтримка</a
             >
             <a
+              href="https://www.google.com/appsstatus/dashboard/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-decoration-none text-muted me-3"
+              >Status Dashboard ↗</a
+            >
+            <a
               href="https://classroom.google.com"
               target="_blank"
               class="text-decoration-none text-primary"
@@ -460,10 +481,18 @@
               </div>
               <div class="col-md-6">
                 <div class="p-3 border rounded h-100 bg-light-subtle">
-                  <h6 class="fw-bold text-primary">🛠 Служба технічної підтримки</h6>
-                  <p class="small mb-0 text-muted">
-                    Допомагає відновити втрачений доступ, пароль або додати відсутні курси до вашого корпоративного акаунту <strong>@schoolgus.ukr.education</strong>.
+                  <h6 class="fw-bold text-primary">🌐 Google Workspace Status Dashboard</h6>
+                  <p class="small mb-2 text-muted">
+                    Панель моніторингу працездатності всіх служб Google (Classroom, Gmail, Drive) у реальному часі.
                   </p>
+                  <a
+                    href="https://www.google.com/appsstatus/dashboard/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-sm btn-outline-primary py-1 px-2"
+                  >
+                    Перевірити статус ↗
+                  </a>
                 </div>
               </div>
             </div>
