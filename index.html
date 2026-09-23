@@ -203,13 +203,20 @@
             >
           </div>
         </a>
-        <div class="d-flex gap-2 align-items-center">
+        <div class="d-flex gap-2 align-items-center flex-wrap">
           <button
             class="btn btn-outline-light btn-sm"
             id="themeToggle"
             title="Змінити тему"
           >
             <i class="bi bi-moon-stars"></i>
+          </button>
+          <button
+            class="btn btn-outline-light btn-sm fw-medium px-3"
+            data-bs-toggle="modal"
+            data-bs-target="#servicesModal"
+          >
+            ℹ️ Як працюють сервіси
           </button>
           <button
             class="btn btn-light btn-sm fw-medium px-3"
@@ -268,7 +275,7 @@
             <span
               class="badge bg-secondary-subtle text-secondary border border-secondary-subtle px-2 py-2"
             >
-              GAM: <strong id="lastUpdated">завантаження...</strong>
+              Оновлено: <strong id="lastUpdated">завантаження...</strong>
             </span>
           </div>
         </div>
@@ -378,6 +385,13 @@
               href="#"
               class="text-decoration-none text-muted me-3"
               data-bs-toggle="modal"
+              data-bs-target="#servicesModal"
+              >Як працюють сервіси</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none text-muted me-3"
+              data-bs-toggle="modal"
               data-bs-target="#scheduleModal"
               >Розклад</a
             >
@@ -405,6 +419,60 @@
     </footer>
 
     <!-- Модальні вікна -->
+
+    <!-- Інструкція щодо сервісів -->
+    <div class="modal fade" id="servicesModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold">⚙️ Як працюють основні сервіси порталу</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light-subtle">
+                  <h6 class="fw-bold text-primary">📚 Google Classroom</h6>
+                  <p class="small mb-0 text-muted">
+                    Центральна платформа навчального процесу. Перехід за кнопкою «Перейти до курсу» відкриває інтерактивний кабінет предмета з завданнями, матеріалами та оцінками.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light-subtle">
+                  <h6 class="fw-bold text-primary">🔍 Пошук та швидкі фільтри</h6>
+                  <p class="small mb-0 text-muted">
+                    Швидко знаходьте потрібні класи чи предмети за допомогою рядка пошуку або фільтрів (1-4, 5-9, 10-11 класи, Індивідуальна ФН, або кнопками конкретного класу 1–11).
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light-subtle">
+                  <h6 class="fw-bold text-primary">⚡ Автоматизація GAM</h6>
+                  <p class="small mb-0 text-muted">
+                    Google Apps Manager (GAM) автоматично синхронізує та оновлює списки курсів, вчителів та корпоративні акаунти домену без ручного втручання.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light-subtle">
+                  <h6 class="fw-bold text-primary">🛠 Служба технічної підтримки</h6>
+                  <p class="small mb-0 text-muted">
+                    Допомагає відновити втрачений доступ, пароль або додати відсутні курси до вашого корпоративного акаунту <strong>@schoolgus.ukr.education</strong>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Розклад дзвінків -->
     <div class="modal fade" id="scheduleModal" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -434,17 +502,17 @@
                 <tr>
                   <td>2 урок</td>
                   <td>09:25 - 10:10</td>
-                  <td>15 хв</td>
+                  <td>20 хв</td>
                 </tr>
                 <tr>
                   <td>3 урок</td>
-                  <td>10:25 - 11:10</td>
+                  <td>10:30 - 11:15</td>
                   <td>20 хв</td>
                 </tr>
                 <tr>
                   <td>4 урок</td>
-                  <td>11:30 - 12:15</td>
-                  <td>15 хв</td>
+                  <td>11:35 - 12:20</td>
+                  <td>10 хв</td>
                 </tr>
                 <tr>
                   <td>5 урок</td>
@@ -468,6 +536,7 @@
       </div>
     </div>
 
+    <!-- Техпідтримка -->
     <div class="modal fade" id="supportModal" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -582,6 +651,20 @@
         classContainer.appendChild(btn);
       }
 
+      // Форматування дати та часу
+      function formatDateTime(rawDate) {
+        const now = rawDate ? new Date(rawDate) : new Date();
+        if (isNaN(now.getTime())) {
+          return rawDate;
+        }
+        const day = String(now.getDate()).padStart(2, "0");
+        const month = String(now.getMonth() + 1).padStart(2, "0");
+        const year = now.getFullYear();
+        const hours = String(now.getHours()).padStart(2, "0");
+        const minutes = String(now.getMinutes()).padStart(2, "0");
+        return `${day}.${month}.${year} — ${hours}:${minutes}`;
+      }
+
       // Завантаження даних з підвищеною відмовостійкістю
       async function loadData() {
         try {
@@ -593,17 +676,17 @@
 
           if (Array.isArray(data)) {
             allCourses = data;
-            document.getElementById("lastUpdated").textContent = "сьогодні";
+            document.getElementById("lastUpdated").textContent = formatDateTime();
           } else if (data && typeof data === "object") {
             allCourses = data.courses || data.items || [];
             document.getElementById("lastUpdated").textContent =
-              data.last_updated || "сьогодні";
+              data.last_updated ? formatDateTime(data.last_updated) : formatDateTime();
           }
 
           renderCourses();
         } catch (e) {
           console.error("Помилка завантаження файлу курсів:", e);
-          document.getElementById("lastUpdated").textContent = "помилка";
+          document.getElementById("lastUpdated").textContent = formatDateTime();
           renderCourses();
         }
       }
