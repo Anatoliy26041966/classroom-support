@@ -694,7 +694,7 @@
         return `${day}.${month}.${year} — ${hours}:${minutes}`;
       }
 
-      // Завантаження даних з підвищеною відмовостійкістю
+      // Завантаження даних
       async function loadData() {
         try {
           let res = await fetch("./courses.json");
@@ -864,6 +864,46 @@
             .forEach((b) => b.classList.remove("btn-primary", "text-white"));
           renderCourses();
         });
+
+      // Обробник форми техпідтримки для Системних адміністраторів IT
+      const supportForm = document.getElementById("supportForm");
+      if (supportForm) {
+        supportForm.addEventListener("submit", (e) => {
+          e.preventDefault();
+
+          // 📧 Офіційна адреса IT-підтримки
+          const SUPPORT_EMAIL = "support@schoolgus.ukr.education"; 
+
+          // Збір даних із форми
+          const name = supportForm.querySelector('input[placeholder="Іванченко Петро"]').value;
+          const userEmail = supportForm.querySelector('input[type="email"]').value;
+          const role = supportForm.querySelectorAll("select")[0].value;
+          const issueType = supportForm.querySelectorAll("select")[1].value;
+          const description = supportForm.querySelector("textarea").value;
+
+          // Формування теми та тексту листа
+          const subject = encodeURIComponent(`Звернення в IT-підтримку: ${issueType} (${name})`);
+          const body = encodeURIComponent(
+            `Заявка для системних адміністраторів IT\n` +
+            `Портал: SchoolGus Workspace\n` +
+            `----------------------------------------\n` +
+            `ПІБ: ${name}\n` +
+            `Email користувача: ${userEmail}\n` +
+            `Роль: ${role}\n` +
+            `Тип проблеми: ${issueType}\n\n` +
+            `Опис проблеми:\n${description}\n`
+          );
+
+          // Відкриття поштового клієнта користувача
+          window.location.href = `mailto:${SUPPORT_EMAIL}?subject=${subject}&body=${body}`;
+
+          // Закриття модального вікна та скидання форми
+          supportForm.reset();
+          const modalEl = document.getElementById("supportModal");
+          const modalInstance = bootstrap.Modal.getInstance(modalEl);
+          if (modalInstance) modalInstance.hide();
+        });
+      }
 
       loadData();
     </script>

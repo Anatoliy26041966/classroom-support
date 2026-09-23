@@ -1,0 +1,31 @@
+name: Auto Update Portal Data
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-courses:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Читання репозиторію
+        uses: actions/checkout@v4
+
+      - name: Налаштування Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Запуск Python-скрипта оновлення
+        run: |
+          python3 update_portal_data.py
+
+      - name: Комміт та публікація оновлень
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add courses.json
+          git diff-index --quiet HEAD || git commit -m "Auto-update portal courses data [skip ci]"
+          git push
