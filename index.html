@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SchoolGus Workspace — Навчальний портал</title>
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#2563eb" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -53,7 +55,6 @@
         background-position: center;
       }
 
-      /* Закріплена шапка при прокручуванні */
       .header-bg {
         background: var(--header-bg);
         color: white;
@@ -440,7 +441,7 @@
         </div>
         <hr class="my-3 border-secondary" />
         <div class="text-center small opacity-75">
-          © 2026 SchoolGus Workspace. Всі права захищено. Захищено політикою домену @schoolgus.ukr.education.
+          © 2026 SchoolGus Workspace. Всі права захищено. Захищено политикою домену @schoolgus.ukr.education.
         </div>
       </div>
     </footer>
@@ -882,17 +883,14 @@
         supportForm.addEventListener("submit", (e) => {
           e.preventDefault();
 
-          // 📧 Офіційна адреса IT-підтримки
           const SUPPORT_EMAIL = "support@schoolgus.ukr.education"; 
 
-          // Збір даних із форми
           const name = supportForm.querySelector('input[placeholder="Іванченко Петро"]').value;
           const userEmail = supportForm.querySelector('input[type="email"]').value;
           const role = supportForm.querySelectorAll("select")[0].value;
           const issueType = supportForm.querySelectorAll("select")[1].value;
           const description = supportForm.querySelector("textarea").value;
 
-          // Формування теми та тексту листа
           const subject = encodeURIComponent(`Звернення в IT-підтримку: ${issueType} (${name})`);
           const body = encodeURIComponent(
             `Заявка для системних адміністраторів IT\n` +
@@ -905,14 +903,21 @@
             `Опис проблеми:\n${description}\n`
           );
 
-          // Відкриття поштового клієнта користувача
           window.location.href = `mailto:${SUPPORT_EMAIL}?subject=${subject}&body=${body}`;
 
-          // Закриття модального вікна та скидання форми
           supportForm.reset();
           const modalEl = document.getElementById("supportModal");
           const modalInstance = bootstrap.Modal.getInstance(modalEl);
           if (modalInstance) modalInstance.hide();
+        });
+      }
+
+      // Реєстрація Service Worker для PWA
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js')
+            .then(reg => console.log('Service Worker зареєстровано успішно:', reg.scope))
+            .catch(err => console.error('Помилка реєстрації Service Worker:', err));
         });
       }
 
