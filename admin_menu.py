@@ -40,7 +40,10 @@ def main_menu():
                 print("\n⚠️ Файл secure_groups_v2.py не знайдено.")
             input("\nНатисніть Enter для продовження...")
         elif choice == "4":
-            if os.path.exists("populate_groups_v4.py"):
+            if not os.path.exists("users_export.csv"):
+                print("\n⚠️ Файл 'users_export.csv' не знайдено у корені проєкту.")
+                print("💡 Порада: Спочатку експортуйте список акаунтів з Google Admin Console у файл 'users_export.csv'.")
+            elif os.path.exists("populate_groups_v4.py"):
                 subprocess.run(["python3", "populate_groups_v4.py"])
             else:
                 print("\n⚠️ Файл populate_groups_v4.py не знайдено.")
