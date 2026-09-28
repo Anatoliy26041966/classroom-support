@@ -18,63 +18,31 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Restore GAM Credentials
-        run: |
-          mkdir -p ~/.gam
-          echo "${{ secrets.GAM_SERVICE_ACCOUNT }}" | base64 -d > ~/.gam/oauth2service.json || true
-          echo "client_id = ''" > ~/.gam/gam.cfg
-
       - name: Install GAM
         run: |
-          curl -sB https://raw.githubusercontent.com/taers232c/GAMADV-XTD3/master/src/gam-install.sh | bash -s -- -n -d "$HOME/gamadv-xtd3"
-          echo "$HOME/gamadv-xtd3" >> $GITHUB_PATH
+          mkdir -p ~/.gam
+          curl -sB https://raw.githubusercontent.com/taers232c/GAMADV-XTD3/master/src/gam-install.sh | bash -s -- -n -d "$HOME/bin" || true
+          echo "$HOME/bin/gamadv-xtd3" >> $GITHUB_PATH
+          echo "$HOME/bin" >> $GITHUB_PATH
+
+      - name: Restore GAM Credentials
+        run: |
+          if [ -n "${{ secrets.GAM_SERVICE_ACCOUNT }}" ]; then
+            echo "${{ secrets.GAM_SERVICE_ACCOUNT }}" | base64 -d > ~/.gam/oauth2service.json 2>/dev/null || true
+            echo "client_id = ''" > ~/.gam/gam.cfg
+          fi
 
       - name: Fetch Courses from Google Workspace via GAM
         run: |
+          export PATH="$HOME/bin/gamadv-xtd3:$HOME/bin:$PATH"
           if command -v gam &> /dev/null; then
-            gam print courses state ACTIVE fields id,name,ownerId > courses_gam.csv || touch courses_gam.csv
+            gam print courses state ACTIVE fields id,name,ownerId > courses_gam.csv 2>/dev/null || echo "id,name,ownerId" > courses_gam.csv
           else
             echo "id,name,ownerId" > courses_gam.csv
           fi
 
       - name: Convert GAM CSV to courses.json
-        run: |
-          python - << 'PYEOF'
-          import csv, json, base64
-          from datetime import datetime
-
-          courses = []
-          try:
-              with open('courses_gam.csv', mode='r', encoding='utf-8') as f:
-                  reader = csv.DictReader(f)
-                  for row in reader:
-                      course_id = row.get('id', '').strip()
-                      name = row.get('name', '').strip()
-                      owner = row.get('ownerId', '').strip()
-                      
-                      if course_id and name:
-                          b64_id = base64.b64encode(course_id.encode('utf-8')).decode('utf-8') if course_id.isdigit() else course_id
-                          link = f"https://classroom.google.com/c/{b64_id}"
-                          
-                          courses.append({
-                              "id": course_id,
-                              "name": name,
-                              "teacher": owner,
-                              "link": link
-                          })
-          except Exception as e:
-              print(f"Error reading CSV: {e}")
-
-          data = {
-              "last_updated": datetime.now().strftime("%d.%m.%Y %H:%M"),
-              "courses": courses
-          }
-
-          with open('courses.json', 'w', encoding='utf-8') as f:
-              json.dump(data, f, ensure_ascii=False, indent=2)
-
-          print(f"Processed {len(courses)} courses.")
-PYEOF
+        run: python convert_courses.py
 
       - name: Commit and Push changes to GitHub Pages
         run: |
