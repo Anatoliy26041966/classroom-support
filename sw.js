@@ -1,4 +1,4 @@
-const CACHE_NAME = 'schoolgus-v1';
+const CACHE_NAME = 'classroom-cache-20260928-173454';
 const ASSETS = [
   './',
   './index.html',
