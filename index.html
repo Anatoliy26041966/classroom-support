@@ -800,7 +800,7 @@
                             ${c.teacher && c.teacher.trim() !== "" ? `<p class="text-muted small mb-0"><i class="bi bi-person"></i> ${c.teacher}</p>` : ""}
                         </div>
                         <div class="mt-3">
-                            <a href="${safeDecodeUrl(c.link || c.alternateLink)}" 
+                            <a href="${c.link || c.alternateLink || (c.id ? 'https://classroom.google.com/c/' + c.id : '#')}" 
                                target="_blank" 
                                rel="noopener noreferrer" 
                                class="btn btn-primary btn-sm w-100 fw-medium"
