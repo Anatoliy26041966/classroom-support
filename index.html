@@ -1,0 +1,934 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SchoolGus Workspace — Навчальний портал</title>
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#2563eb" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <style>
+      :root {
+        --bg-body: #f8fafc;
+        --bg-card: #ffffff;
+        --text-main: #0f172a;
+        --text-muted: #64748b;
+        --border-color: #e2e8f0;
+        --header-bg: linear-gradient(135deg, #1e40af, #2563eb);
+        --footer-bg: #0f172a;
+      }
+
+      [data-theme="dark"] {
+        --bg-body: #090d16;
+        --bg-card: #1e293b;
+        --text-main: #f8fafc;
+        --text-muted: #94a3b8;
+        --border-color: #334155;
+        --header-bg: linear-gradient(135deg, #0f172a, #1e1b4b);
+        --footer-bg: #020617;
+      }
+
+      body {
+        background-color: var(--bg-body);
+        color: var(--text-main);
+        font-family:
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-image:
+          linear-gradient(rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.88)),
+          url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      }
+
+      .header-bg {
+        background: var(--header-bg);
+        color: white;
+        padding: 0.85rem 0;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+        position: sticky;
+        top: 0;
+        z-index: 1030;
+        backdrop-filter: blur(10px);
+      }
+
+      .brand-link {
+        text-decoration: none;
+        color: white;
+        transition: opacity 0.2s;
+      }
+      .brand-link:hover {
+        color: #e2e8f0;
+        opacity: 0.9;
+      }
+
+      .notice-banner {
+        background: rgba(37, 99, 235, 0.15);
+        border: 1px solid rgba(59, 130, 246, 0.3);
+        backdrop-filter: blur(8px);
+        color: #38bdf8;
+        border-radius: 0.75rem;
+      }
+
+      .search-card {
+        background: rgba(255, 255, 255, 0.95);
+        border: 1px solid var(--border-color);
+        border-radius: 1rem;
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(12px);
+      }
+
+      [data-theme="dark"] .search-card {
+        background: rgba(30, 41, 59, 0.95);
+      }
+
+      .course-card {
+        background: var(--bg-card);
+        border: 1px solid var(--border-color);
+        border-radius: 0.85rem;
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .course-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.15);
+      }
+
+      .badge-class {
+        background-color: #f1f5f9;
+        color: #475569;
+        font-size: 0.75rem;
+        font-weight: 600;
+      }
+
+      [data-theme="dark"] .badge-class {
+        background-color: #334155;
+        color: #cbd5e1;
+      }
+
+      .badge-security {
+        background-color: rgba(16, 185, 129, 0.1);
+        color: #10b981;
+        border: 1px solid rgba(16, 185, 129, 0.2);
+        font-size: 0.7rem;
+      }
+
+      .btn-star {
+        color: #cbd5e1;
+        cursor: pointer;
+        font-size: 1.1rem;
+        transition: color 0.2s;
+      }
+      .btn-star.active,
+      .btn-star:hover {
+        color: #f59e0b;
+      }
+
+      .class-btn {
+        min-width: 32px;
+        padding: 2px 8px;
+        font-size: 0.825rem;
+      }
+
+      .classroom-icon {
+        width: 18px;
+        height: 18px;
+        vertical-align: middle;
+        margin-right: 6px;
+      }
+
+      .skeleton {
+        background: linear-gradient(
+          90deg,
+          #e2e8f0 25%,
+          #f1f5f9 50%,
+          #e2e8f0 75%
+        );
+        background-size: 200% 100%;
+        animation: loading 1.5s infinite;
+        border-radius: 0.5rem;
+      }
+
+      [data-theme="dark"] .skeleton {
+        background: linear-gradient(
+          90deg,
+          #1e293b 25%,
+          #334155 50%,
+          #1e293b 75%
+        );
+        background-size: 200% 100%;
+      }
+
+      @keyframes loading {
+        0% {
+          background-position: 200% 0;
+        }
+        100% {
+          background-position: -200% 0;
+        }
+      }
+
+      footer {
+        background-color: var(--footer-bg);
+        color: #94a3b8;
+        margin-top: auto;
+        border-top: 1px solid var(--border-color);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Закріплена шапка порталу (Sticky Top) -->
+    <header class="header-bg sticky-top">
+      <div
+        class="container d-flex flex-wrap justify-content-between align-items-center gap-3"
+      >
+        <a
+          href="index.html"
+          class="brand-link d-flex align-items-center gap-3"
+          title="На головну сторінку"
+        >
+          <div class="fs-2">🏫</div>
+          <div>
+            <h1 class="h4 mb-0 fw-bold">SchoolGus Workspace</h1>
+            <small class="opacity-75"
+              >Офіційний навчальний портал домену
+              <strong>@schoolgus.ukr.education</strong></small
+            >
+          </div>
+        </a>
+        <div class="d-flex gap-2 align-items-center flex-wrap">
+          <button
+            class="btn btn-outline-light btn-sm"
+            id="themeToggle"
+            title="Змінити тему"
+          >
+            <i class="bi bi-moon-stars"></i>
+          </button>
+          <button
+            class="btn btn-outline-light btn-sm fw-medium px-3"
+            data-bs-toggle="modal"
+            data-bs-target="#servicesModal"
+          >
+            ℹ️ Як працюють сервіси
+          </button>
+          <button
+            class="btn btn-light btn-sm fw-medium px-3"
+            data-bs-toggle="modal"
+            data-bs-target="#scheduleModal"
+          >
+            ⏰ Розклад дзвінків
+          </button>
+          <button
+            class="btn btn-warning btn-sm fw-medium px-3"
+            data-bs-toggle="modal"
+            data-bs-target="#supportModal"
+          >
+            🛠 Техпідтримка
+          </button>
+          <a
+            href="https://www.google.com/appsstatus/dashboard/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline-info text-white border-info-subtle btn-sm fw-medium px-3"
+            title="Панель стану сервісів Google Workspace"
+          >
+            🌐 Status Dashboard ↗
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container my-4">
+      <!-- Інформаційна пам'ятка -->
+      <div class="notice-banner p-3 mb-3 d-flex align-items-center gap-2 small">
+        <i class="bi bi-shield-lock-fill fs-5"></i>
+        <div>
+          <strong>Пам'ятка безпеки:</strong> Цей каталог публічний: назви,
+          секції та посилання на курси видимі всім. Для доступу до матеріалів
+          потрібен дозволений корпоративний акаунт
+          <strong>@schoolgus.ukr.education</strong>; посилання не надає
+          членство в курсі.
+        </div>
+      </div>
+
+      <!-- Пошук та фільтри -->
+      <div class="search-card p-3 mb-4">
+        <div class="row g-3 align-items-center mb-2">
+          <div class="col-md-7 col-lg-7">
+            <div class="input-group">
+              <span
+                class="input-group-text bg-transparent border-end-0 text-muted"
+                ><i class="bi bi-search"></i
+              ></span>
+              <input
+                type="text"
+                id="searchInput"
+                class="form-control border-start-0 shadow-none"
+                placeholder="Пошук предмета або класу..."
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-5 col-lg-5 text-md-end d-flex justify-content-md-end align-items-center gap-2 flex-wrap"
+          >
+            <span
+              class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-2"
+            >
+              Курсів: <strong id="courseCount">...</strong>
+            </span>
+            <span
+              class="badge bg-secondary-subtle text-secondary border border-secondary-subtle px-2 py-2"
+            >
+              Оновлено: <strong id="lastUpdated">завантаження...</strong>
+            </span>
+          </div>
+        </div>
+
+        <!-- Категорії -->
+        <div class="d-flex flex-wrap gap-2 mt-3" id="categoryFilters">
+          <button
+            class="btn btn-primary btn-sm filter-btn active"
+            data-filter="all"
+          >
+            Усі
+          </button>
+          <button
+            class="btn btn-outline-secondary btn-sm filter-btn"
+            data-filter="fav"
+          >
+            ⭐ Мої курси
+            <span id="favCount" class="badge bg-warning text-dark ms-1">0</span>
+          </button>
+          <button
+            class="btn btn-outline-secondary btn-sm filter-btn"
+            data-filter="1-4"
+          >
+            1-4 класи
+          </button>
+          <button
+            class="btn btn-outline-secondary btn-sm filter-btn"
+            data-filter="5-9"
+          >
+            5-9 класи
+          </button>
+          <button
+            class="btn btn-outline-secondary btn-sm filter-btn"
+            data-filter="10-11"
+          >
+            10-11 класи
+          </button>
+          <button
+            class="btn btn-outline-secondary btn-sm filter-btn"
+            data-filter="fn"
+          >
+            Індивідуальна ФН
+          </button>
+        </div>
+
+        <!-- Номери класів (1-11) -->
+        <div class="d-flex align-items-center gap-1 mt-3 pt-2 border-top">
+          <span class="small text-muted me-2">Клас:</span>
+          <div class="d-flex flex-wrap gap-1" id="classNumberFilters"></div>
+        </div>
+      </div>
+
+      <!-- Сітка курсів -->
+      <div class="row g-3" id="coursesGrid">
+        <script>
+          document.write(
+            Array(6)
+              .fill(
+                `
+                    <div class="col-md-6 col-lg-4 skeleton-card">
+                        <div class="course-card p-3">
+                            <div>
+                                <div class="d-flex justify-content-between mb-2">
+                                    <div class="skeleton" style="width: 60px; height: 20px;"></div>
+                                    <div class="skeleton" style="width: 20px; height: 20px;"></div>
+                                </div>
+                                <div class="skeleton mb-2" style="width: 80%; height: 24px;"></div>
+                            </div>
+                            <div class="skeleton mt-3" style="width: 100%; height: 36px;"></div>
+                        </div>
+                    </div>
+                `,
+              )
+              .join(""),
+          );
+        </script>
+      </div>
+
+      <!-- Порожній стан -->
+      <div id="emptyState" class="search-card text-center py-5 d-none my-4 p-4">
+        <div class="fs-1 text-muted mb-2">🔍</div>
+        <h5 class="fw-bold">Курсів не знайдено</h5>
+        <p class="text-muted small mb-3">
+          За вашим запитом або обраними фільтрами жодного предмета не виявлено.
+        </p>
+        <button
+          class="btn btn-outline-primary btn-sm px-4"
+          id="resetFiltersBtn"
+        >
+          Скинути всі фільтри
+        </button>
+      </div>
+    </main>
+
+    <!-- Підвал сайту -->
+    <footer class="py-4">
+      <div class="container text-center text-md-start">
+        <div class="row g-3 align-items-center">
+          <div class="col-md-6">
+            <h6 class="text-white mb-1 fw-bold">SchoolGus Workspace</h6>
+            <p class="small mb-0">
+              Єдиний навчальний простір Гусятинської ЗОШ I-III ступенів
+            </p>
+          </div>
+          <div class="col-md-6 text-md-end small">
+            <a
+              href="#"
+              class="text-decoration-none text-muted me-3"
+              data-bs-toggle="modal"
+              data-bs-target="#servicesModal"
+              >Як працюють сервіси</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none text-muted me-3"
+              data-bs-toggle="modal"
+              data-bs-target="#scheduleModal"
+              >Розклад</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none text-muted me-3"
+              data-bs-toggle="modal"
+              data-bs-target="#supportModal"
+              >Техпідтримка</a
+            >
+            <a
+              href="https://www.google.com/appsstatus/dashboard/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-decoration-none text-muted me-3"
+              >Status Dashboard ↗</a
+            >
+            <a
+              href="https://classroom.google.com"
+              target="_blank"
+              class="text-decoration-none text-primary"
+              >Google Classroom ↗</a
+            >
+          </div>
+        </div>
+        <hr class="my-3 border-secondary" />
+        <div class="text-center small opacity-75">
+          © 2026 SchoolGus Workspace. Всі права захищено. Захищено политикою домену @schoolgus.ukr.education.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Модальні вікна -->
+
+    <!-- Інструкція щодо сервісів -->
+    <div class="modal fade" id="servicesModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold">⚙️ Як працюють основні сервіси порталу</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light-subtle">
+                  <h6 class="fw-bold text-primary">📚 Google Classroom</h6>
+                  <p class="small mb-0 text-muted">
+                    Центральна платформа навчального процесу. Перехід за кнопкою «Перейти до курсу» відкриває інтерактивний кабінет предмета з завданнями, матеріалами та оцінками.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light-subtle">
+                  <h6 class="fw-bold text-primary">🔍 Пошук та швидкі фільтри</h6>
+                  <p class="small mb-0 text-muted">
+                    Швидко знаходьте потрібні класи чи предмети за допомогою рядка пошуку або фільтрів (1-4, 5-9, 10-11 класи, Індивідуальна ФН, або кнопками конкретного класу 1–11).
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light-subtle">
+                  <h6 class="fw-bold text-primary">🛡 Політика кібербезпеки</h6>
+                  <p class="small mb-0 text-muted">
+                    Каталог не містить кодів приєднання чи списків учасників.
+                    Доступ до вмісту курсу визначається налаштуваннями Google
+                    Classroom. Не публікуйте персональні дані або коди
+                    приєднання на цій сторінці.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-3 border rounded h-100 bg-light-subtle">
+                  <h6 class="fw-bold text-primary">🌐 Google Workspace Status Dashboard</h6>
+                  <p class="small mb-2 text-muted">
+                    Панель моніторингу працездатності всіх служб Google (Classroom, Gmail, Drive) у реальному часі.
+                  </p>
+                  <a
+                    href="https://www.google.com/appsstatus/dashboard/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-sm btn-outline-primary py-1 px-2"
+                  >
+                    Перевірити статус ↗
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Розклад дзвінків -->
+    <div class="modal fade" id="scheduleModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold">⏰ Розклад дзвінків уроків</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body p-0">
+            <table class="table table-striped mb-0 text-center">
+              <thead>
+                <tr>
+                  <th>Урок</th>
+                  <th>Час</th>
+                  <th>Перерва</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1 урок</td>
+                  <td>08:30 - 09:15</td>
+                  <td>10 хв</td>
+                </tr>
+                <tr>
+                  <td>2 урок</td>
+                  <td>09:25 - 10:10</td>
+                  <td>20 хв</td>
+                </tr>
+                <tr>
+                  <td>3 урок</td>
+                  <td>10:30 - 11:15</td>
+                  <td>20 хв</td>
+                </tr>
+                <tr>
+                  <td>4 урок</td>
+                  <td>11:35 - 12:20</td>
+                  <td>10 хв</td>
+                </tr>
+                <tr>
+                  <td>5 урок</td>
+                  <td>12:30 - 13:15</td>
+                  <td>10 хв</td>
+                </tr>
+                <tr>
+                  <td>6 урок</td>
+                  <td>13:25 - 14:10</td>
+                  <td>10 хв</td>
+                </tr>
+                <tr>
+                  <td>7 урок</td>
+                  <td>14:20 - 15:05</td>
+                  <td>-</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Техпідтримка -->
+    <div class="modal fade" id="supportModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold">🛠 Служба підтримки Workspace</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <form id="supportForm">
+            <div class="modal-body">
+              <div class="mb-3">
+                <label class="form-label small fw-bold">Ваше ПІБ *</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  required
+                  placeholder="Ваше ім'я"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label small fw-bold"
+                  >Електронна пошта *</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  required
+                  placeholder="user@schoolgus.ukr.education"
+                />
+              </div>
+              <div class="row mb-3">
+                <div class="col-6">
+                  <label class="form-label small fw-bold">Ваша роль</label>
+                  <select class="form-select">
+                    <option selected>Учень</option>
+                    <option>Вчитель</option>
+                    <option>Батьки</option>
+                  </select>
+                </div>
+                <div class="col-6">
+                  <label class="form-label small fw-bold">Тип проблеми</label>
+                  <select class="form-select">
+                    <option selected>Забув пароль</option>
+                    <option>Відсутній курс</option>
+                    <option>Інше питання</option>
+                  </select>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label small fw-bold">Опис проблеми *</label>
+                <textarea
+                  class="form-control"
+                  rows="3"
+                  required
+                  placeholder="Вкажіть клас та деталі..."
+                ></textarea>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-primary w-100">
+                Надіслати звернення 📩
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- SVG Icon -->
+    <svg style="display: none">
+      <symbol id="icon-classroom" viewBox="0 0 24 24">
+        <path
+          fill="#0F9D58"
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"
+        />
+        <path
+          fill="#FFF"
+          d="M12 6c-1.93 0-3.5 1.57-3.5 3.5S10.07 13 12 13s3.5-1.57 3.5-3.5S13.93 6 12 6zm0 8c-2.8 0-5.6 1.4-5.6 2.8V18h11.2v-1.2c0-1.4-2.8-2.8-5.6-2.8z"
+        />
+      </symbol>
+    </svg>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      let allCourses = [];
+      let favorites = JSON.parse(localStorage.getItem("fav_courses") || "[]");
+      let currentCategory = "all";
+      let currentClassNum = null;
+
+      // Перемикач темної теми
+      const themeToggle = document.getElementById("themeToggle");
+      themeToggle.addEventListener("click", () => {
+        const current = document.body.getAttribute("data-theme");
+        const target = current === "dark" ? "light" : "dark";
+        document.body.setAttribute("data-theme", target);
+        themeToggle.innerHTML =
+          target === "dark"
+            ? '<i class="bi bi-sun"></i>'
+            : '<i class="bi bi-moon-stars"></i>';
+      });
+
+      // Генерація кнопок класів 1-11
+      const classContainer = document.getElementById("classNumberFilters");
+      for (let i = 1; i <= 11; i++) {
+        const btn = document.createElement("button");
+        btn.className = "btn btn-outline-secondary btn-sm class-btn";
+        btn.textContent = i;
+        btn.addEventListener("click", () => filterBySpecificClass(i, btn));
+        classContainer.appendChild(btn);
+      }
+
+      // Форматування дати та часу
+      function formatDateTime(rawDate) {
+        const now = rawDate ? new Date(rawDate) : new Date();
+        if (isNaN(now.getTime())) {
+          return rawDate;
+        }
+        const day = String(now.getDate()).padStart(2, "0");
+        const month = String(now.getMonth() + 1).padStart(2, "0");
+        const year = now.getFullYear();
+        const hours = String(now.getHours()).padStart(2, "0");
+        const minutes = String(now.getMinutes()).padStart(2, "0");
+        return `${day}.${month}.${year} — ${hours}:${minutes}`;
+      }
+
+      // Завантаження даних
+      async function loadData() {
+        try {
+          let res = await fetch("./courses.json");
+          if (!res.ok) {
+            res = await fetch("./classroom_portal_data.json");
+          }
+          const data = await res.json();
+
+          if (Array.isArray(data)) {
+            allCourses = data;
+            document.getElementById("lastUpdated").textContent = formatDateTime();
+          } else if (data && typeof data === "object") {
+            allCourses = data.courses || data.items || [];
+            document.getElementById("lastUpdated").textContent =
+              data.last_updated ? formatDateTime(data.last_updated) : formatDateTime();
+          }
+
+          renderCourses();
+        } catch (e) {
+          console.error("Помилка завантаження файлу курсів:", e);
+          document.getElementById("lastUpdated").textContent = formatDateTime();
+          renderCourses();
+        }
+      }
+
+      function safeDecodeUrl(url) {
+        if (!url) return "#";
+        try {
+          return decodeURIComponent(url);
+        } catch (e) {
+          return url;
+        }
+      }
+
+      // Рендеринг карток курсів (З урахуванням кібербезпеки)
+      function renderCourses() {
+        const grid = document.getElementById("coursesGrid");
+        const search = document
+          .getElementById("searchInput")
+          .value.toLowerCase()
+          .trim();
+        const emptyState = document.getElementById("emptyState");
+
+        const filtered = allCourses.filter((c) => {
+          if (!c) return false;
+          const courseName = c.name || c.title || "";
+          const teacherName = c.teacher || c.section || "";
+
+          const matchSearch =
+            courseName.toLowerCase().includes(search) ||
+            teacherName.toLowerCase().includes(search);
+
+          let matchCat = true;
+          if (currentCategory === "fav") matchCat = favorites.includes(c.id);
+          else if (currentCategory === "1-4")
+            matchCat = /^(0?[1-4])(?!\d)/.test(courseName);
+          else if (currentCategory === "5-9")
+            matchCat = /^(0?[5-9])(?!\d)/.test(courseName);
+          else if (currentCategory === "10-11")
+            matchCat = /^(10|11)(?!\d)/.test(courseName);
+          else if (currentCategory === "fn")
+            matchCat = /індивідуальн/i.test(
+              `${courseName} ${c.section || ""}`,
+            );
+
+          let matchNum = true;
+          if (currentClassNum !== null) {
+            const classRegex = new RegExp(`^(0?${currentClassNum})(?!\\d)`);
+            matchNum = classRegex.test(courseName);
+          }
+
+          return matchSearch && matchCat && matchNum;
+        });
+
+        document.getElementById("courseCount").textContent = filtered.length;
+        document.getElementById("favCount").textContent = favorites.length;
+
+        if (filtered.length === 0) {
+          grid.innerHTML = "";
+          emptyState.classList.remove("d-none");
+          return;
+        }
+
+        emptyState.classList.add("d-none");
+        grid.innerHTML = filtered
+          .map(
+            (c) => `
+                <div class="col-md-6 col-lg-4">
+                    <div class="course-card p-3">
+                        <div>
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge badge-class px-2 py-1 rounded">${c.class || "Курс"}</span>
+                                <span class="badge badge-security px-2 py-1 rounded" title="Доступ до матеріалів контролює Google Classroom">🔒 Classroom</span>
+                                <i class="bi ${favorites.includes(c.id) ? "bi-star-fill active" : "bi-star"} btn-star ms-auto"
+                                   onclick="toggleFav('${c.id}')" title="Обране"></i>
+                            </div>
+                            <h6 class="fw-bold mb-2 text-main">${c.name || c.title || "Без назви"}</h6>
+                            ${c.teacher && c.teacher.trim() !== "" ? `<p class="text-muted small mb-0"><i class="bi bi-person"></i> ${c.ownerName || c.teacherName || c.ownerEmail || c.teacher}</p>` : ""}
+                        </div>
+                        <div class="mt-3">
+                            <a href="${c.link || c.alternateLink || (c.id ? 'https://classroom.google.com/c/' + (typeof c.id === 'number' || /^\d+$/.test(c.id) ? btoa(c.id) : c.id) : '#')}"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="btn btn-primary btn-sm w-100 fw-medium"
+                               title="Потрібен вхід через акаунт @schoolgus.ukr.education">
+                                <svg class="classroom-icon"><use href="#icon-classroom"/></svg>
+                                Перейти до курсу ↗
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `,
+          )
+          .join("");
+      }
+
+      function filterBySpecificClass(num, btnElement) {
+        document
+          .querySelectorAll(".class-btn")
+          .forEach((b) => b.classList.remove("btn-primary", "text-white"));
+        if (currentClassNum === num) {
+          currentClassNum = null;
+        } else {
+          currentClassNum = num;
+          btnElement.classList.add("btn-primary", "text-white");
+        }
+        renderCourses();
+      }
+
+      function toggleFav(id) {
+        if (favorites.includes(id)) {
+          favorites = favorites.filter((f) => f !== id);
+        } else {
+          favorites.push(id);
+        }
+        localStorage.setItem("fav_courses", JSON.stringify(favorites));
+        renderCourses();
+      }
+
+      // Події
+      document
+        .getElementById("searchInput")
+        .addEventListener("input", renderCourses);
+
+      document
+        .getElementById("categoryFilters")
+        .addEventListener("click", (e) => {
+          if (e.target.classList.contains("filter-btn")) {
+            document.querySelectorAll(".filter-btn").forEach((b) => {
+              b.classList.remove("active", "btn-primary");
+              b.classList.add("btn-outline-secondary");
+            });
+            e.target.classList.remove("btn-outline-secondary");
+            e.target.classList.add("active", "btn-primary");
+            currentCategory = e.target.dataset.filter;
+            renderCourses();
+          }
+        });
+
+      document
+        .getElementById("resetFiltersBtn")
+        .addEventListener("click", () => {
+          document.getElementById("searchInput").value = "";
+          currentCategory = "all";
+          currentClassNum = null;
+          document
+            .querySelectorAll(".filter-btn")
+            .forEach((b) => b.classList.remove("active", "btn-primary"));
+          document
+            .querySelector('[data-filter="all"]')
+            .classList.add("active", "btn-primary");
+          document
+            .querySelectorAll(".class-btn")
+            .forEach((b) => b.classList.remove("btn-primary", "text-white"));
+          renderCourses();
+        });
+
+      // Обробник форми техпідтримки для Системних адміністраторів IT
+      const supportForm = document.getElementById("supportForm");
+      if (supportForm) {
+        supportForm.addEventListener("submit", (e) => {
+          e.preventDefault();
+
+          const SUPPORT_EMAIL = "support@schoolgus.ukr.education";
+
+          const name = supportForm.querySelector('input[type="text"]').value;
+          const userEmail = supportForm.querySelector('input[type="email"]').value;
+          const role = supportForm.querySelectorAll("select")[0].value;
+          const issueType = supportForm.querySelectorAll("select")[1].value;
+          const description = supportForm.querySelector("textarea").value;
+
+          const subject = encodeURIComponent(`Звернення в IT-підтримку: ${issueType} (${name})`);
+          const body = encodeURIComponent(
+            `Заявка для системних адміністраторів IT\n` +
+            `Портал: SchoolGus Workspace\n` +
+            `----------------------------------------\n` +
+            `ПІБ: ${name}\n` +
+            `Email користувача: ${userEmail}\n` +
+            `Роль: ${role}\n` +
+            `Тип проблеми: ${issueType}\n\n` +
+            `Опис проблеми:\n${description}\n`
+          );
+
+          window.location.href = `mailto:${SUPPORT_EMAIL}?subject=${subject}&body=${body}`;
+
+          supportForm.reset();
+          const modalEl = document.getElementById("supportModal");
+          const modalInstance = bootstrap.Modal.getInstance(modalEl);
+          if (modalInstance) modalInstance.hide();
+        });
+      }
+
+      // Реєстрація Service Worker для PWA
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js')
+            .then(reg => console.log('Service Worker зареєстровано успішно:', reg.scope))
+            .catch(err => console.error('Помилка реєстрації Service Worker:', err));
+        });
+      }
+
+      loadData();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,2702 @@
+{
+  "updatedAt": "2026-11-25T14:05:56+02:00",
+  "last_updated": "2026-11-25T14:05:56+02:00",
+  "coursesCount": 385,
+  "courses": [
+    {
+      "id": "883094856532",
+      "name": "04-Б • Початкова школа (Класовод)",
+      "section": "2026/2027",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODgzMDk0ODU2NTMy"
+    },
+    {
+      "id": "892972316964",
+      "name": "11 • Індивідуальне навчання",
+      "section": "2026-2027 н.р. (Індивідуальна форма)",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTcyMzE2OTY0"
+    },
+    {
+      "id": "892971594805",
+      "name": "10 • Індивідуальне навчання",
+      "section": "2026-2027 н.р. (Індивідуальна форма)",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTcxNTk0ODA1"
+    },
+    {
+      "id": "892972937157",
+      "name": "09 • Індивідуальне навчання",
+      "section": "2026-2027 н.р. (Індивідуальна форма)",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTcyOTM3MTU3"
+    },
+    {
+      "id": "892972017212",
+      "name": "08 • Індивідуальне навчання",
+      "section": "2026-2027 н.р. (Індивідуальна форма)",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTcyMDE3MjEy"
+    },
+    {
+      "id": "892972044791",
+      "name": "07 • Індивідуальне навчання",
+      "section": "2026-2027 н.р. (Індивідуальна форма)",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTcyMDQ0Nzkx"
+    },
+    {
+      "id": "892972201183",
+      "name": "06 • Індивідуальне навчання",
+      "section": "2026-2027 н.р. (Індивідуальна форма)",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTcyMjAxMTgz"
+    },
+    {
+      "id": "892971982496",
+      "name": "05 • Індивідуальне навчання",
+      "section": "2026-2027 н.р. (Індивідуальна форма)",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTcxOTgyNDk2"
+    },
+    {
+      "id": "892970817651",
+      "name": "04 • Індивідуальне навчання",
+      "section": "2026-2027 н.р. (Індивідуальна форма)",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTcwODE3NjUx"
+    },
+    {
+      "id": "892972167613",
+      "name": "03 • Індивідуальне навчання",
+      "section": "2026-2027 н.р. (Індивідуальна форма)",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTcyMTY3NjEz"
+    },
+    {
+      "id": "892972244297",
+      "name": "02 • Індивідуальне навчання",
+      "section": "2026-2027 н.р. (Індивідуальна форма)",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTcyMjQ0Mjk3"
+    },
+    {
+      "id": "892972384714",
+      "name": "01 • Індивідуальне навчання",
+      "section": "2026-2027 н.р. (Індивідуальна форма)",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTcyMzg0NzE0"
+    },
+    {
+      "id": "892965965037",
+      "name": "09-В • Проф. орієнтація",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY1OTY1MDM3"
+    },
+    {
+      "id": "892965546806",
+      "name": "09-Б • Проф. орієнтація",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY1NTQ2ODA2"
+    },
+    {
+      "id": "892965881374",
+      "name": "09-А • Проф. орієнтація",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY1ODgxMzc0"
+    },
+    {
+      "id": "882977632617",
+      "name": "08-Г • Проф. орієнтація",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODgyOTc3NjMyNjE3"
+    },
+    {
+      "id": "892965695785",
+      "name": "08-В • Проф. орієнтація",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY1Njk1Nzg1"
+    },
+    {
+      "id": "892965818627",
+      "name": "08-Б • Проф. орієнтація",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY1ODE4NjI3"
+    },
+    {
+      "id": "892966385793",
+      "name": "08-А • Проф. орієнтація",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY2Mzg1Nzkz"
+    },
+    {
+      "id": "892954152840",
+      "name": "07-В • Музичне мистецтво",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTU0MTUyODQw"
+    },
+    {
+      "id": "882977645564",
+      "name": "7-Б • Музичне мистецтво",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODgyOTc3NjQ1NTY0"
+    },
+    {
+      "id": "892965441701",
+      "name": "07-А • Музичне мистецтво",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY1NDQxNzAx"
+    },
+    {
+      "id": "892965324969",
+      "name": "06-В • Образотворче мистецтво",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY1MzI0OTY5"
+    },
+    {
+      "id": "892965106902",
+      "name": "06-В • Інтегрований курс «Пізнаю природу»",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY1MTA2OTAy"
+    },
+    {
+      "id": "892964654631",
+      "name": "06-В • Інтегрований курс «Здоров’я, безпека та добробут»",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY0NjU0NjMx"
+    },
+    {
+      "id": "892965487936",
+      "name": "06-Б • Образотворче мистецтво",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY1NDg3OTM2"
+    },
+    {
+      "id": "892965841545",
+      "name": "06-Б • Інтегрований курс «Пізнаю природу»",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY1ODQxNTQ1"
+    },
+    {
+      "id": "892964229724",
+      "name": "06-Б • Інтегрований курс «Здоров’я, безпека та добробут»",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY0MjI5NzI0"
+    },
+    {
+      "id": "892966117970",
+      "name": "06-А • Образотворче мистецтво",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY2MTE3OTcw"
+    },
+    {
+      "id": "882977598617",
+      "name": "06-А • Інтегрований курс «Пізнаю природу»",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODgyOTc3NTk4NjE3"
+    },
+    {
+      "id": "892966228093",
+      "name": "06-А • Інтегрований курс «Здоров’я, безпека та добробут»",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY2MjI4MDkz"
+    },
+    {
+      "id": "892964865036",
+      "name": "05-В • Музичне мистецтво",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY0ODY1MDM2"
+    },
+    {
+      "id": "892965464271",
+      "name": "05-В • Історія",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY1NDY0Mjcx"
+    },
+    {
+      "id": "892966179144",
+      "name": "05-В • Інтегрований курс «Пізнаю природу»",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY2MTc5MTQ0"
+    },
+    {
+      "id": "892966170011",
+      "name": "05-В • Духовність і мораль в житті людини і суспільства",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY2MTcwMDEx"
+    },
+    {
+      "id": "892966153765",
+      "name": "05-Б • Музичне мистецтво",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY2MTUzNzY1"
+    },
+    {
+      "id": "892965233722",
+      "name": "05-Б • Історія",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY1MjMzNzIy"
+    },
+    {
+      "id": "892964080373",
+      "name": "05-Б • Інтегрований курс «Пізнаю природу»",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY0MDgwMzcz"
+    },
+    {
+      "id": "892966066489",
+      "name": "05-Б • Духовність і мораль в житті людини і суспільства",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY2MDY2NDg5"
+    },
+    {
+      "id": "892965534018",
+      "name": "05-А • Музичне мистецтво",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY1NTM0MDE4"
+    },
+    {
+      "id": "892964224365",
+      "name": "05-А • Історія",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY0MjI0MzY1"
+    },
+    {
+      "id": "892966528163",
+      "name": "05-А • Інтегрований курс «Пізнаю природу»",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY2NTI4MTYz"
+    },
+    {
+      "id": "892965326615",
+      "name": "05-А • Інтегрований курс «Здоров’я, безпека та добробут»",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY1MzI2NjE1"
+    },
+    {
+      "id": "892965184620",
+      "name": "05-А • Духовність і мораль в житті людини і суспільства",
+      "section": "2026-2027 н.р.",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyOTY1MTg0NjIw"
+    },
+    {
+      "id": "870185315476",
+      "name": "4-А • Початкова школа (Класовод)",
+      "section": "🟢 [04 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODcwMTg1MzE1NDc2"
+    },
+    {
+      "id": "892094839801",
+      "name": "3-В • Початкова школа (Класовод)",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDk0ODM5ODAx"
+    },
+    {
+      "id": "892094625991",
+      "name": "3-Б • Початкова школа (Класовод)",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDk0NjI1OTkx"
+    },
+    {
+      "id": "892094243068",
+      "name": "3-А • Початкова школа (Класовод)",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDk0MjQzMDY4"
+    },
+    {
+      "id": "892090211245",
+      "name": "2-В • Початкова школа (Класовод)",
+      "section": "🟠 [02 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDkwMjExMjQ1"
+    },
+    {
+      "id": "892093841469",
+      "name": "2-Б • Початкова школа (Класовод)",
+      "section": "🟠 [02 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDkzODQxNDY5"
+    },
+    {
+      "id": "870185528481",
+      "name": "2-А • Початкова школа (Класовод)",
+      "section": "🟠 [02 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODcwMTg1NTI4NDgx"
+    },
+    {
+      "id": "892094625479",
+      "name": "1-В • Початкова школа (Класовод)",
+      "section": "🔴 [01 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDk0NjI1NDc5"
+    },
+    {
+      "id": "892094642767",
+      "name": "1-Б • Початкова школа (Класовод)",
+      "section": "🔴 [01 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDk0NjQyNzY3"
+    },
+    {
+      "id": "892094305142",
+      "name": "1-А • Початкова школа (Класовод)",
+      "section": "🔴 [01 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDk0MzA1MTQy"
+    },
+    {
+      "id": "892088207648",
+      "name": "11-А • Фізична культура",
+      "section": "🎓 [11 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDg4MjA3NjQ4"
+    },
+    {
+      "id": "892088000363",
+      "name": "11-А • Українська мова",
+      "section": "🎓 [11 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDg4MDAwMzYz"
+    },
+    {
+      "id": "892087854351",
+      "name": "11-А • Захист України (Гр. 2)",
+      "section": "🎓 [11 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDg3ODU0MzUx"
+    },
+    {
+      "id": "892088396232",
+      "name": "11-А • Захист України (Гр. 1)",
+      "section": "🎓 [11 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDg4Mzk2MjMy"
+    },
+    {
+      "id": "892087851293",
+      "name": "11-А • Англійська мова",
+      "section": "🎓 [11 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDg3ODUxMjkz"
+    },
+    {
+      "id": "892087934882",
+      "name": "10-А • Фізична культура",
+      "section": "⚙️ [10 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDg3OTM0ODgy"
+    },
+    {
+      "id": "892087518002",
+      "name": "10-А • Українська мова",
+      "section": "⚙️ [10 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDg3NTE4MDAy"
+    },
+    {
+      "id": "892086706428",
+      "name": "10-А • Інформатика",
+      "section": "⚙️ [10 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDg2NzA2NDI4"
+    },
+    {
+      "id": "892087692592",
+      "name": "10-А • Захист України",
+      "section": "⚙️ [10 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDg3NjkyNTky"
+    },
+    {
+      "id": "892086590925",
+      "name": "10-А • Англійська мова",
+      "section": "⚙️ [10 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkyMDg2NTkwOTI1"
+    },
+    {
+      "id": "826692099217",
+      "name": "09-В • Українська мова",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODI2NjkyMDk5MjE3"
+    },
+    {
+      "id": "891954625241",
+      "name": "09-В • Технології",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0NjI1MjQx"
+    },
+    {
+      "id": "891956560564",
+      "name": "09-В • Англійська мова",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU2NTYwNTY0"
+    },
+    {
+      "id": "891955792968",
+      "name": "09-Б • Українська мова",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU1NzkyOTY4"
+    },
+    {
+      "id": "891950942589",
+      "name": "09-Б • Технології",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUwOTQyNTg5"
+    },
+    {
+      "id": "891954876261",
+      "name": "09-Б • Англійська мова",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0ODc2MjYx"
+    },
+    {
+      "id": "891953857156",
+      "name": "09-А • Українська мова",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUzODU3MTU2"
+    },
+    {
+      "id": "891954502837",
+      "name": "09-А • Технології",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0NTAyODM3"
+    },
+    {
+      "id": "891950598924",
+      "name": "09-А • Англійська мова",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUwNTk4OTI0"
+    },
+    {
+      "id": "891955313811",
+      "name": "08-Г • Українська мова",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU1MzEzODEx"
+    },
+    {
+      "id": "891953188447",
+      "name": "08-Г • Технології",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUzMTg4NDQ3"
+    },
+    {
+      "id": "891952620627",
+      "name": "08-Г • Англійська мова",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUyNjIwNjI3"
+    },
+    {
+      "id": "826692191370",
+      "name": "08-В • Українська мова",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODI2NjkyMTkxMzcw"
+    },
+    {
+      "id": "891954064183",
+      "name": "08-В • Технології",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0MDY0MTgz"
+    },
+    {
+      "id": "891952892586",
+      "name": "08-В • Англійська мова",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUyODkyNTg2"
+    },
+    {
+      "id": "891952510170",
+      "name": "08-Б • Українська мова",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUyNTEwMTcw"
+    },
+    {
+      "id": "891953691546",
+      "name": "08-Б • Технології",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUzNjkxNTQ2"
+    },
+    {
+      "id": "870164359824",
+      "name": "08-Б • Англійська мова",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODcwMTY0MzU5ODI0"
+    },
+    {
+      "id": "891954505835",
+      "name": "08-А • Українська мова",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0NTA1ODM1"
+    },
+    {
+      "id": "891956083282",
+      "name": "08-А • Технології",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU2MDgzMjgy"
+    },
+    {
+      "id": "891952652564",
+      "name": "08-А • Англійська мова",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUyNjUyNTY0"
+    },
+    {
+      "id": "891954927037",
+      "name": "07-В • Образотворче мистецтво",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0OTI3MDM3"
+    },
+    {
+      "id": "891952952269",
+      "name": "7-Б • Образотворче мистецтво",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUyOTUyMjY5"
+    },
+    {
+      "id": "891953150698",
+      "name": "07-А • Образотворче мистецтво",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUzMTUwNjk4"
+    },
+    {
+      "id": "891950715734",
+      "name": "06-В • Українська мова",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUwNzE1NzM0"
+    },
+    {
+      "id": "891954958361",
+      "name": "06-В • Технології",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0OTU4MzYx"
+    },
+    {
+      "id": "870164267510",
+      "name": "06-В • Англійська мова",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODcwMTY0MjY3NTEw"
+    },
+    {
+      "id": "891955575450",
+      "name": "06-Б • Українська мова",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU1NTc1NDUw"
+    },
+    {
+      "id": "891955284392",
+      "name": "06-Б • Технології",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU1Mjg0Mzky"
+    },
+    {
+      "id": "891955523475",
+      "name": "06-Б • Англійська мова",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU1NTIzNDc1"
+    },
+    {
+      "id": "891953160106",
+      "name": "06-А • Українська мова",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUzMTYwMTA2"
+    },
+    {
+      "id": "826692031299",
+      "name": "06-А • Технології",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODI2NjkyMDMxMjk5"
+    },
+    {
+      "id": "891954374253",
+      "name": "06-А • Англійська мова",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0Mzc0MjUz"
+    },
+    {
+      "id": "891953816389",
+      "name": "05-В • Українська мова",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUzODE2Mzg5"
+    },
+    {
+      "id": "891953749777",
+      "name": "05-В • Технології",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUzNzQ5Nzc3"
+    },
+    {
+      "id": "891954546697",
+      "name": "05-В • Образотворче мистецтво",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0NTQ2Njk3"
+    },
+    {
+      "id": "891954179297",
+      "name": "05-В • Англійська мова",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0MTc5Mjk3"
+    },
+    {
+      "id": "891956365385",
+      "name": "05-Б • Українська мова",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU2MzY1Mzg1"
+    },
+    {
+      "id": "891953065917",
+      "name": "05-Б • Технології",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUzMDY1OTE3"
+    },
+    {
+      "id": "891953463373",
+      "name": "05-Б • Образотворче мистецтво",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUzNDYzMzcz"
+    },
+    {
+      "id": "870164292966",
+      "name": "05-Б • Англійська мова",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODcwMTY0MjkyOTY2"
+    },
+    {
+      "id": "891955429158",
+      "name": "05-А • Українська мова",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU1NDI5MTU4"
+    },
+    {
+      "id": "891953624474",
+      "name": "05-А • Технології",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUzNjI0NDc0"
+    },
+    {
+      "id": "891954248474",
+      "name": "05-А • Образотворче мистецтво",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0MjQ4NDc0"
+    },
+    {
+      "id": "891954090553",
+      "name": "05-А • Англійська мова",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0MDkwNTUz"
+    },
+    {
+      "id": "891954344297",
+      "name": "04-Б • Англійська мова",
+      "section": "🟢 [04 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0MzQ0Mjk3"
+    },
+    {
+      "id": "891954734034",
+      "name": "04-А • Англійська мова",
+      "section": "🟢 [04 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0NzM0MDM0"
+    },
+    {
+      "id": "891955130870",
+      "name": "03-В • Англійська мова",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU1MTMwODcw"
+    },
+    {
+      "id": "891952122079",
+      "name": "03-Б • Англійська мова",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUyMTIyMDc5"
+    },
+    {
+      "id": "891952768131",
+      "name": "03-А • Англійська мова",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUyNzY4MTMx"
+    },
+    {
+      "id": "891953368471",
+      "name": "02-В • Англійська мова",
+      "section": "🟠 [02 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUzMzY4NDcx"
+    },
+    {
+      "id": "891953960515",
+      "name": "02-Б • Інформатика",
+      "section": "🟠 [02 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUzOTYwNTE1"
+    },
+    {
+      "id": "891952211770",
+      "name": "02-Б • Англійська мова",
+      "section": "🟠 [02 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUyMjExNzcw"
+    },
+    {
+      "id": "891953363078",
+      "name": "02-А • Англійська мова",
+      "section": "🟠 [02 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTUzMzYzMDc4"
+    },
+    {
+      "id": "891954320018",
+      "name": "01-В • Англійська мова",
+      "section": "🔴 [01 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0MzIwMDE4"
+    },
+    {
+      "id": "891954608728",
+      "name": "01-Б • Англійська мова",
+      "section": "🔴 [01 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0NjA4NzI4"
+    },
+    {
+      "id": "891954660598",
+      "name": "01-А • Англійська мова",
+      "section": "🔴 [01 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTU0NjYwNTk4"
+    },
+    {
+      "id": "891912384706",
+      "name": "11-А • Математика",
+      "section": "🎓 [11 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTEyMzg0NzA2"
+    },
+    {
+      "id": "891910929604",
+      "name": "11-А • Історія",
+      "section": "🎓 [11 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTEwOTI5NjA0"
+    },
+    {
+      "id": "891911403658",
+      "name": "10-А • Математика",
+      "section": "⚙️ [10 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTExNDAzNjU4"
+    },
+    {
+      "id": "891911066707",
+      "name": "10-А • Історія",
+      "section": "⚙️ [10 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTExMDY2NzA3"
+    },
+    {
+      "id": "891912995040",
+      "name": "09-В • Правознавство",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTEyOTk1MDQw"
+    },
+    {
+      "id": "891910670638",
+      "name": "09-В • Початкова військова підготовка",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTEwNjcwNjM4"
+    },
+    {
+      "id": "891911048264",
+      "name": "09-В • Історія",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTExMDQ4MjY0"
+    },
+    {
+      "id": "891907430886",
+      "name": "09-В • Інтегрований курс Здоров'я, безпека та добробут",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTA3NDMwODg2"
+    },
+    {
+      "id": "870161780574",
+      "name": "09-Б • Правознавство",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODcwMTYxNzgwNTc0"
+    },
+    {
+      "id": "826687216167",
+      "name": "09-Б • Початкова військова підготовка",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODI2Njg3MjE2MTY3"
+    },
+    {
+      "id": "891909435946",
+      "name": "09-Б • Історія",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTA5NDM1OTQ2"
+    },
+    {
+      "id": "891912295214",
+      "name": "09-Б • Інтегрований курс Здоров'я, безпека та добробут",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTEyMjk1MjE0"
+    },
+    {
+      "id": "826687188781",
+      "name": "09-А • Правознавство",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODI2Njg3MTg4Nzgx"
+    },
+    {
+      "id": "891910481700",
+      "name": "09-А • Початкова військова підготовка",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTEwNDgxNzAw"
+    },
+    {
+      "id": "891910062985",
+      "name": "09-А • Історія",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTEwMDYyOTg1"
+    },
+    {
+      "id": "826687230942",
+      "name": "09-А • Інтегрований курс Здоров'я, безпека та добробут",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODI2Njg3MjMwOTQy"
+    },
+    {
+      "id": "891910813051",
+      "name": "08-Г • Історія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTEwODEzMDUx"
+    },
+    {
+      "id": "891911879880",
+      "name": "08-Г • Інтегрований курс Здоров'я, безпека та добробут",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTExODc5ODgw"
+    },
+    {
+      "id": "891911872370",
+      "name": "08-В • Історія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTExODcyMzcw"
+    },
+    {
+      "id": "891908451414",
+      "name": "08-В • Інтегрований курс Здоров'я, безпека та добробут",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTA4NDUxNDE0"
+    },
+    {
+      "id": "891911765993",
+      "name": "08-Б • Історія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTExNzY1OTkz"
+    },
+    {
+      "id": "891911349285",
+      "name": "08-Б • Інтегрований курс Здоров'я, безпека та добробут",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTExMzQ5Mjg1"
+    },
+    {
+      "id": "891911236305",
+      "name": "08-А • Історія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTExMjM2MzA1"
+    },
+    {
+      "id": "826687164784",
+      "name": "08-А • Інтегрований курс Здоров'я, безпека та добробут",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODI2Njg3MTY0Nzg0"
+    },
+    {
+      "id": "891909026795",
+      "name": "07-В • Історія",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTA5MDI2Nzk1"
+    },
+    {
+      "id": "891910024786",
+      "name": "07-В • Інтегрований курс Здоров'я, безпека та добробут",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTEwMDI0Nzg2"
+    },
+    {
+      "id": "891911090866",
+      "name": "7-Б • Історія",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTExMDkwODY2"
+    },
+    {
+      "id": "891910788377",
+      "name": "7-Б • Інтегрований курс Здоров'я, безпека та добробут",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTEwNzg4Mzc3"
+    },
+    {
+      "id": "891910062857",
+      "name": "07-А • Історія",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTEwMDYyODU3"
+    },
+    {
+      "id": "891909937304",
+      "name": "07-А • Інтегрований курс Здоров'я, безпека та добробут",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTA5OTM3MzA0"
+    },
+    {
+      "id": "891912161724",
+      "name": "06-В • Фізична культура",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTEyMTYxNzI0"
+    },
+    {
+      "id": "891911891659",
+      "name": "06-В • Історія",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTExODkxNjU5"
+    },
+    {
+      "id": "891911119484",
+      "name": "06-Б • Фізична культура",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTExMTE5NDg0"
+    },
+    {
+      "id": "826687167143",
+      "name": "06-Б • Історія",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODI2Njg3MTY3MTQz"
+    },
+    {
+      "id": "891908875265",
+      "name": "06-А • Фізична культура",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTA4ODc1MjY1"
+    },
+    {
+      "id": "891910908116",
+      "name": "06-А • Історія",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTEwOTA4MTE2"
+    },
+    {
+      "id": "891910665095",
+      "name": "05-В • Інтегрований курс Здоров'я, безпека та добробут",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTEwNjY1MDk1"
+    },
+    {
+      "id": "826687191150",
+      "name": "05-Б • Інтегрований курс Здоров'я, безпека та добробут",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODI2Njg3MTkxMTUw"
+    },
+    {
+      "id": "891911314582",
+      "name": "01-В • Фізична культура",
+      "section": "🔴 [01 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTExMzE0NTgy"
+    },
+    {
+      "id": "826687160025",
+      "name": "01-Б • Фізична культура",
+      "section": "🔴 [01 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODI2Njg3MTYwMDI1"
+    },
+    {
+      "id": "891910532029",
+      "name": "01-А • Фізична культура",
+      "section": "🔴 [01 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkxOTEwNTMyMDI5"
+    },
+    {
+      "id": "890461351905",
+      "name": "09-В • Підприємництво і фінансова грамотність",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYxMzUxOTA1"
+    },
+    {
+      "id": "890460562830",
+      "name": "09-Б • Підприємництво і фінансова грамотність",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYwNTYyODMw"
+    },
+    {
+      "id": "890460973128",
+      "name": "09-А • Підприємництво і фінансова грамотність",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYwOTczMTI4"
+    },
+    {
+      "id": "890461163508",
+      "name": "08-Г • Підприємництво і фінансова грамотність",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYxMTYzNTA4"
+    },
+    {
+      "id": "890460338899",
+      "name": "08-В • Підприємництво і фінансова грамотність",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYwMzM4ODk5"
+    },
+    {
+      "id": "890460780115",
+      "name": "08-Б • Підприємництво і фінансова грамотність",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYwNzgwMTE1"
+    },
+    {
+      "id": "890460317511",
+      "name": "08-А • Підприємництво і фінансова грамотність",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYwMzE3NTEx"
+    },
+    {
+      "id": "826652665762",
+      "name": "08-Г • Громадянська освіта",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODI2NjUyNjY1NzYy"
+    },
+    {
+      "id": "890461553411",
+      "name": "08-В • Громадянська освіта",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYxNTUzNDEx"
+    },
+    {
+      "id": "890461267167",
+      "name": "08-Б • Громадянська освіта",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYxMjY3MTY3"
+    },
+    {
+      "id": "890459117762",
+      "name": "08-А • Громадянська освіта",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDU5MTE3NzYy"
+    },
+    {
+      "id": "890461384908",
+      "name": "03-В • Основи християнської етики",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYxMzg0OTA4"
+    },
+    {
+      "id": "890461488137",
+      "name": "03-Б • Основи християнської етики",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYxNDg4MTM3"
+    },
+    {
+      "id": "890460598915",
+      "name": "03-А • Основи християнської етики",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYwNTk4OTE1"
+    },
+    {
+      "id": "890460509129",
+      "name": "04-Б • Фізична культура",
+      "section": "🟢 [04 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYwNTA5MTI5"
+    },
+    {
+      "id": "890460894387",
+      "name": "04-А • Фізична культура",
+      "section": "🟢 [04 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYwODk0Mzg3"
+    },
+    {
+      "id": "890461199568",
+      "name": "03-В • Фізична культура",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYxMTk5NTY4"
+    },
+    {
+      "id": "890461123957",
+      "name": "03-Б • Фізична культура",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYxMTIzOTU3"
+    },
+    {
+      "id": "826652565486",
+      "name": "03-А • Фізична культура",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODI2NjUyNTY1NDg2"
+    },
+    {
+      "id": "890460872612",
+      "name": "02-В • Фізична культура",
+      "section": "🟠 [02 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYwODcyNjEy"
+    },
+    {
+      "id": "890460363786",
+      "name": "02-Б • Фізична культура",
+      "section": "🟠 [02 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYwMzYzNzg2"
+    },
+    {
+      "id": "890461086908",
+      "name": "02-А • Фізична культура",
+      "section": "🟠 [02 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODkwNDYxMDg2OTA4"
+    },
+    {
+      "id": "886180165707",
+      "name": "11-А • Інформатика (Гр. 2)",
+      "section": "🎓 [11 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTgwMTY1NzA3"
+    },
+    {
+      "id": "886179250956",
+      "name": "09-В • Інформатика (Гр. 2)",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc5MjUwOTU2"
+    },
+    {
+      "id": "886179848327",
+      "name": "9-Б • Інформатика (Гр. 1)",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc5ODQ4MzI3"
+    },
+    {
+      "id": "886178292129",
+      "name": "09-А • Інформатика (Гр. 2)",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc4MjkyMTI5"
+    },
+    {
+      "id": "886179429994",
+      "name": "08-Г • Інформатика (Гр. 2)",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc5NDI5OTk0"
+    },
+    {
+      "id": "886178568639",
+      "name": "08-В • Інформатика (Гр. 2)",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc4NTY4NjM5"
+    },
+    {
+      "id": "886178695507",
+      "name": "8-Б • Інформатика (Гр. 1)",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc4Njk1NTA3"
+    },
+    {
+      "id": "886179393443",
+      "name": "08-А • Інформатика (Гр. 2)",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc5MzkzNDQz"
+    },
+    {
+      "id": "886178374406",
+      "name": "07-В • Технології (Гр. 2)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc4Mzc0NDA2"
+    },
+    {
+      "id": "886178995232",
+      "name": "07-Б • Інформатика (Гр. 2)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc4OTk1MjMy"
+    },
+    {
+      "id": "886177597506",
+      "name": "07-В • Англійська мова (Гр. 2)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc3NTk3NTA2"
+    },
+    {
+      "id": "886179675314",
+      "name": "07-В • Українська мова (Гр. 2)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc5Njc1MzE0"
+    },
+    {
+      "id": "886179582873",
+      "name": "7-Б • Технології (Гр. 2)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc5NTgyODcz"
+    },
+    {
+      "id": "886178518854",
+      "name": "07-Б • Інформатика (Гр. 1)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc4NTE4ODU0"
+    },
+    {
+      "id": "886178902347",
+      "name": "7-Б • Англійська мова (Гр. 2)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc4OTAyMzQ3"
+    },
+    {
+      "id": "886179493855",
+      "name": "7-Б • Українська мова (Гр. 2)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc5NDkzODU1"
+    },
+    {
+      "id": "886178097765",
+      "name": "07-А • Технології (Гр. 2)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc4MDk3NzY1"
+    },
+    {
+      "id": "886179543464",
+      "name": "07-А • Інформатика (Гр. 2)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc5NTQzNDY0"
+    },
+    {
+      "id": "886178537430",
+      "name": "07-А • Англійська мова (Гр. 2)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc4NTM3NDMw"
+    },
+    {
+      "id": "886179738747",
+      "name": "07-А • Українська мова (Гр. 2)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc5NzM4NzQ3"
+    },
+    {
+      "id": "886178918422",
+      "name": "04-Б • Інформатика (Гр. 2)",
+      "section": "🟢 [04 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc4OTE4NDIy"
+    },
+    {
+      "id": "886178795599",
+      "name": "04-А • Інформатика (Гр. 2)",
+      "section": "🟢 [04 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc4Nzk1NTk5"
+    },
+    {
+      "id": "886176983852",
+      "name": "03-В • Інформатика (Гр. 2)",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc2OTgzODUy"
+    },
+    {
+      "id": "886179548312",
+      "name": "03-Б • Інформатика (Гр. 2)",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc5NTQ4MzEy"
+    },
+    {
+      "id": "886179263586",
+      "name": "03-А • Інформатика (Гр. 2)",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc5MjYzNTg2"
+    },
+    {
+      "id": "886176823837",
+      "name": "02-В • Інформатика (Гр. 2)",
+      "section": "🟠 [02 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc2ODIzODM3"
+    },
+    {
+      "id": "886179231773",
+      "name": "02-В • Інформатика (Гр. 1)",
+      "section": "🟠 [02 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc5MjMxNzcz"
+    },
+    {
+      "id": "886177641326",
+      "name": "02-А • Інформатика (Гр. 2)",
+      "section": "🟠 [02 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc3NjQxMzI2"
+    },
+    {
+      "id": "886179466886",
+      "name": "02-А • Інформатика (Гр. 1)",
+      "section": "🟠 [02 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODg2MTc5NDY2ODg2"
+    },
+    {
+      "id": "867791302502",
+      "name": "11-А • Мистецтво",
+      "section": "🎓 [11 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzkxMzAyNTAy"
+    },
+    {
+      "id": "867792998373",
+      "name": "11-А • Хімія",
+      "section": "🎓 [11 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzkyOTk4Mzcz"
+    },
+    {
+      "id": "867792280805",
+      "name": "11-А • Інформатика (Гр. 1)",
+      "section": "🎓 [11 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzkyMjgwODA1"
+    },
+    {
+      "id": "867792294551",
+      "name": "11-А • Фізика і астрономія",
+      "section": "🎓 [11 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzkyMjk0NTUx"
+    },
+    {
+      "id": "798183908153",
+      "name": "11-А • Географія",
+      "section": "🎓 [11 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/Nzk4MTgzOTA4MTUz"
+    },
+    {
+      "id": "867792832358",
+      "name": "11-А • Біологія і екологія",
+      "section": "🎓 [11 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzkyODMyMzU4"
+    },
+    {
+      "id": "867792392529",
+      "name": "11-А • Зарубіжна література",
+      "section": "🎓 [11 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzkyMzkyNTI5"
+    },
+    {
+      "id": "867790850960",
+      "name": "11-А • Українська  література",
+      "section": "🎓 [11 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzkwODUwOTYw"
+    },
+    {
+      "id": "867791089003",
+      "name": "10-А • Мистецтво",
+      "section": "⚙️ [10 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzkxMDg5MDAz"
+    },
+    {
+      "id": "867791095498",
+      "name": "10-А • Фізика і астрономія",
+      "section": "⚙️ [10 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzkxMDk1NDk4"
+    },
+    {
+      "id": "798183670601",
+      "name": "10-А • Біологія і екологія",
+      "section": "⚙️ [10 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/Nzk4MTgzNjcwNjAx"
+    },
+    {
+      "id": "867791919424",
+      "name": "10-А • Географія",
+      "section": "⚙️ [10 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzkxOTE5NDI0"
+    },
+    {
+      "id": "867791829313",
+      "name": "10-А • Хімія",
+      "section": "⚙️ [10 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzkxODI5MzEz"
+    },
+    {
+      "id": "867792030673",
+      "name": "10-А • Зарубіжна література",
+      "section": "⚙️ [10 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzkyMDMwNjcz"
+    },
+    {
+      "id": "867791165939",
+      "name": "10-А • Українська  література",
+      "section": "⚙️ [10 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzkxMTY1OTM5"
+    },
+    {
+      "id": "867782160083",
+      "name": "09-В • Фізична культура",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzgyMTYwMDgz"
+    },
+    {
+      "id": "867786249893",
+      "name": "09-В • Мистецтво",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2MjQ5ODkz"
+    },
+    {
+      "id": "867786788433",
+      "name": "09-В • Інформатика (Гр. 1)",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2Nzg4NDMz"
+    },
+    {
+      "id": "867787176480",
+      "name": "09-В • Хімія",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg3MTc2NDgw"
+    },
+    {
+      "id": "867786375734",
+      "name": "09-В • Фізика",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2Mzc1NzM0"
+    },
+    {
+      "id": "867784872034",
+      "name": "09-В • Біологія",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg0ODcyMDM0"
+    },
+    {
+      "id": "867786828855",
+      "name": "09-В • Географія",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2ODI4ODU1"
+    },
+    {
+      "id": "867786086158",
+      "name": "09-В • Геометрія",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2MDg2MTU4"
+    },
+    {
+      "id": "867786289446",
+      "name": "09-В • Алгебра",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2Mjg5NDQ2"
+    },
+    {
+      "id": "867783488698",
+      "name": "09-В • Зарубіжна література",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzgzNDg4Njk4"
+    },
+    {
+      "id": "867786895917",
+      "name": "09-В • Українська  література",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2ODk1OTE3"
+    },
+    {
+      "id": "867786496575",
+      "name": "09-Б • Фізична культура",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2NDk2NTc1"
+    },
+    {
+      "id": "867785486255",
+      "name": "09-Б • Мистецтво",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg1NDg2MjU1"
+    },
+    {
+      "id": "867787578814",
+      "name": "09-Б • Хімія",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg3NTc4ODE0"
+    },
+    {
+      "id": "867786773337",
+      "name": "9-Б • Інформатика (Гр. 2)",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2NzczMzM3"
+    },
+    {
+      "id": "867785721891",
+      "name": "09-Б • Фізика",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg1NzIxODkx"
+    },
+    {
+      "id": "867776422164",
+      "name": "09-Б • Біологія",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzc2NDIyMTY0"
+    },
+    {
+      "id": "798182757897",
+      "name": "09-Б • Географія",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/Nzk4MTgyNzU3ODk3"
+    },
+    {
+      "id": "867786358395",
+      "name": "09-Б • Геометрія",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2MzU4Mzk1"
+    },
+    {
+      "id": "867787218389",
+      "name": "09-Б • Алгебра",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg3MjE4Mzg5"
+    },
+    {
+      "id": "867787078413",
+      "name": "09-Б • Українська  література",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg3MDc4NDEz"
+    },
+    {
+      "id": "867787238281",
+      "name": "09-Б • Зарубіжна література",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg3MjM4Mjgx"
+    },
+    {
+      "id": "867786003267",
+      "name": "09-А • Фізична культура",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2MDAzMjY3"
+    },
+    {
+      "id": "867786626279",
+      "name": "09-А • Мистецтво",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2NjI2Mjc5"
+    },
+    {
+      "id": "867786796019",
+      "name": "09-А • Інформатика (Гр. 1)",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2Nzk2MDE5"
+    },
+    {
+      "id": "867786849851",
+      "name": "09-А • Хімія",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2ODQ5ODUx"
+    },
+    {
+      "id": "867786686999",
+      "name": "09-А • Біологія",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2Njg2OTk5"
+    },
+    {
+      "id": "867787010260",
+      "name": "09-А • Фізика",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg3MDEwMjYw"
+    },
+    {
+      "id": "867785549520",
+      "name": "09-А • Географія",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg1NTQ5NTIw"
+    },
+    {
+      "id": "867786784658",
+      "name": "09-А • Алгебра",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2Nzg0NjU4"
+    },
+    {
+      "id": "867786468876",
+      "name": "09-А • Геометрія",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2NDY4ODc2"
+    },
+    {
+      "id": "867781819138",
+      "name": "09-А • Українська  література",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzgxODE5MTM4"
+    },
+    {
+      "id": "867786402913",
+      "name": "09-А • Зарубіжна література",
+      "section": "⚪️ [09 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzg2NDAyOTEz"
+    },
+    {
+      "id": "867773305349",
+      "name": "08-Г • Фізична культура",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczMzA1MzQ5"
+    },
+    {
+      "id": "867774122525",
+      "name": "08-Г • Мистецтво",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzc0MTIyNTI1"
+    },
+    {
+      "id": "867773924931",
+      "name": "08-Г • Інформатика (Гр. 1)",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczOTI0OTMx"
+    },
+    {
+      "id": "867771594798",
+      "name": "08-Г • Хімія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcxNTk0Nzk4"
+    },
+    {
+      "id": "867773940405",
+      "name": "08-Г • Фізика",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczOTQwNDA1"
+    },
+    {
+      "id": "867774483586",
+      "name": "08-Г • Географія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzc0NDgzNTg2"
+    },
+    {
+      "id": "855102311558",
+      "name": "08-Г • Біологія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODU1MTAyMzExNTU4"
+    },
+    {
+      "id": "867773139942",
+      "name": "08-Г • Алгебра",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczMTM5OTQy"
+    },
+    {
+      "id": "867773944734",
+      "name": "08-Г • Геометрія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczOTQ0NzM0"
+    },
+    {
+      "id": "867773975059",
+      "name": "08-Г • Зарубіжна література",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczOTc1MDU5"
+    },
+    {
+      "id": "867774302044",
+      "name": "08-Г • Українська  література",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzc0MzAyMDQ0"
+    },
+    {
+      "id": "867773856296",
+      "name": "08-В • Фізична культура",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczODU2Mjk2"
+    },
+    {
+      "id": "867774095517",
+      "name": "08-В • Мистецтво",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzc0MDk1NTE3"
+    },
+    {
+      "id": "867773792680",
+      "name": "08-В • Інформатика (Гр. 1)",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczNzkyNjgw"
+    },
+    {
+      "id": "867774137225",
+      "name": "08-В • Хімія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzc0MTM3MjI1"
+    },
+    {
+      "id": "867773120448",
+      "name": "08-В • Фізика",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczMTIwNDQ4"
+    },
+    {
+      "id": "867762876220",
+      "name": "08-В • Біологія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYyODc2MjIw"
+    },
+    {
+      "id": "867773901538",
+      "name": "08-В • Географія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczOTAxNTM4"
+    },
+    {
+      "id": "867774176939",
+      "name": "08-В • Алгебра",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzc0MTc2OTM5"
+    },
+    {
+      "id": "867772725310",
+      "name": "08-В • Геометрія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyNzI1MzEw"
+    },
+    {
+      "id": "867772403716",
+      "name": "08-В • Зарубіжна література",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyNDAzNzE2"
+    },
+    {
+      "id": "867774106412",
+      "name": "08-В • Українська  література",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzc0MTA2NDEy"
+    },
+    {
+      "id": "867774166476",
+      "name": "08-Б • Фізична культура",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzc0MTY2NDc2"
+    },
+    {
+      "id": "867773948610",
+      "name": "08-Б • Мистецтво",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczOTQ4NjEw"
+    },
+    {
+      "id": "867773579251",
+      "name": "08-Б • Фізика",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczNTc5MjUx"
+    },
+    {
+      "id": "867773683352",
+      "name": "8-Б • Інформатика (Гр. 2)",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczNjgzMzUy"
+    },
+    {
+      "id": "867773980942",
+      "name": "08-Б • Хімія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczOTgwOTQy"
+    },
+    {
+      "id": "867773751988",
+      "name": "08-Б • Географія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczNzUxOTg4"
+    },
+    {
+      "id": "867774242927",
+      "name": "08-Б • Біологія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzc0MjQyOTI3"
+    },
+    {
+      "id": "867764268251",
+      "name": "08-Б • Геометрія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzY0MjY4MjUx"
+    },
+    {
+      "id": "867772282143",
+      "name": "08-Б • Алгебра",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyMjgyMTQz"
+    },
+    {
+      "id": "867773160529",
+      "name": "08-Б • Українська  література",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczMTYwNTI5"
+    },
+    {
+      "id": "867773585772",
+      "name": "08-Б • Зарубіжна література",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczNTg1Nzcy"
+    },
+    {
+      "id": "867773696159",
+      "name": "08-А • Фізична культура",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczNjk2MTU5"
+    },
+    {
+      "id": "867773732275",
+      "name": "08-А • Фізика",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczNzMyMjc1"
+    },
+    {
+      "id": "867774011839",
+      "name": "08-А • Хімія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzc0MDExODM5"
+    },
+    {
+      "id": "867773267059",
+      "name": "08-А • Мистецтво",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczMjY3MDU5"
+    },
+    {
+      "id": "867773937691",
+      "name": "08-А • Інформатика (Гр. 1)",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczOTM3Njkx"
+    },
+    {
+      "id": "867773661733",
+      "name": "08-А • Географія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczNjYxNzMz"
+    },
+    {
+      "id": "867773833954",
+      "name": "08-А • Алгебра",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczODMzOTU0"
+    },
+    {
+      "id": "867774191529",
+      "name": "08-А • Біологія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Nzc0MTkxNTI5"
+    },
+    {
+      "id": "867770411183",
+      "name": "08-А • Геометрія",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcwNDExMTgz"
+    },
+    {
+      "id": "867773510080",
+      "name": "08-А • Українська  література",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzczNTEwMDgw"
+    },
+    {
+      "id": "867766353367",
+      "name": "08-А • Зарубіжна література",
+      "section": "🟤 [08 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzY2MzUzMzY3"
+    },
+    {
+      "id": "867772659527",
+      "name": "07-В • Фізична культура",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyNjU5NTI3"
+    },
+    {
+      "id": "867772249767",
+      "name": "07-В • Технології (Гр. 1)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyMjQ5NzY3"
+    },
+    {
+      "id": "867772520131",
+      "name": "07-В • Інформатика (Гр. 1)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyNTIwMTMx"
+    },
+    {
+      "id": "867762293242",
+      "name": "07-В • Хімія",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYyMjkzMjQy"
+    },
+    {
+      "id": "867772040803",
+      "name": "07-В • Фізика",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyMDQwODAz"
+    },
+    {
+      "id": "867772443970",
+      "name": "07-В • Географія",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyNDQzOTcw"
+    },
+    {
+      "id": "867772282498",
+      "name": "07-В • Алгебра",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyMjgyNDk4"
+    },
+    {
+      "id": "867772474258",
+      "name": "07-В • Геометрія",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyNDc0MjU4"
+    },
+    {
+      "id": "867770532281",
+      "name": "07-В • Біологія",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcwNTMyMjgx"
+    },
+    {
+      "id": "867772642609",
+      "name": "07-В • Зарубіжна література",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyNjQyNjA5"
+    },
+    {
+      "id": "867772270691",
+      "name": "07-В • Англійська мова (Гр. 1)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyMjcwNjkx"
+    },
+    {
+      "id": "867771834445",
+      "name": "07-В • Українська  література",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcxODM0NDQ1"
+    },
+    {
+      "id": "867771800839",
+      "name": "7-Б • Фізична культура",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcxODAwODM5"
+    },
+    {
+      "id": "867769655812",
+      "name": "07-В • Українська мова (Гр. 1)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzY5NjU1ODEy"
+    },
+    {
+      "id": "867772180108",
+      "name": "7-Б • Технології (Гр. 1)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyMTgwMTA4"
+    },
+    {
+      "id": "867772317982",
+      "name": "7-Б • Інформатика (Гр. 2)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyMzE3OTgy"
+    },
+    {
+      "id": "867771860554",
+      "name": "7-Б • Хімія",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcxODYwNTU0"
+    },
+    {
+      "id": "867771913607",
+      "name": "7-Б • Фізика",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcxOTEzNjA3"
+    },
+    {
+      "id": "867768967194",
+      "name": "7-Б • Геометрія",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzY4OTY3MTk0"
+    },
+    {
+      "id": "867772375837",
+      "name": "7-Б • Алгебра",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyMzc1ODM3"
+    },
+    {
+      "id": "867770234674",
+      "name": "7-Б • Біологія",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcwMjM0Njc0"
+    },
+    {
+      "id": "867771022512",
+      "name": "7-Б • Географія",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcxMDIyNTEy"
+    },
+    {
+      "id": "867772300908",
+      "name": "7-Б • Англійська мова (Гр. 1)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyMzAwOTA4"
+    },
+    {
+      "id": "798179972721",
+      "name": "7-Б • Зарубіжна література",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/Nzk4MTc5OTcyNzIx"
+    },
+    {
+      "id": "867771996617",
+      "name": "7-Б • Українська  література",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcxOTk2NjE3"
+    },
+    {
+      "id": "867772395274",
+      "name": "7-Б • Українська мова (Гр. 1)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyMzk1Mjc0"
+    },
+    {
+      "id": "867771845048",
+      "name": "07-А • Фізична культура",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcxODQ1MDQ4"
+    },
+    {
+      "id": "867772226880",
+      "name": "07-А • Технології (Гр. 1)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyMjI2ODgw"
+    },
+    {
+      "id": "867771941933",
+      "name": "07-А • Фізика",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcxOTQxOTMz"
+    },
+    {
+      "id": "867771778996",
+      "name": "07-А • Хімія",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcxNzc4OTk2"
+    },
+    {
+      "id": "867772359839",
+      "name": "07-А • Інформатика (Гр. 1)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyMzU5ODM5"
+    },
+    {
+      "id": "867771237384",
+      "name": "07-А • Географія",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcxMjM3Mzg0"
+    },
+    {
+      "id": "867765734795",
+      "name": "07-А • Геометрія",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzY1NzM0Nzk1"
+    },
+    {
+      "id": "867771696994",
+      "name": "07-А • Біологія",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcxNjk2OTk0"
+    },
+    {
+      "id": "867772691200",
+      "name": "07-А • Алгебра",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyNjkxMjAw"
+    },
+    {
+      "id": "867772479478",
+      "name": "07-А • Англійська мова (Гр. 1)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyNDc5NDc4"
+    },
+    {
+      "id": "867772051115",
+      "name": "07-А • Українська  література",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyMDUxMTE1"
+    },
+    {
+      "id": "867754393159",
+      "name": "07-А • Зарубіжна література",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzU0MzkzMTU5"
+    },
+    {
+      "id": "867772402658",
+      "name": "07-А • Українська мова (Гр. 1)",
+      "section": "🟣 [07 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzcyNDAyNjU4"
+    },
+    {
+      "id": "798179020268",
+      "name": "06-В • Математика",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/Nzk4MTc5MDIwMjY4"
+    },
+    {
+      "id": "867763038604",
+      "name": "06-В • Українська  література",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYzMDM4NjA0"
+    },
+    {
+      "id": "867762902234",
+      "name": "06-В • Географія",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYyOTAyMjM0"
+    },
+    {
+      "id": "867762495288",
+      "name": "06-В • Зарубіжна література",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYyNDk1Mjg4"
+    },
+    {
+      "id": "798179101024",
+      "name": "06-В • Інформатика (Гр. 1)",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/Nzk4MTc5MTAxMDI0"
+    },
+    {
+      "id": "798179110978",
+      "name": "06-В • Інформатика (Гр. 2)",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/Nzk4MTc5MTEwOTc4"
+    },
+    {
+      "id": "867763058851",
+      "name": "06-Б • Математика",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYzMDU4ODUx"
+    },
+    {
+      "id": "867763065545",
+      "name": "06-Б • Українська  література",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYzMDY1NTQ1"
+    },
+    {
+      "id": "867763619384",
+      "name": "06-Б • Географія",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYzNjE5Mzg0"
+    },
+    {
+      "id": "867763175510",
+      "name": "06-Б • Зарубіжна література",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYzMTc1NTEw"
+    },
+    {
+      "id": "867761765359",
+      "name": "06-Б • Інформатика (Гр. 1)",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYxNzY1MzU5"
+    },
+    {
+      "id": "867761126257",
+      "name": "06-Б • Інформатика (Гр. 2)",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYxMTI2MjU3"
+    },
+    {
+      "id": "867761804871",
+      "name": "05-В • Фізична культура",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYxODA0ODcx"
+    },
+    {
+      "id": "867761549693",
+      "name": "5-В • Інформатика (Гр. 1)",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYxNTQ5Njkz"
+    },
+    {
+      "id": "867761707653",
+      "name": "5-В • Інформатика (Гр. 2)",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYxNzA3NjUz"
+    },
+    {
+      "id": "867760997113",
+      "name": "05-В • Математика",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYwOTk3MTEz"
+    },
+    {
+      "id": "867761812408",
+      "name": "05-В • Зарубіжна література",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYxODEyNDA4"
+    },
+    {
+      "id": "867761220080",
+      "name": "05-В • Українська  література",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NzYxMjIwMDgw"
+    },
+    {
+      "id": "867399032607",
+      "name": "05-Б • Українська  література",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Mzk5MDMyNjA3"
+    },
+    {
+      "id": "867399197602",
+      "name": "05-Б • Зарубіжна література",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Mzk5MTk3NjAy"
+    },
+    {
+      "id": "867400215541",
+      "name": "05-Б • Математика",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NDAwMjE1NTQx"
+    },
+    {
+      "id": "867388482526",
+      "name": "5-Б • Інформатика (Гр. 2)",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Mzg4NDgyNTI2"
+    },
+    {
+      "id": "867400270244",
+      "name": "5-Б • Інформатика (Гр. 1)",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3NDAwMjcwMjQ0"
+    },
+    {
+      "id": "867398475024",
+      "name": "05-Б • Фізична культура",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Mzk4NDc1MDI0"
+    },
+    {
+      "id": "867395307820",
+      "name": "6-А • Інформатика (Гр. 2)",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Mzk1MzA3ODIw"
+    },
+    {
+      "id": "867394913143",
+      "name": "6-А • Інформатика (Гр. 1)",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Mzk0OTEzMTQz"
+    },
+    {
+      "id": "867394773486",
+      "name": "06-А • Зарубіжна література",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Mzk0NzczNDg2"
+    },
+    {
+      "id": "819800136252",
+      "name": "06-А • Географія",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODE5ODAwMTM2MjUy"
+    },
+    {
+      "id": "867395041278",
+      "name": "06-А • Українська  література",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Mzk1MDQxMjc4"
+    },
+    {
+      "id": "867395327327",
+      "name": "06-А • Математика",
+      "section": "🟦 [06 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Mzk1MzI3MzI3"
+    },
+    {
+      "id": "867377628712",
+      "name": "05-А • Фізична культура",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Mzc3NjI4NzEy"
+    },
+    {
+      "id": "867376872299",
+      "name": "5-А • Інформатика (Гр. 2)",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Mzc2ODcyMjk5"
+    },
+    {
+      "id": "867374997744",
+      "name": "5-А • Інформатика (Гр. 1)",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Mzc0OTk3NzQ0"
+    },
+    {
+      "id": "819798620903",
+      "name": "05-А • Математика",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODE5Nzk4NjIwOTAz"
+    },
+    {
+      "id": "867377831999",
+      "name": "05-А • Зарубіжна література",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Mzc3ODMxOTk5"
+    },
+    {
+      "id": "867377185388",
+      "name": "05-А • Українська  література",
+      "section": "🔵 [05 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3Mzc3MTg1Mzg4"
+    },
+    {
+      "id": "867336251785",
+      "name": "04-Б • Інформатика (Гр. 1)",
+      "section": "🟢 [04 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3MzM2MjUxNzg1"
+    },
+    {
+      "id": "798125542813",
+      "name": "04-А • Інформатика (Гр. 1)",
+      "section": "🟢 [04 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/Nzk4MTI1NTQyODEz"
+    },
+    {
+      "id": "867323263592",
+      "name": "03-В • Інформатика (Гр. 1)",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3MzIzMjYzNTky"
+    },
+    {
+      "id": "867324393329",
+      "name": "03-Б • Інформатика (Гр. 1)",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3MzI0MzkzMzI5"
+    },
+    {
+      "id": "867324738824",
+      "name": "03-А • Інформатика (Гр. 1)",
+      "section": "🟡 [03 ПАРАЛЕЛЬ]",
+      "courseState": "ACTIVE",
+      "link": "https://classroom.google.com/c/ODY3MzI0NzM4ODI0"
+    }
+  ]
+}
