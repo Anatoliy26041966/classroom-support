@@ -1,4 +1,4 @@
-const CACHE_NAME = 'classroom-cache-20261127-092512';
+const CACHE_NAME = 'classroom-cache-20261128-083947';
 const ASSETS = [
   './',
   './index.html',
